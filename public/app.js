@@ -2286,7 +2286,7 @@ function renderPersonSourceGroup(group) {
       </div>
       <h4>${escapeHtml(sourceLabel)}</h4>
       ${group.url ? `<a class="ghost-button inline-action subtle-link" href="${escapeHtml(group.url)}" target="_blank" rel="noreferrer">${icon("links")} Open source</a>` : ""}
-      ${!group.url && group.sourceRef ? `<p class="small-note"><code>${escapeHtml(group.sourceRef)}</code></p>` : ""}
+      ${!group.url && group.sourceRef ? `<p class="small-note"><code>${linkTranscriptDownloadRefs(group.sourceRef)}</code></p>` : ""}
       <div class="person-source-pages">
         ${group.pages.map((item) => `
           <button class="person-source-page" type="button" data-page-id="${escapeHtml(item.id)}">
@@ -2433,7 +2433,7 @@ function renderSourcePanel(source) {
         ${transcriptPaths.map((transcriptPath) => `
           <div class="meta-chip">
             <span>transcript reference</span>
-            <strong>${escapeHtml(transcriptPath)}</strong>
+            <strong>${linkTranscriptDownloadRefs(transcriptPath)}</strong>
           </div>
         `).join("")}
       </div>
@@ -2453,6 +2453,22 @@ function renderSourcePanel(source) {
       </div>` : ""}
     </section>
   `;
+}
+
+function linkTranscriptDownloadRefs(value) {
+  const transcriptDownloads = new Map([
+    ["/tmp/aie-miami-transcript.txt", "/downloads/transcripts/day-1-transcript.txt"],
+    ["/tmp/aie-miami-part2-transcript.txt", "/downloads/transcripts/day-2-transcript.txt"],
+  ]);
+  let html = escapeHtml(value);
+  for (const [transcriptPath, downloadPath] of transcriptDownloads) {
+    const escapedPath = escapeHtml(transcriptPath);
+    html = html.replaceAll(
+      escapedPath,
+      `<a href="${escapeHtml(downloadPath)}" download>${escapedPath}</a>`
+    );
+  }
+  return html;
 }
 
 function renderComposer(prefill = null) {

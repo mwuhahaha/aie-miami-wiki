@@ -137,7 +137,8 @@ app.get("/api/projects/:project/quotes", (req, res) => {
     res.status(404).json({ error: "Project not found" });
     return;
   }
-  res.json({ quotes: collectProjectQuotes(project), rootQuoteBookUrl: "" });
+  const index = buildProjectIndex(project);
+  res.json({ quotes: collectProjectQuotes(project, index), rootQuoteBookUrl: "" });
 });
 
 app.get("/api/projects/:project/graph", (req, res) => {
@@ -414,16 +415,24 @@ function linkTranscriptDownloads(html) {
     ["/tmp/aie-miami-part2-transcript.txt", "/downloads/transcripts/day-2-transcript.txt"],
   ]);
   let linkedHtml = html;
+  const protectedLinks = [];
   for (const [transcriptPath, downloadPath] of transcriptDownloads) {
     const escapedPath = escapeHtml(transcriptPath);
     const escapedDownloadPath = escapeHtml(downloadPath);
     const codePattern = new RegExp(`<code>${escapeRegExp(escapedPath)}</code>`, "g");
-    linkedHtml = linkedHtml.replace(codePattern, `<a href="${escapedDownloadPath}" download><code>${escapedPath}</code></a>`);
+    linkedHtml = linkedHtml.replace(codePattern, () => {
+      const token = `__TRANSCRIPT_DOWNLOAD_${protectedLinks.length}__`;
+      protectedLinks.push(`<a href="${escapedDownloadPath}" download><code>${escapedPath}</code></a>`);
+      return token;
+    });
 
-    const textPattern = new RegExp(`(?<!["'=]>|/code&gt;|>)${escapeRegExp(escapedPath)}`, "g");
-    linkedHtml = linkedHtml.replace(textPattern, `<a href="${escapedDownloadPath}" download>${escapedPath}</a>`);
+    const textPattern = new RegExp(escapeRegExp(escapedPath), "g");
+    linkedHtml = linkedHtml
+      .split(/(<[^>]*>)/g)
+      .map((part) => part.startsWith("<") ? part : part.replace(textPattern, `<a href="${escapedDownloadPath}" download>${escapedPath}</a>`))
+      .join("");
   }
-  return linkedHtml;
+  return linkedHtml.replace(/__TRANSCRIPT_DOWNLOAD_(\d+)__/g, (_match, index) => protectedLinks[Number(index)] || "");
 }
 
 function buildSections(pages) {
@@ -557,7 +566,7 @@ function detectTranscriptPaths(page) {
   return Array.from(refs).filter((filePath) => fs.existsSync(filePath));
 }
 
-function collectProjectQuotes(project) {
+function collectProjectQuotes(project, index = null) {
   const quotesPath = path.join(getProjectPath(project), "wiki", "quotes.md");
   if (!fs.existsSync(quotesPath)) {
     return [];
@@ -568,13 +577,19 @@ function collectProjectQuotes(project) {
     const quote = (chunk.match(/>\s+"?([^"\n][\s\S]*?)"?\n/) || [])[1] || "";
     const source = chunk.match(/Source:\s+\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/);
     const speaker = (chunk.match(/\*\*([^*]+)\*\*/) || [])[1] || "";
+    const sourceTarget = source ? source[1] : "quotes";
+    const resolvedSourceId = index
+      ? resolveLinkTarget(sourceTarget, index.byId, index.slugToIds, index.aliasToIds, "talks") || sourceTarget
+      : sourceTarget;
+    const sourcePage = index?.byId.get(resolvedSourceId);
+    const sourceTitle = sourcePage?.title || (source ? (source[2] || source[1]) : "Quotes");
     return {
       text: quote.trim().replace(/^"|"$/g, ""),
       speaker,
       project: project.name,
-      pageId: source ? source[1] : "quotes",
-      pageTitle: source ? (source[2] || source[1]) : "Quotes",
-      meta: source ? `Source: ${source[2] || source[1]}` : "",
+      pageId: resolvedSourceId,
+      pageTitle: sourceTitle,
+      meta: source ? `Source: ${sourceTitle}` : "",
       sourcePath: "quotes.md",
       tags: ["Transcript-derived"],
     };
