@@ -1,0 +1,2981 @@
+{
+  "version": 1,
+  "generatedAt": "2026-04-15T16:40:07.072Z",
+  "defaultIcon": "file",
+  "notes": [
+    "Canonical category-to-icon catalog for the browser wiki.",
+    "Lookup should match by exact category first, then aliases.",
+    "If no match exists, AI may suggest an icon and append a new canonical entry."
+  ],
+  "stats": {
+    "canonicalCategories": 355,
+    "totalLookupTerms": 1188
+  },
+  "entries": [
+    {
+      "category": "accounting",
+      "icon": "gear",
+      "aliases": [
+        "Accounting",
+        "accountings"
+      ]
+    },
+    {
+      "category": "agenda",
+      "icon": "calendar",
+      "aliases": [
+        "Agenda",
+        "agendas"
+      ]
+    },
+    {
+      "category": "agents",
+      "icon": "robot",
+      "aliases": [
+        "Agents",
+        "agent"
+      ]
+    },
+    {
+      "category": "ai",
+      "icon": "robot",
+      "aliases": [
+        "Ai",
+        "ais",
+        "artificial-intelligence",
+        "machine-learning",
+        "ml"
+      ]
+    },
+    {
+      "category": "airports",
+      "icon": "map",
+      "aliases": [
+        "Airports",
+        "airport"
+      ]
+    },
+    {
+      "category": "aliases",
+      "icon": "links",
+      "aliases": [
+        "Aliases",
+        "aliase"
+      ]
+    },
+    {
+      "category": "ambient",
+      "icon": "audio",
+      "aliases": [
+        "Ambient",
+        "ambients"
+      ]
+    },
+    {
+      "category": "analysis",
+      "icon": "scan",
+      "aliases": [
+        "Analysis",
+        "analysi"
+      ]
+    },
+    {
+      "category": "analytics",
+      "icon": "gear",
+      "aliases": [
+        "Analytics",
+        "analytic"
+      ]
+    },
+    {
+      "category": "anniversaries",
+      "icon": "calendar",
+      "aliases": [
+        "Anniversaries",
+        "anniversary"
+      ]
+    },
+    {
+      "category": "announcements",
+      "icon": "file",
+      "aliases": [
+        "Announcements",
+        "announcement"
+      ]
+    },
+    {
+      "category": "answers",
+      "icon": "file",
+      "aliases": [
+        "Answers",
+        "answer"
+      ]
+    },
+    {
+      "category": "anthologies",
+      "icon": "chapters",
+      "aliases": [
+        "Anthologies",
+        "anthology"
+      ]
+    },
+    {
+      "category": "apartments",
+      "icon": "map",
+      "aliases": [
+        "Apartments",
+        "apartment"
+      ]
+    },
+    {
+      "category": "apis",
+      "icon": "categories",
+      "aliases": [
+        "Apis",
+        "api"
+      ]
+    },
+    {
+      "category": "appointments",
+      "icon": "calendar",
+      "aliases": [
+        "Appointments",
+        "appointment"
+      ]
+    },
+    {
+      "category": "apps",
+      "icon": "categories",
+      "aliases": [
+        "Apps",
+        "app"
+      ]
+    },
+    {
+      "category": "archives",
+      "icon": "file",
+      "aliases": [
+        "Archives",
+        "archive"
+      ]
+    },
+    {
+      "category": "art",
+      "icon": "image",
+      "aliases": [
+        "Art",
+        "arts"
+      ]
+    },
+    {
+      "category": "articles",
+      "icon": "file",
+      "aliases": [
+        "Articles",
+        "article"
+      ]
+    },
+    {
+      "category": "artifacts",
+      "icon": "save",
+      "aliases": [
+        "Artifacts",
+        "artifact"
+      ]
+    },
+    {
+      "category": "assets",
+      "icon": "image",
+      "aliases": [
+        "Assets",
+        "asset"
+      ]
+    },
+    {
+      "category": "assistants",
+      "icon": "robot",
+      "aliases": [
+        "Assistants",
+        "assistant"
+      ]
+    },
+    {
+      "category": "attachments",
+      "icon": "save",
+      "aliases": [
+        "Attachments",
+        "attachment"
+      ]
+    },
+    {
+      "category": "audio",
+      "icon": "audio",
+      "aliases": [
+        "Audio",
+        "audios"
+      ]
+    },
+    {
+      "category": "audits",
+      "icon": "scan",
+      "aliases": [
+        "Audits",
+        "audit"
+      ]
+    },
+    {
+      "category": "authors",
+      "icon": "quote",
+      "aliases": [
+        "Authors",
+        "author"
+      ]
+    },
+    {
+      "category": "automation",
+      "icon": "robot",
+      "aliases": [
+        "Automation",
+        "automations"
+      ]
+    },
+    {
+      "category": "autonomy",
+      "icon": "robot",
+      "aliases": [
+        "Autonomy",
+        "autonomies"
+      ]
+    },
+    {
+      "category": "backlog",
+      "icon": "scan",
+      "aliases": [
+        "Backlog",
+        "backlogs"
+      ]
+    },
+    {
+      "category": "backups",
+      "icon": "save",
+      "aliases": [
+        "Backups",
+        "backup"
+      ]
+    },
+    {
+      "category": "banners",
+      "icon": "image",
+      "aliases": [
+        "Banners",
+        "banner"
+      ]
+    },
+    {
+      "category": "bars",
+      "icon": "map",
+      "aliases": [
+        "Bars",
+        "bar"
+      ]
+    },
+    {
+      "category": "benchmarks",
+      "icon": "robot",
+      "aliases": [
+        "Benchmarks",
+        "benchmark"
+      ]
+    },
+    {
+      "category": "biographies",
+      "icon": "quote",
+      "aliases": [
+        "Biographies",
+        "biography"
+      ]
+    },
+    {
+      "category": "birthdays",
+      "icon": "calendar",
+      "aliases": [
+        "Birthdays",
+        "birthdaies",
+        "birthday"
+      ]
+    },
+    {
+      "category": "bookkeeping",
+      "icon": "save",
+      "aliases": [
+        "Bookkeeping",
+        "bookkeepings"
+      ]
+    },
+    {
+      "category": "bookmarks",
+      "icon": "links",
+      "aliases": [
+        "Bookmarks",
+        "bookmark"
+      ]
+    },
+    {
+      "category": "books",
+      "icon": "chapters",
+      "aliases": [
+        "Books",
+        "book"
+      ]
+    },
+    {
+      "category": "bots",
+      "icon": "robot",
+      "aliases": [
+        "Bots",
+        "bot"
+      ]
+    },
+    {
+      "category": "branding",
+      "icon": "image",
+      "aliases": [
+        "Branding",
+        "brandings"
+      ]
+    },
+    {
+      "category": "briefs",
+      "icon": "file",
+      "aliases": [
+        "Briefs",
+        "brief"
+      ]
+    },
+    {
+      "category": "budgets",
+      "icon": "gear",
+      "aliases": [
+        "Budgets",
+        "budget"
+      ]
+    },
+    {
+      "category": "business",
+      "icon": "gear",
+      "aliases": [
+        "Business"
+      ]
+    },
+    {
+      "category": "caches",
+      "icon": "save",
+      "aliases": [
+        "Caches",
+        "cache"
+      ]
+    },
+    {
+      "category": "cafes",
+      "icon": "map",
+      "aliases": [
+        "Cafes",
+        "cafe"
+      ]
+    },
+    {
+      "category": "calendar",
+      "icon": "calendar",
+      "aliases": [
+        "Calendar",
+        "calendars"
+      ]
+    },
+    {
+      "category": "calls",
+      "icon": "audio",
+      "aliases": [
+        "Calls",
+        "call"
+      ]
+    },
+    {
+      "category": "campuses",
+      "icon": "map",
+      "aliases": [
+        "Campuses",
+        "campuse"
+      ]
+    },
+    {
+      "category": "categories",
+      "icon": "categories",
+      "aliases": [
+        "Categories",
+        "category",
+        "types"
+      ]
+    },
+    {
+      "category": "changelogs",
+      "icon": "file",
+      "aliases": [
+        "Changelogs",
+        "changelog"
+      ]
+    },
+    {
+      "category": "chapters",
+      "icon": "chapters",
+      "aliases": [
+        "Chapters",
+        "chapter"
+      ]
+    },
+    {
+      "category": "charts",
+      "icon": "image",
+      "aliases": [
+        "Charts",
+        "chart"
+      ]
+    },
+    {
+      "category": "checklists",
+      "icon": "categories",
+      "aliases": [
+        "Checklists",
+        "checklist"
+      ]
+    },
+    {
+      "category": "chores",
+      "icon": "house",
+      "aliases": [
+        "Chores",
+        "chore"
+      ]
+    },
+    {
+      "category": "citations",
+      "icon": "links",
+      "aliases": [
+        "Citations",
+        "citation"
+      ]
+    },
+    {
+      "category": "cities",
+      "icon": "map",
+      "aliases": [
+        "Cities",
+        "city"
+      ]
+    },
+    {
+      "category": "classification",
+      "icon": "robot",
+      "aliases": [
+        "Classification",
+        "classifications"
+      ]
+    },
+    {
+      "category": "cleanup",
+      "icon": "scan",
+      "aliases": [
+        "Cleanup",
+        "cleanups"
+      ]
+    },
+    {
+      "category": "clips",
+      "icon": "audio",
+      "aliases": [
+        "Clips",
+        "clip"
+      ]
+    },
+    {
+      "category": "clusters",
+      "icon": "links",
+      "aliases": [
+        "Clusters",
+        "cluster"
+      ]
+    },
+    {
+      "category": "collections",
+      "icon": "categories",
+      "aliases": [
+        "Collections",
+        "collection"
+      ]
+    },
+    {
+      "category": "collections-reading",
+      "icon": "chapters",
+      "aliases": [
+        "Collections Reading",
+        "collections reading",
+        "collections-readings",
+        "collections_reading",
+        "collectionsreading"
+      ]
+    },
+    {
+      "category": "communities",
+      "icon": "quote",
+      "aliases": [
+        "Communities",
+        "community"
+      ]
+    },
+    {
+      "category": "companies",
+      "icon": "gear",
+      "aliases": [
+        "Companies",
+        "company",
+        "organizations",
+        "orgs"
+      ]
+    },
+    {
+      "category": "compliance",
+      "icon": "gear",
+      "aliases": [
+        "Compliance",
+        "compliances"
+      ]
+    },
+    {
+      "category": "components",
+      "icon": "categories",
+      "aliases": [
+        "Components",
+        "component"
+      ]
+    },
+    {
+      "category": "computer-vision",
+      "icon": "robot",
+      "aliases": [
+        "Computer Vision",
+        "computer vision",
+        "computer-visions",
+        "computer_vision",
+        "computervision"
+      ]
+    },
+    {
+      "category": "concepts",
+      "icon": "links",
+      "aliases": [
+        "Concepts",
+        "concept"
+      ]
+    },
+    {
+      "category": "conferences",
+      "icon": "calendar",
+      "aliases": [
+        "Conferences",
+        "conference"
+      ]
+    },
+    {
+      "category": "connections",
+      "icon": "links",
+      "aliases": [
+        "Connections",
+        "connection"
+      ]
+    },
+    {
+      "category": "conversations",
+      "icon": "audio",
+      "aliases": [
+        "Conversations",
+        "conversation"
+      ]
+    },
+    {
+      "category": "costs",
+      "icon": "gear",
+      "aliases": [
+        "Costs",
+        "cost"
+      ]
+    },
+    {
+      "category": "countries",
+      "icon": "map",
+      "aliases": [
+        "Countries",
+        "country"
+      ]
+    },
+    {
+      "category": "courses",
+      "icon": "chapters",
+      "aliases": [
+        "Courses",
+        "course"
+      ]
+    },
+    {
+      "category": "covers",
+      "icon": "image",
+      "aliases": [
+        "Covers",
+        "cover"
+      ]
+    },
+    {
+      "category": "coworking",
+      "icon": "map",
+      "aliases": [
+        "Coworking",
+        "coworkings"
+      ]
+    },
+    {
+      "category": "creators",
+      "icon": "quote",
+      "aliases": [
+        "Creators",
+        "creator"
+      ]
+    },
+    {
+      "category": "curriculum",
+      "icon": "chapters",
+      "aliases": [
+        "Curriculum",
+        "curriculums"
+      ]
+    },
+    {
+      "category": "customers",
+      "icon": "quote",
+      "aliases": [
+        "Customers",
+        "customer"
+      ]
+    },
+    {
+      "category": "daily-life",
+      "icon": "house",
+      "aliases": [
+        "Daily Life",
+        "daily life",
+        "daily-lifes",
+        "daily_life",
+        "dailylife"
+      ]
+    },
+    {
+      "category": "data",
+      "icon": "save",
+      "aliases": [
+        "Data",
+        "datas"
+      ]
+    },
+    {
+      "category": "databases",
+      "icon": "save",
+      "aliases": [
+        "Databases",
+        "database"
+      ]
+    },
+    {
+      "category": "datasets",
+      "icon": "categories",
+      "aliases": [
+        "Datasets",
+        "dataset"
+      ]
+    },
+    {
+      "category": "deadlines",
+      "icon": "calendar",
+      "aliases": [
+        "Deadlines",
+        "deadline"
+      ]
+    },
+    {
+      "category": "deep-dives",
+      "icon": "scan",
+      "aliases": [
+        "Deep Dives",
+        "deep dives",
+        "deep-dive",
+        "deep_dives",
+        "deepdives"
+      ]
+    },
+    {
+      "category": "demos-audio",
+      "icon": "audio",
+      "aliases": [
+        "Demos Audio",
+        "demos audio",
+        "demos-audios",
+        "demos_audio",
+        "demosaudio"
+      ]
+    },
+    {
+      "category": "deployment",
+      "icon": "gear",
+      "aliases": [
+        "Deployment",
+        "deployments"
+      ]
+    },
+    {
+      "category": "design",
+      "icon": "image",
+      "aliases": [
+        "Design",
+        "designs"
+      ]
+    },
+    {
+      "category": "designers",
+      "icon": "quote",
+      "aliases": [
+        "Designers",
+        "designer"
+      ]
+    },
+    {
+      "category": "destinations",
+      "icon": "map",
+      "aliases": [
+        "Destinations",
+        "destination"
+      ]
+    },
+    {
+      "category": "devices",
+      "icon": "categories",
+      "aliases": [
+        "Devices",
+        "device"
+      ]
+    },
+    {
+      "category": "devops",
+      "icon": "gear",
+      "aliases": [
+        "Devops",
+        "developer-operations",
+        "devop"
+      ]
+    },
+    {
+      "category": "diagnostics",
+      "icon": "scan",
+      "aliases": [
+        "Diagnostics",
+        "diagnostic"
+      ]
+    },
+    {
+      "category": "diagrams",
+      "icon": "image",
+      "aliases": [
+        "Diagrams",
+        "diagram"
+      ]
+    },
+    {
+      "category": "diary-audio",
+      "icon": "audio",
+      "aliases": [
+        "Diary Audio",
+        "diary audio",
+        "diary-audios",
+        "diary_audio",
+        "diaryaudio"
+      ]
+    },
+    {
+      "category": "discovery",
+      "icon": "links",
+      "aliases": [
+        "Discovery",
+        "discoveries"
+      ]
+    },
+    {
+      "category": "documents",
+      "icon": "file",
+      "aliases": [
+        "Documents",
+        "document"
+      ]
+    },
+    {
+      "category": "drafts",
+      "icon": "file",
+      "aliases": [
+        "Drafts",
+        "draft"
+      ]
+    },
+    {
+      "category": "embeddings",
+      "icon": "robot",
+      "aliases": [
+        "Embeddings",
+        "embedding"
+      ]
+    },
+    {
+      "category": "engineers",
+      "icon": "quote",
+      "aliases": [
+        "Engineers",
+        "engineer"
+      ]
+    },
+    {
+      "category": "eras",
+      "icon": "chapters",
+      "aliases": [
+        "Eras",
+        "era"
+      ]
+    },
+    {
+      "category": "evals",
+      "icon": "robot",
+      "aliases": [
+        "Evals",
+        "eval",
+        "evaluation",
+        "evaluations"
+      ]
+    },
+    {
+      "category": "evaluations",
+      "icon": "categories",
+      "aliases": [
+        "Evaluations",
+        "evaluation"
+      ]
+    },
+    {
+      "category": "events",
+      "icon": "calendar",
+      "aliases": [
+        "Events",
+        "event",
+        "happenings"
+      ]
+    },
+    {
+      "category": "examples",
+      "icon": "file",
+      "aliases": [
+        "Examples",
+        "example"
+      ]
+    },
+    {
+      "category": "execution",
+      "icon": "gear",
+      "aliases": [
+        "Execution",
+        "executions"
+      ]
+    },
+    {
+      "category": "experiments",
+      "icon": "robot",
+      "aliases": [
+        "Experiments",
+        "experiment"
+      ]
+    },
+    {
+      "category": "exports",
+      "icon": "save",
+      "aliases": [
+        "Exports",
+        "export"
+      ]
+    },
+    {
+      "category": "extensions",
+      "icon": "categories",
+      "aliases": [
+        "Extensions",
+        "extension"
+      ]
+    },
+    {
+      "category": "family",
+      "icon": "quote",
+      "aliases": [
+        "Family",
+        "families"
+      ]
+    },
+    {
+      "category": "family-life",
+      "icon": "house",
+      "aliases": [
+        "Family Life",
+        "family life",
+        "family-lifes",
+        "family_life",
+        "familylife"
+      ]
+    },
+    {
+      "category": "files",
+      "icon": "save",
+      "aliases": [
+        "Files",
+        "file"
+      ]
+    },
+    {
+      "category": "finance",
+      "icon": "gear",
+      "aliases": [
+        "Finance",
+        "finances"
+      ]
+    },
+    {
+      "category": "finance-personal",
+      "icon": "house",
+      "aliases": [
+        "Finance Personal",
+        "finance personal",
+        "finance-personals",
+        "finance_personal",
+        "financepersonal",
+        "money",
+        "personal-finance"
+      ]
+    },
+    {
+      "category": "fitness",
+      "icon": "house",
+      "aliases": [
+        "Fitness"
+      ]
+    },
+    {
+      "category": "follow-ups",
+      "icon": "calendar",
+      "aliases": [
+        "Follow Ups",
+        "follow ups",
+        "follow-up",
+        "follow_ups",
+        "followups"
+      ]
+    },
+    {
+      "category": "food",
+      "icon": "house",
+      "aliases": [
+        "Food",
+        "foods"
+      ]
+    },
+    {
+      "category": "founders",
+      "icon": "quote",
+      "aliases": [
+        "Founders",
+        "founder"
+      ]
+    },
+    {
+      "category": "frameworks",
+      "icon": "categories",
+      "aliases": [
+        "Frameworks",
+        "framework"
+      ]
+    },
+    {
+      "category": "friends",
+      "icon": "quote",
+      "aliases": [
+        "Friends",
+        "friend"
+      ]
+    },
+    {
+      "category": "gadgets",
+      "icon": "categories",
+      "aliases": [
+        "Gadgets",
+        "gadget"
+      ]
+    },
+    {
+      "category": "galleries",
+      "icon": "image",
+      "aliases": [
+        "Galleries",
+        "gallery"
+      ]
+    },
+    {
+      "category": "geography",
+      "icon": "map",
+      "aliases": [
+        "Geography",
+        "geographies"
+      ]
+    },
+    {
+      "category": "glossary",
+      "icon": "links",
+      "aliases": [
+        "Glossary",
+        "glossaries"
+      ]
+    },
+    {
+      "category": "goals",
+      "icon": "house",
+      "aliases": [
+        "Goals",
+        "goal"
+      ]
+    },
+    {
+      "category": "gratitude",
+      "icon": "house",
+      "aliases": [
+        "Gratitude",
+        "gratitudes"
+      ]
+    },
+    {
+      "category": "guests",
+      "icon": "quote",
+      "aliases": [
+        "Guests",
+        "guest"
+      ]
+    },
+    {
+      "category": "guides",
+      "icon": "file",
+      "aliases": [
+        "Guides",
+        "guide"
+      ]
+    },
+    {
+      "category": "habits",
+      "icon": "calendar",
+      "aliases": [
+        "Habits",
+        "habit"
+      ]
+    },
+    {
+      "category": "habits-home",
+      "icon": "house",
+      "aliases": [
+        "Habits Home",
+        "habits home",
+        "habits-homes",
+        "habits_home",
+        "habitshome"
+      ]
+    },
+    {
+      "category": "hardware",
+      "icon": "categories",
+      "aliases": [
+        "Hardware",
+        "hardwares"
+      ]
+    },
+    {
+      "category": "harnesses",
+      "icon": "categories",
+      "aliases": [
+        "Harnesses",
+        "harnesse"
+      ]
+    },
+    {
+      "category": "health",
+      "icon": "house",
+      "aliases": [
+        "Health",
+        "healths"
+      ]
+    },
+    {
+      "category": "health-checks",
+      "icon": "scan",
+      "aliases": [
+        "Health Checks",
+        "health checks",
+        "health-check",
+        "health_checks",
+        "healthchecks"
+      ]
+    },
+    {
+      "category": "hikes",
+      "icon": "map",
+      "aliases": [
+        "Hikes",
+        "hike"
+      ]
+    },
+    {
+      "category": "hiring",
+      "icon": "gear",
+      "aliases": [
+        "Hiring",
+        "hirings"
+      ]
+    },
+    {
+      "category": "history",
+      "icon": "save",
+      "aliases": [
+        "History",
+        "histories"
+      ]
+    },
+    {
+      "category": "home",
+      "icon": "house",
+      "aliases": [
+        "Home",
+        "homes"
+      ]
+    },
+    {
+      "category": "homes",
+      "icon": "map",
+      "aliases": [
+        "Homes",
+        "home"
+      ]
+    },
+    {
+      "category": "hosts",
+      "icon": "quote",
+      "aliases": [
+        "Hosts",
+        "host"
+      ]
+    },
+    {
+      "category": "hotels",
+      "icon": "map",
+      "aliases": [
+        "Hotels",
+        "hotel"
+      ]
+    },
+    {
+      "category": "housing",
+      "icon": "house",
+      "aliases": [
+        "Housing",
+        "housings"
+      ]
+    },
+    {
+      "category": "icons",
+      "icon": "image",
+      "aliases": [
+        "Icons",
+        "icon"
+      ]
+    },
+    {
+      "category": "illustrations",
+      "icon": "image",
+      "aliases": [
+        "Illustrations",
+        "illustration"
+      ]
+    },
+    {
+      "category": "images",
+      "icon": "image",
+      "aliases": [
+        "Images",
+        "image"
+      ]
+    },
+    {
+      "category": "ideas",
+      "icon": "lightbulb",
+      "aliases": [
+        "Ideas",
+        "idea",
+        "brainstorm",
+        "brainstorms"
+      ]
+    },
+    {
+      "category": "imports",
+      "icon": "save",
+      "aliases": [
+        "Imports",
+        "import"
+      ]
+    },
+    {
+      "category": "incident-response",
+      "icon": "gear",
+      "aliases": [
+        "Incident Response",
+        "incident response",
+        "incident-responses",
+        "incident_response",
+        "incidentresponse"
+      ]
+    },
+    {
+      "category": "indexing",
+      "icon": "links",
+      "aliases": [
+        "Indexing",
+        "indexings"
+      ]
+    },
+    {
+      "category": "inference",
+      "icon": "robot",
+      "aliases": [
+        "Inference",
+        "inferences"
+      ]
+    },
+    {
+      "category": "infrastructure",
+      "icon": "categories",
+      "aliases": [
+        "Infrastructure",
+        "infrastructures"
+      ]
+    },
+    {
+      "category": "integrations",
+      "icon": "categories",
+      "aliases": [
+        "Integrations",
+        "integration"
+      ]
+    },
+    {
+      "category": "interviews",
+      "icon": "quote",
+      "aliases": [
+        "Interviews",
+        "interview"
+      ]
+    },
+    {
+      "category": "interviews-audio",
+      "icon": "audio",
+      "aliases": [
+        "Interviews Audio",
+        "interviews audio",
+        "interviews-audios",
+        "interviews_audio",
+        "interviewsaudio"
+      ]
+    },
+    {
+      "category": "investigations",
+      "icon": "scan",
+      "aliases": [
+        "Investigations",
+        "investigation"
+      ]
+    },
+    {
+      "category": "journaling",
+      "icon": "house",
+      "aliases": [
+        "Journaling",
+        "journalings"
+      ]
+    },
+    {
+      "category": "journals",
+      "icon": "file",
+      "aliases": [
+        "Journals",
+        "journal"
+      ]
+    },
+    {
+      "category": "knowledge-graph",
+      "icon": "links",
+      "aliases": [
+        "Knowledge Graph",
+        "knowledge graph",
+        "knowledge-graphs",
+        "knowledge_graph",
+        "knowledgegraph"
+      ]
+    },
+    {
+      "category": "landmarks",
+      "icon": "map",
+      "aliases": [
+        "Landmarks",
+        "landmark"
+      ]
+    },
+    {
+      "category": "launches",
+      "icon": "calendar",
+      "aliases": [
+        "Launches",
+        "launche"
+      ]
+    },
+    {
+      "category": "leaders",
+      "icon": "quote",
+      "aliases": [
+        "Leaders",
+        "leader"
+      ]
+    },
+    {
+      "category": "learning",
+      "icon": "chapters",
+      "aliases": [
+        "Learning",
+        "learnings"
+      ]
+    },
+    {
+      "category": "lectures-audio",
+      "icon": "audio",
+      "aliases": [
+        "Lectures Audio",
+        "lectures audio",
+        "lectures-audios",
+        "lectures_audio",
+        "lecturesaudio"
+      ]
+    },
+    {
+      "category": "ledgers",
+      "icon": "save",
+      "aliases": [
+        "Ledgers",
+        "ledger"
+      ]
+    },
+    {
+      "category": "legal",
+      "icon": "gear",
+      "aliases": [
+        "Legal",
+        "legals"
+      ]
+    },
+    {
+      "category": "lessons",
+      "icon": "chapters",
+      "aliases": [
+        "Lessons",
+        "lesson"
+      ]
+    },
+    {
+      "category": "libraries",
+      "icon": "categories",
+      "aliases": [
+        "Libraries",
+        "library"
+      ]
+    },
+    {
+      "category": "life",
+      "icon": "house",
+      "aliases": [
+        "Life",
+        "lifes"
+      ]
+    },
+    {
+      "category": "links",
+      "icon": "links",
+      "aliases": [
+        "Links",
+        "link"
+      ]
+    },
+    {
+      "category": "lint",
+      "icon": "scan",
+      "aliases": [
+        "Lint",
+        "lints"
+      ]
+    },
+    {
+      "category": "living",
+      "icon": "house",
+      "aliases": [
+        "Living",
+        "livings"
+      ]
+    },
+    {
+      "category": "llms",
+      "icon": "robot",
+      "aliases": [
+        "Llms",
+        "language-models",
+        "large-language-models",
+        "llm"
+      ]
+    },
+    {
+      "category": "locations",
+      "icon": "map",
+      "aliases": [
+        "Locations",
+        "location"
+      ]
+    },
+    {
+      "category": "logos",
+      "icon": "image",
+      "aliases": [
+        "Logos",
+        "logo"
+      ]
+    },
+    {
+      "category": "logs",
+      "icon": "file",
+      "aliases": [
+        "Logs",
+        "log"
+      ]
+    },
+    {
+      "category": "maintenance",
+      "icon": "gear",
+      "aliases": [
+        "Maintenance",
+        "maintenances"
+      ]
+    },
+    {
+      "category": "management",
+      "icon": "gear",
+      "aliases": [
+        "Management",
+        "managements"
+      ]
+    },
+    {
+      "category": "manuals",
+      "icon": "file",
+      "aliases": [
+        "Manuals",
+        "manual"
+      ]
+    },
+    {
+      "category": "maps",
+      "icon": "map",
+      "aliases": [
+        "Maps",
+        "map",
+        "mapping"
+      ]
+    },
+    {
+      "category": "markets",
+      "icon": "gear",
+      "aliases": [
+        "Markets",
+        "market"
+      ]
+    },
+    {
+      "category": "meetings",
+      "icon": "calendar",
+      "aliases": [
+        "Meetings",
+        "meeting"
+      ]
+    },
+    {
+      "category": "meetups-audio",
+      "icon": "audio",
+      "aliases": [
+        "Meetups Audio",
+        "meetups audio",
+        "meetups-audios",
+        "meetups_audio",
+        "meetupsaudio"
+      ]
+    },
+    {
+      "category": "memory",
+      "icon": "save",
+      "aliases": [
+        "Memory",
+        "memories"
+      ]
+    },
+    {
+      "category": "memos",
+      "icon": "file",
+      "aliases": [
+        "Memos",
+        "memo"
+      ]
+    },
+    {
+      "category": "mentors",
+      "icon": "quote",
+      "aliases": [
+        "Mentors",
+        "mentor"
+      ]
+    },
+    {
+      "category": "metrics",
+      "icon": "gear",
+      "aliases": [
+        "Metrics",
+        "metric"
+      ]
+    },
+    {
+      "category": "migrations",
+      "icon": "scan",
+      "aliases": [
+        "Migrations",
+        "migration"
+      ]
+    },
+    {
+      "category": "milestones",
+      "icon": "calendar",
+      "aliases": [
+        "Milestones",
+        "milestone"
+      ]
+    },
+    {
+      "category": "mixes",
+      "icon": "audio",
+      "aliases": [
+        "Mixes",
+        "mixe"
+      ]
+    },
+    {
+      "category": "mockups",
+      "icon": "image",
+      "aliases": [
+        "Mockups",
+        "mockup"
+      ]
+    },
+    {
+      "category": "models",
+      "icon": "robot",
+      "aliases": [
+        "Models",
+        "model"
+      ]
+    },
+    {
+      "category": "modules",
+      "icon": "chapters",
+      "aliases": [
+        "Modules",
+        "module"
+      ]
+    },
+    {
+      "category": "monitoring",
+      "icon": "scan",
+      "aliases": [
+        "Monitoring",
+        "monitorings"
+      ]
+    },
+    {
+      "category": "moodboards",
+      "icon": "image",
+      "aliases": [
+        "Moodboards",
+        "moodboard"
+      ]
+    },
+    {
+      "category": "music",
+      "icon": "audio",
+      "aliases": [
+        "Music",
+        "musics"
+      ]
+    },
+    {
+      "category": "narration",
+      "icon": "audio",
+      "aliases": [
+        "Narration",
+        "narrations"
+      ]
+    },
+    {
+      "category": "narratives",
+      "icon": "chapters",
+      "aliases": [
+        "Narratives",
+        "narrative"
+      ]
+    },
+    {
+      "category": "navigation",
+      "icon": "links",
+      "aliases": [
+        "Navigation",
+        "navigations"
+      ]
+    },
+    {
+      "category": "neighborhoods",
+      "icon": "map",
+      "aliases": [
+        "Neighborhoods",
+        "neighborhood"
+      ]
+    },
+    {
+      "category": "networks",
+      "icon": "links",
+      "aliases": [
+        "Networks",
+        "network"
+      ]
+    },
+    {
+      "category": "notes",
+      "icon": "file",
+      "aliases": [
+        "Notes",
+        "note"
+      ]
+    },
+    {
+      "category": "observability",
+      "icon": "scan",
+      "aliases": [
+        "Observability",
+        "observabilities"
+      ]
+    },
+    {
+      "category": "ocr",
+      "icon": "robot",
+      "aliases": [
+        "Ocr",
+        "ocrs",
+        "optical-character-recognition"
+      ]
+    },
+    {
+      "category": "offices",
+      "icon": "map",
+      "aliases": [
+        "Offices",
+        "office"
+      ]
+    },
+    {
+      "category": "onboarding",
+      "icon": "gear",
+      "aliases": [
+        "Onboarding",
+        "onboardings"
+      ]
+    },
+    {
+      "category": "ontology",
+      "icon": "links",
+      "aliases": [
+        "Ontology",
+        "ontologies"
+      ]
+    },
+    {
+      "category": "operations",
+      "icon": "gear",
+      "aliases": [
+        "Operations",
+        "operation"
+      ]
+    },
+    {
+      "category": "operators",
+      "icon": "quote",
+      "aliases": [
+        "Operators",
+        "operator"
+      ]
+    },
+    {
+      "category": "opinions",
+      "icon": "quote",
+      "aliases": [
+        "Opinions",
+        "opinion"
+      ]
+    },
+    {
+      "category": "orchestration",
+      "icon": "robot",
+      "aliases": [
+        "Orchestration",
+        "orchestrations"
+      ]
+    },
+    {
+      "category": "packages",
+      "icon": "categories",
+      "aliases": [
+        "Packages",
+        "package"
+      ]
+    },
+    {
+      "category": "parks",
+      "icon": "map",
+      "aliases": [
+        "Parks",
+        "park"
+      ]
+    },
+    {
+      "category": "patterns",
+      "icon": "categories",
+      "aliases": [
+        "Patterns",
+        "pattern"
+      ]
+    },
+    {
+      "category": "people",
+      "icon": "quote",
+      "aliases": [
+        "People",
+        "humans",
+        "peoples"
+      ]
+    },
+    {
+      "category": "periods",
+      "icon": "chapters",
+      "aliases": [
+        "Periods",
+        "period"
+      ]
+    },
+    {
+      "category": "personal",
+      "icon": "house",
+      "aliases": [
+        "Personal",
+        "personals"
+      ]
+    },
+    {
+      "category": "persons",
+      "icon": "quote",
+      "aliases": [
+        "Persons",
+        "person"
+      ]
+    },
+    {
+      "category": "pets",
+      "icon": "house",
+      "aliases": [
+        "Pets",
+        "pet"
+      ]
+    },
+    {
+      "category": "phases",
+      "icon": "chapters",
+      "aliases": [
+        "Phases",
+        "phase"
+      ]
+    },
+    {
+      "category": "photos",
+      "icon": "image",
+      "aliases": [
+        "Photos",
+        "photo",
+        "photography"
+      ]
+    },
+    {
+      "category": "pipelines",
+      "icon": "robot",
+      "aliases": [
+        "Pipelines",
+        "pipeline"
+      ]
+    },
+    {
+      "category": "places",
+      "icon": "map",
+      "aliases": [
+        "Places",
+        "locations-places",
+        "place"
+      ]
+    },
+    {
+      "category": "planning",
+      "icon": "gear",
+      "aliases": [
+        "Planning",
+        "plannings"
+      ]
+    },
+    {
+      "category": "plans",
+      "icon": "file",
+      "aliases": [
+        "Plans",
+        "plan"
+      ]
+    },
+    {
+      "category": "plants",
+      "icon": "house",
+      "aliases": [
+        "Plants",
+        "plant"
+      ]
+    },
+    {
+      "category": "platforms",
+      "icon": "categories",
+      "aliases": [
+        "Platforms",
+        "platform"
+      ]
+    },
+    {
+      "category": "playbooks",
+      "icon": "categories",
+      "aliases": [
+        "Playbooks",
+        "playbook"
+      ]
+    },
+    {
+      "category": "playlists",
+      "icon": "audio",
+      "aliases": [
+        "Playlists",
+        "playlist"
+      ]
+    },
+    {
+      "category": "plugins",
+      "icon": "categories",
+      "aliases": [
+        "Plugins",
+        "plugin"
+      ]
+    },
+    {
+      "category": "podcasts",
+      "icon": "audio",
+      "aliases": [
+        "Podcasts",
+        "podcast"
+      ]
+    },
+    {
+      "category": "posters",
+      "icon": "image",
+      "aliases": [
+        "Posters",
+        "poster"
+      ]
+    },
+    {
+      "category": "presentations",
+      "icon": "image",
+      "aliases": [
+        "Presentations",
+        "presentation"
+      ]
+    },
+    {
+      "category": "preservation",
+      "icon": "save",
+      "aliases": [
+        "Preservation",
+        "preservations"
+      ]
+    },
+    {
+      "category": "pricing",
+      "icon": "gear",
+      "aliases": [
+        "Pricing",
+        "pricings"
+      ]
+    },
+    {
+      "category": "product",
+      "icon": "gear",
+      "aliases": [
+        "Product",
+        "products"
+      ]
+    },
+    {
+      "category": "profiles",
+      "icon": "quote",
+      "aliases": [
+        "Profiles",
+        "profile"
+      ]
+    },
+    {
+      "category": "projects",
+      "icon": "gear",
+      "aliases": [
+        "Projects",
+        "project"
+      ]
+    },
+    {
+      "category": "prompts",
+      "icon": "robot",
+      "aliases": [
+        "Prompts",
+        "prompt",
+        "prompting"
+      ]
+    },
+    {
+      "category": "qa",
+      "icon": "gear",
+      "aliases": [
+        "Qa",
+        "qas",
+        "quality-assurance"
+      ]
+    },
+    {
+      "category": "questions",
+      "icon": "file",
+      "aliases": [
+        "Questions",
+        "question"
+      ]
+    },
+    {
+      "category": "quotes",
+      "icon": "quote",
+      "aliases": [
+        "Quotes",
+        "quote"
+      ]
+    },
+    {
+      "category": "ranking",
+      "icon": "robot",
+      "aliases": [
+        "Ranking",
+        "rankings"
+      ]
+    },
+    {
+      "category": "reading-list",
+      "icon": "chapters",
+      "aliases": [
+        "Reading List",
+        "reading list",
+        "reading-lists",
+        "reading_list",
+        "readinglist"
+      ]
+    },
+    {
+      "category": "reasoning",
+      "icon": "robot",
+      "aliases": [
+        "Reasoning",
+        "reasonings"
+      ]
+    },
+    {
+      "category": "rebuilds",
+      "icon": "scan",
+      "aliases": [
+        "Rebuilds",
+        "rebuild"
+      ]
+    },
+    {
+      "category": "recipes",
+      "icon": "house",
+      "aliases": [
+        "Recipes",
+        "recipe"
+      ]
+    },
+    {
+      "category": "reconciliation",
+      "icon": "scan",
+      "aliases": [
+        "Reconciliation",
+        "reconciliations"
+      ]
+    },
+    {
+      "category": "recordings",
+      "icon": "audio",
+      "aliases": [
+        "Recordings",
+        "recording"
+      ]
+    },
+    {
+      "category": "records",
+      "icon": "save",
+      "aliases": [
+        "Records",
+        "record"
+      ]
+    },
+    {
+      "category": "refactors",
+      "icon": "scan",
+      "aliases": [
+        "Refactors",
+        "refactor"
+      ]
+    },
+    {
+      "category": "references",
+      "icon": "file",
+      "aliases": [
+        "References",
+        "reference"
+      ]
+    },
+    {
+      "category": "references-web",
+      "icon": "links",
+      "aliases": [
+        "References Web",
+        "references web",
+        "references-webs",
+        "references_web",
+        "referencesweb"
+      ]
+    },
+    {
+      "category": "reflection",
+      "icon": "house",
+      "aliases": [
+        "Reflection",
+        "reflections"
+      ]
+    },
+    {
+      "category": "regions",
+      "icon": "map",
+      "aliases": [
+        "Regions",
+        "region"
+      ]
+    },
+    {
+      "category": "registries",
+      "icon": "categories",
+      "aliases": [
+        "Registries",
+        "registry"
+      ]
+    },
+    {
+      "category": "related-work",
+      "icon": "links",
+      "aliases": [
+        "Related Work",
+        "related work",
+        "related-works",
+        "related_work",
+        "relatedwork"
+      ]
+    },
+    {
+      "category": "relationships",
+      "icon": "links",
+      "aliases": [
+        "Relationships",
+        "relationship"
+      ]
+    },
+    {
+      "category": "relationships-home",
+      "icon": "quote",
+      "aliases": [
+        "Relationships Home",
+        "relationships home",
+        "relationships-homes",
+        "relationships_home",
+        "relationshipshome"
+      ]
+    },
+    {
+      "category": "relationships-life",
+      "icon": "house",
+      "aliases": [
+        "Relationships Life",
+        "relationships life",
+        "relationships-lifes",
+        "relationships_life",
+        "relationshipslife"
+      ]
+    },
+    {
+      "category": "releases",
+      "icon": "calendar",
+      "aliases": [
+        "Releases",
+        "release"
+      ]
+    },
+    {
+      "category": "reports",
+      "icon": "file",
+      "aliases": [
+        "Reports",
+        "report"
+      ]
+    },
+    {
+      "category": "repositories",
+      "icon": "categories",
+      "aliases": [
+        "Repositories",
+        "repository"
+      ]
+    },
+    {
+      "category": "research",
+      "icon": "file",
+      "aliases": [
+        "Research",
+        "researchs"
+      ]
+    },
+    {
+      "category": "researchers",
+      "icon": "quote",
+      "aliases": [
+        "Researchers",
+        "researcher"
+      ]
+    },
+    {
+      "category": "resources",
+      "icon": "file",
+      "aliases": [
+        "Resources",
+        "resource"
+      ]
+    },
+    {
+      "category": "restaurants",
+      "icon": "map",
+      "aliases": [
+        "Restaurants",
+        "restaurant"
+      ]
+    },
+    {
+      "category": "retreats",
+      "icon": "calendar",
+      "aliases": [
+        "Retreats",
+        "retreat"
+      ]
+    },
+    {
+      "category": "retrieval",
+      "icon": "robot",
+      "aliases": [
+        "Retrieval",
+        "retrievals"
+      ]
+    },
+    {
+      "category": "reviews",
+      "icon": "scan",
+      "aliases": [
+        "Reviews",
+        "review"
+      ]
+    },
+    {
+      "category": "rituals",
+      "icon": "calendar",
+      "aliases": [
+        "Rituals",
+        "ritual"
+      ]
+    },
+    {
+      "category": "roadmaps",
+      "icon": "calendar",
+      "aliases": [
+        "Roadmaps",
+        "roadmap"
+      ]
+    },
+    {
+      "category": "routes",
+      "icon": "map",
+      "aliases": [
+        "Routes",
+        "route"
+      ]
+    },
+    {
+      "category": "routines",
+      "icon": "calendar",
+      "aliases": [
+        "Routines",
+        "routine"
+      ]
+    },
+    {
+      "category": "sales",
+      "icon": "gear",
+      "aliases": [
+        "Sales",
+        "sale"
+      ]
+    },
+    {
+      "category": "samples",
+      "icon": "audio",
+      "aliases": [
+        "Samples",
+        "sample"
+      ]
+    },
+    {
+      "category": "schedules",
+      "icon": "calendar",
+      "aliases": [
+        "Schedules",
+        "schedule"
+      ]
+    },
+    {
+      "category": "schemas",
+      "icon": "categories",
+      "aliases": [
+        "Schemas",
+        "schema"
+      ]
+    },
+    {
+      "category": "screenshots",
+      "icon": "image",
+      "aliases": [
+        "Screenshots",
+        "screenshot"
+      ]
+    },
+    {
+      "category": "sdk",
+      "icon": "categories",
+      "aliases": [
+        "Sdk",
+        "sdks"
+      ]
+    },
+    {
+      "category": "search",
+      "icon": "links",
+      "aliases": [
+        "Search",
+        "searchs"
+      ]
+    },
+    {
+      "category": "seasons",
+      "icon": "chapters",
+      "aliases": [
+        "Seasons",
+        "season"
+      ]
+    },
+    {
+      "category": "security",
+      "icon": "gear",
+      "aliases": [
+        "Security",
+        "securities"
+      ]
+    },
+    {
+      "category": "sequences",
+      "icon": "chapters",
+      "aliases": [
+        "Sequences",
+        "sequence"
+      ]
+    },
+    {
+      "category": "series",
+      "icon": "chapters",
+      "aliases": [
+        "Series",
+        "sery"
+      ]
+    },
+    {
+      "category": "services",
+      "icon": "categories",
+      "aliases": [
+        "Services",
+        "service"
+      ]
+    },
+    {
+      "category": "sessions",
+      "icon": "calendar",
+      "aliases": [
+        "Sessions",
+        "session"
+      ]
+    },
+    {
+      "category": "shopping",
+      "icon": "house",
+      "aliases": [
+        "Shopping",
+        "shoppings"
+      ]
+    },
+    {
+      "category": "sleep",
+      "icon": "house",
+      "aliases": [
+        "Sleep",
+        "sleeps"
+      ]
+    },
+    {
+      "category": "slides",
+      "icon": "image",
+      "aliases": [
+        "Slides",
+        "slide"
+      ]
+    },
+    {
+      "category": "snapshots",
+      "icon": "save",
+      "aliases": [
+        "Snapshots",
+        "snapshot"
+      ]
+    },
+    {
+      "category": "snippets",
+      "icon": "file",
+      "aliases": [
+        "Snippets",
+        "snippet"
+      ]
+    },
+    {
+      "category": "songs",
+      "icon": "audio",
+      "aliases": [
+        "Songs",
+        "song"
+      ]
+    },
+    {
+      "category": "soundtracks",
+      "icon": "audio",
+      "aliases": [
+        "Soundtracks",
+        "soundtrack"
+      ]
+    },
+    {
+      "category": "sources",
+      "icon": "links",
+      "aliases": [
+        "Sources",
+        "source"
+      ]
+    },
+    {
+      "category": "speakers",
+      "icon": "quote",
+      "aliases": [
+        "Speakers",
+        "speaker"
+      ]
+    },
+    {
+      "category": "specs",
+      "icon": "file",
+      "aliases": [
+        "Specs",
+        "spec"
+      ]
+    },
+    {
+      "category": "speech-to-text",
+      "icon": "robot",
+      "aliases": [
+        "Speech To Text",
+        "speech to text",
+        "speech-to-texts",
+        "speech_to_text",
+        "speechtotext",
+        "stt"
+      ]
+    },
+    {
+      "category": "spoken-notes",
+      "icon": "audio",
+      "aliases": [
+        "Spoken Notes",
+        "spoken notes",
+        "spoken-note",
+        "spoken_notes",
+        "spokennotes"
+      ]
+    },
+    {
+      "category": "state",
+      "icon": "save",
+      "aliases": [
+        "State",
+        "states"
+      ]
+    },
+    {
+      "category": "status",
+      "icon": "scan",
+      "aliases": [
+        "Status",
+        "statu"
+      ]
+    },
+    {
+      "category": "storage",
+      "icon": "save",
+      "aliases": [
+        "Storage",
+        "storages"
+      ]
+    },
+    {
+      "category": "story-arcs",
+      "icon": "chapters",
+      "aliases": [
+        "Story Arcs",
+        "story arcs",
+        "story-arc",
+        "story_arcs",
+        "storyarcs"
+      ]
+    },
+    {
+      "category": "strategy",
+      "icon": "gear",
+      "aliases": [
+        "Strategy",
+        "strategies"
+      ]
+    },
+    {
+      "category": "study",
+      "icon": "chapters",
+      "aliases": [
+        "Study",
+        "studies"
+      ]
+    },
+    {
+      "category": "summaries",
+      "icon": "file",
+      "aliases": [
+        "Summaries",
+        "summary"
+      ]
+    },
+    {
+      "category": "support",
+      "icon": "gear",
+      "aliases": [
+        "Support",
+        "supports"
+      ]
+    },
+    {
+      "category": "systems",
+      "icon": "categories",
+      "aliases": [
+        "Systems",
+        "system"
+      ]
+    },
+    {
+      "category": "tables",
+      "icon": "save",
+      "aliases": [
+        "Tables",
+        "table"
+      ]
+    },
+    {
+      "category": "tags",
+      "icon": "links",
+      "aliases": [
+        "Tags",
+        "tag"
+      ]
+    },
+    {
+      "category": "tasks",
+      "icon": "check-circle",
+      "aliases": [
+        "Tasks",
+        "task",
+        "todo",
+        "todos"
+      ]
+    },
+    {
+      "category": "talks",
+      "icon": "calendar",
+      "aliases": [
+        "Talks",
+        "lectures",
+        "presentations-talks",
+        "talk"
+      ]
+    },
+    {
+      "category": "taxonomies",
+      "icon": "links",
+      "aliases": [
+        "Taxonomies",
+        "taxonomy"
+      ]
+    },
+    {
+      "category": "teams",
+      "icon": "quote",
+      "aliases": [
+        "Teams",
+        "team"
+      ]
+    },
+    {
+      "category": "templates",
+      "icon": "categories",
+      "aliases": [
+        "Templates",
+        "template"
+      ]
+    },
+    {
+      "category": "templates-docs",
+      "icon": "file",
+      "aliases": [
+        "Templates Docs",
+        "templates docs",
+        "templates-doc",
+        "templates_docs",
+        "templatesdocs"
+      ]
+    },
+    {
+      "category": "terminology",
+      "icon": "links",
+      "aliases": [
+        "Terminology",
+        "terminologies"
+      ]
+    },
+    {
+      "category": "testing",
+      "icon": "gear",
+      "aliases": [
+        "Testing",
+        "testings"
+      ]
+    },
+    {
+      "category": "text-to-speech",
+      "icon": "robot",
+      "aliases": [
+        "Text To Speech",
+        "text to speech",
+        "text-to-speechs",
+        "text_to_speech",
+        "texttospeech",
+        "tts"
+      ]
+    },
+    {
+      "category": "themes",
+      "icon": "links",
+      "aliases": [
+        "Themes",
+        "theme"
+      ]
+    },
+    {
+      "category": "threads",
+      "icon": "file",
+      "aliases": [
+        "Threads",
+        "thread"
+      ]
+    },
+    {
+      "category": "thumbnails",
+      "icon": "image",
+      "aliases": [
+        "Thumbnails",
+        "thumbnail"
+      ]
+    },
+    {
+      "category": "timelines",
+      "icon": "calendar",
+      "aliases": [
+        "Timelines",
+        "timeline"
+      ]
+    },
+    {
+      "category": "tool-use",
+      "icon": "robot",
+      "aliases": [
+        "Tool Use",
+        "tool use",
+        "tool-uses",
+        "tool_use",
+        "tooluse"
+      ]
+    },
+    {
+      "category": "tools",
+      "icon": "categories",
+      "aliases": [
+        "Tools",
+        "tool"
+      ]
+    },
+    {
+      "category": "topics",
+      "icon": "links",
+      "aliases": [
+        "Topics",
+        "topic"
+      ]
+    },
+    {
+      "category": "transcription",
+      "icon": "robot",
+      "aliases": [
+        "Transcription",
+        "transcriptions"
+      ]
+    },
+    {
+      "category": "transcripts",
+      "icon": "file",
+      "aliases": [
+        "Transcripts",
+        "transcript"
+      ]
+    },
+    {
+      "category": "travel",
+      "icon": "map",
+      "aliases": [
+        "Travel",
+        "travels"
+      ]
+    },
+    {
+      "category": "travel-plans",
+      "icon": "calendar",
+      "aliases": [
+        "Travel Plans",
+        "travel plans",
+        "travel-plan",
+        "travel_plans",
+        "travelplans"
+      ]
+    },
+    {
+      "category": "triage",
+      "icon": "scan",
+      "aliases": [
+        "Triage",
+        "triages"
+      ]
+    },
+    {
+      "category": "triage-queue",
+      "icon": "scan",
+      "aliases": [
+        "Triage Queue",
+        "triage queue",
+        "triage-queues",
+        "triage_queue",
+        "triagequeue"
+      ]
+    },
+    {
+      "category": "trips",
+      "icon": "calendar",
+      "aliases": [
+        "Trips",
+        "trip"
+      ]
+    },
+    {
+      "category": "tutorials",
+      "icon": "chapters",
+      "aliases": [
+        "Tutorials",
+        "tutorial"
+      ]
+    },
+    {
+      "category": "ui",
+      "icon": "image",
+      "aliases": [
+        "Ui",
+        "uis",
+        "user-interface"
+      ]
+    },
+    {
+      "category": "units",
+      "icon": "chapters",
+      "aliases": [
+        "Units",
+        "unit"
+      ]
+    },
+    {
+      "category": "updates",
+      "icon": "file",
+      "aliases": [
+        "Updates",
+        "update"
+      ]
+    },
+    {
+      "category": "users",
+      "icon": "quote",
+      "aliases": [
+        "Users",
+        "user"
+      ]
+    },
+    {
+      "category": "ux",
+      "icon": "image",
+      "aliases": [
+        "Ux",
+        "user-experience",
+        "uxs"
+      ]
+    },
+    {
+      "category": "vaults",
+      "icon": "save",
+      "aliases": [
+        "Vaults",
+        "vault"
+      ]
+    },
+    {
+      "category": "vector-search",
+      "icon": "robot",
+      "aliases": [
+        "Vector Search",
+        "vector search",
+        "vector-searchs",
+        "vector_search",
+        "vectorsearch"
+      ]
+    },
+    {
+      "category": "venues",
+      "icon": "map",
+      "aliases": [
+        "Venues",
+        "venue"
+      ]
+    },
+    {
+      "category": "verification",
+      "icon": "scan",
+      "aliases": [
+        "Verification",
+        "verifications"
+      ]
+    },
+    {
+      "category": "versioning",
+      "icon": "save",
+      "aliases": [
+        "Versioning",
+        "versionings"
+      ]
+    },
+    {
+      "category": "videos",
+      "icon": "image",
+      "aliases": [
+        "Videos",
+        "video"
+      ]
+    },
+    {
+      "category": "visuals",
+      "icon": "image",
+      "aliases": [
+        "Visuals",
+        "visual"
+      ]
+    },
+    {
+      "category": "voice-notes",
+      "icon": "audio",
+      "aliases": [
+        "Voice Notes",
+        "memos-audio",
+        "voice notes",
+        "voice-memos",
+        "voice-note",
+        "voice-notes-audio",
+        "voice_notes",
+        "voicenotes"
+      ]
+    },
+    {
+      "category": "wardrobe",
+      "icon": "house",
+      "aliases": [
+        "Wardrobe",
+        "wardrobes"
+      ]
+    },
+    {
+      "category": "waypoints",
+      "icon": "map",
+      "aliases": [
+        "Waypoints",
+        "waypoint"
+      ]
+    },
+    {
+      "category": "wellness",
+      "icon": "house",
+      "aliases": [
+        "Wellness"
+      ]
+    },
+    {
+      "category": "wikilinks",
+      "icon": "links",
+      "aliases": [
+        "Wikilinks",
+        "wikilink"
+      ]
+    },
+    {
+      "category": "wireframes",
+      "icon": "image",
+      "aliases": [
+        "Wireframes",
+        "wireframe"
+      ]
+    },
+    {
+      "category": "workflows",
+      "icon": "robot",
+      "aliases": [
+        "Workflows",
+        "workflow"
+      ]
+    },
+    {
+      "category": "workshops",
+      "icon": "calendar",
+      "aliases": [
+        "Workshops",
+        "workshop"
+      ]
+    },
+    {
+      "category": "writers",
+      "icon": "quote",
+      "aliases": [
+        "Writers",
+        "writer"
+      ]
+    }
+  ]
+}

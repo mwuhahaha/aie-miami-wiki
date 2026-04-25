@@ -1,0 +1,142 @@
+[
+  {
+    "id": "2026-04-20-alisa-fortin-from-prompt-to-production-maximizing-value-with-google-s-genmedia-models",
+    "title": "From Prompt to Production: Maximizing Value with Google's GenMedia Models",
+    "path": "wiki/talks/2026-04-20-alisa-fortin-from-prompt-to-production-maximizing-value-with-google-s-genmedia-models.md"
+  },
+  {
+    "id": "2026-04-20-anna-juchnicki-from-tickets-to-prs-shipping-a-governed-snowflake-ops-agent-with-langgraph-and-mcp",
+    "title": "From Tickets to PRs: Shipping a Governed Snowflake Ops Agent with LangGraph and MCP",
+    "path": "wiki/talks/2026-04-20-anna-juchnicki-from-tickets-to-prs-shipping-a-governed-snowflake-ops-agent-with-langgraph-and-mcp.md"
+  },
+  {
+    "id": "2026-04-20-ben-davis-you-re-using-the-wrong-ai-sdk",
+    "title": "You're using the wrong AI SDK",
+    "path": "wiki/talks/2026-04-20-ben-davis-you-re-using-the-wrong-ai-sdk.md"
+  },
+  {
+    "id": "2026-04-20-ben-vinegar-from-local-to-remote-working-with-coding-agents-over-ssh",
+    "title": "From Local to Remote: Working with Coding Agents over SSH",
+    "path": "wiki/talks/2026-04-20-ben-vinegar-from-local-to-remote-working-with-coding-agents-over-ssh.md"
+  },
+  {
+    "id": "2026-04-20-dax-raad-you-don-t-have-any-good-ideas",
+    "title": "You Don't Have Any Good Ideas",
+    "path": "wiki/talks/2026-04-20-dax-raad-you-don-t-have-any-good-ideas.md"
+  },
+  {
+    "id": "2026-04-20-dexter-horthy-everything-we-got-wrong-about-rpi",
+    "title": "Everything We got Wrong About RPI",
+    "path": "wiki/talks/2026-04-20-dexter-horthy-everything-we-got-wrong-about-rpi.md"
+  },
+  {
+    "id": "2026-04-20-gabe-greenberg-opening-remarks",
+    "title": "Opening Remarks",
+    "path": "wiki/talks/2026-04-20-gabe-greenberg-opening-remarks.md"
+  },
+  {
+    "id": "2026-04-20-geoffrey-huntley-software-development-now-costs-less-than-minimum-wage",
+    "title": "Software Development Now Costs Less Than Minimum Wage",
+    "path": "wiki/talks/2026-04-20-geoffrey-huntley-software-development-now-costs-less-than-minimum-wage.md"
+  },
+  {
+    "id": "2026-04-20-kent-c-dodds-build-a-free-agent",
+    "title": "Build a Free Agent",
+    "path": "wiki/talks/2026-04-20-kent-c-dodds-build-a-free-agent.md"
+  },
+  {
+    "id": "2026-04-20-max-stoiber-what-does-good-taste-in-dx-look-like-in-the-age-of-agents",
+    "title": "What Does Good Taste in DX Look Like in the Age of Agents?",
+    "path": "wiki/talks/2026-04-20-max-stoiber-what-does-good-taste-in-dx-look-like-in-the-age-of-agents.md"
+  },
+  {
+    "id": "2026-04-20-nnenna-ndukwe-how-to-embed-ai-code-quality-gates-in-your-sdlc",
+    "title": "How to Embed AI Code Quality Gates in Your SDLC",
+    "path": "wiki/talks/2026-04-20-nnenna-ndukwe-how-to-embed-ai-code-quality-gates-in-your-sdlc.md"
+  },
+  {
+    "id": "2026-04-20-philip-kiely-how-to-quantize-models-without-killing-quality",
+    "title": "How to quantize models without killing quality",
+    "path": "wiki/talks/2026-04-20-philip-kiely-how-to-quantize-models-without-killing-quality.md"
+  },
+  {
+    "id": "2026-04-20-rita-kozlov-building-infrastructure-that-scales-to-a-billion-agents",
+    "title": "Building Infrastructure That Scales to a Billion Agents",
+    "path": "wiki/talks/2026-04-20-rita-kozlov-building-infrastructure-that-scales-to-a-billion-agents.md"
+  },
+  {
+    "id": "2026-04-20-shashank-goyal-the-rise-of-ai-agents-in-the-wild",
+    "title": "The Rise of AI Agents in the Wild",
+    "path": "wiki/talks/2026-04-20-shashank-goyal-the-rise-of-ai-agents-in-the-wild.md"
+  },
+  {
+    "id": "2026-04-21-alvin-pane-memory-and-dynamic-discovery-for-agents",
+    "title": "Memory and Dynamic Discovery for Agents",
+    "path": "wiki/talks/2026-04-21-alvin-pane-memory-and-dynamic-discovery-for-agents.md"
+  },
+  {
+    "id": "2026-04-21-dave-kiss-agent-ready-interfaces",
+    "title": "Agent-ready Interfaces",
+    "path": "wiki/talks/2026-04-21-dave-kiss-agent-ready-interfaces.md"
+  },
+  {
+    "id": "2026-04-21-david-gomes-ides-are-dead-long-live-ides",
+    "title": "IDEs Are Dead, Long Live IDEs",
+    "path": "wiki/talks/2026-04-21-david-gomes-ides-are-dead-long-live-ides.md"
+  },
+  {
+    "id": "2026-04-21-david-house-transforming-programming-mindsets-case-studies-in-agentic-coding-adoption",
+    "title": "Transforming Programming Mindsets: Case Studies in Agentic Coding Adoption",
+    "path": "wiki/talks/2026-04-21-david-house-transforming-programming-mindsets-case-studies-in-agentic-coding-adoption.md"
+  },
+  {
+    "id": "2026-04-21-diane-macklin-building-ai-apps-with-everyday-coding-agents",
+    "title": "Building AI Apps with Everyday Coding Agents",
+    "path": "wiki/talks/2026-04-21-diane-macklin-building-ai-apps-with-everyday-coding-agents.md"
+  },
+  {
+    "id": "2026-04-21-erik-thorelli-agent-skills",
+    "title": "Agent Skills",
+    "path": "wiki/talks/2026-04-21-erik-thorelli-agent-skills.md"
+  },
+  {
+    "id": "2026-04-21-laurie-voss-mcp-vs-skills-evaluating-tool-interfaces-for-agents",
+    "title": "MCP vs Skills: Evaluating Tool Interfaces for Agents",
+    "path": "wiki/talks/2026-04-21-laurie-voss-mcp-vs-skills-evaluating-tool-interfaces-for-agents.md"
+  },
+  {
+    "id": "2026-04-21-lech-kalinowski-ambient-generative-ai-on-mobile",
+    "title": "Ambient Generative AI on Mobile",
+    "path": "wiki/talks/2026-04-21-lech-kalinowski-ambient-generative-ai-on-mobile.md"
+  },
+  {
+    "id": "2026-04-21-lena-hall-my-robot-thinks-you-re-a-10",
+    "title": "My Robot Thinks You're a 10",
+    "path": "wiki/talks/2026-04-21-lena-hall-my-robot-thinks-you-re-a-10.md"
+  },
+  {
+    "id": "2026-04-21-nyah-macklin-context-graphs-for-auditable-agents",
+    "title": "Context Graphs for Auditable Agents",
+    "path": "wiki/talks/2026-04-21-nyah-macklin-context-graphs-for-auditable-agents.md"
+  },
+  {
+    "id": "2026-04-21-rick-blalock-coding-agents-are-eating-software",
+    "title": "Coding Agents Are Eating Software",
+    "path": "wiki/talks/2026-04-21-rick-blalock-coding-agents-are-eating-software.md"
+  },
+  {
+    "id": "2026-04-21-sarah-chieng-latency-debt-and-fast-coding-models",
+    "title": "Latency Debt and Fast Coding Models",
+    "path": "wiki/talks/2026-04-21-sarah-chieng-latency-debt-and-fast-coding-models.md"
+  },
+  {
+    "id": "2026-04-21-stefan-avram-the-multimodal-future-is-open-source",
+    "title": "The Multimodal Future Is Open Source",
+    "path": "wiki/talks/2026-04-21-stefan-avram-the-multimodal-future-is-open-source.md"
+  },
+  {
+    "id": "2026-04-21-tejas-bhakta-sub-agents-and-specialized-models",
+    "title": "Sub-agents and Specialized Models",
+    "path": "wiki/talks/2026-04-21-tejas-bhakta-sub-agents-and-specialized-models.md"
+  }
+]

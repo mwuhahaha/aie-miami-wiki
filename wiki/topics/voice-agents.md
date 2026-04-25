@@ -1,0 +1,34 @@
+---
+title: Voice Agents
+category: topics
+aliases:
+  - Voice Agents
+sourceLabels:
+  - Transcript-derived
+  - Official conference site
+  - Public-web supporting context
+last_auto_summarized: '2026-04-25T18:19:32.154Z'
+---
+# Voice Agents
+
+## Summary
+
+Voice Agents is a conference theme page for the public AI Engineer Miami 2026 wiki. This repaired version restores readable content for the page and keeps the claims bounded to the local conference corpus: the two transcripts, the official conference site, and clearly labeled public-web context where available.
+
+## Why It Matters
+
+The theme is most directly connected here to [[talks/2026-04-20-dax-raad-you-don-t-have-any-good-ideas|You Don't Have Any Good Ideas]]. Those linked sessions show how the topic surfaced as an implementation concern for AI engineers.
+
+## Conference Pattern
+
+Voice Agents should be read as a lens rather than a standalone claim. It helps group pages that discuss agent design, developer workflows, production constraints, model/tool choices, and the practical work of turning AI systems into reliable software.
+
+## Talks That Mention or Center It
+
+- [[talks/2026-04-20-dax-raad-you-don-t-have-any-good-ideas|You Don't Have Any Good Ideas]]
+
+## Sources
+
+- **Transcript-derived:** `/tmp/aie-miami-transcript.txt and /tmp/aie-miami-part2-transcript.txt`.
+- **Official conference site:** https://www.ai.engineer/miami
+- **Public-web supporting context:** no additional public-web claims were added in this repair pass.

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Engineer Miami 2026 Wiki</title>
+    <link rel="icon" type="image/svg+xml" href="/static/favicon.svg" />
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-menu">
+            <a id="calendar-button" class="ghost-button inline-action hidden" href="#/calendar">Calendar</a>
+            <a id="root-quotes-button" class="ghost-button inline-action hidden" href="#/quotes">Quotes</a>
+          </div>
+          <p class="eyebrow">Public Conference Wiki</p>
+          <h1 class="brand-title">AI Engineer Miami 2026</h1>
+          <p class="muted">Read-only transcript and research wiki for the AI Engineer Miami 2026 conference.</p>
+        </div>
+
+        <section class="sidebar-group hidden" id="workspace-sidebar-group">
+          <p class="sidebar-label">Workspace</p>
+          <label class="field">
+            <span>Project</span>
+            <select id="project-select"></select>
+          </label>
+          <div class="sidebar-actions workspace-actions">
+            <a id="open-vault-button" class="ghost-button" href="#">Open Vault</a>
+            <a id="claude-button" class="ghost-button" href="#">CLAUDE.md</a>
+            <a id="add-project-button" class="ghost-button" href="#/projects">Add Project</a>
+            <a id="manage-projects-button" class="ghost-button" href="#/projects">Manage Projects</a>
+          </div>
+        </section>
+
+        <section class="sidebar-group">
+          <p class="sidebar-label">Navigate</p>
+          <div class="sidebar-actions nav-actions">
+            <a id="overview-button" class="ghost-button" href="#">Home</a>
+            <a id="index-button" class="ghost-button" href="#">Index</a>
+            <a id="chapters-button" class="ghost-button hidden" href="#">Chapters</a>
+            <a id="graph-button" class="ghost-button" href="#">Graph</a>
+            <a id="compose-button" class="ghost-button hidden" href="#">New Entry</a>
+            <a id="quotes-button" class="ghost-button hidden" href="#">Quotes</a>
+          </div>
+        </section>
+
+        <section class="sidebar-group">
+          <p class="sidebar-label">Find</p>
+          <label class="field">
+            <span>Filter sidebar pages</span>
+            <input id="page-filter" type="search" placeholder="Filter sidebar titles, paths, notes" aria-describedby="page-filter-status" />
+          </label>
+          <p id="page-filter-status" class="filter-status muted" aria-live="polite"></p>
+          <div id="category-filters" class="filter-row"></div>
+        </section>
+
+        <section class="sidebar-group">
+          <p class="sidebar-label">Pages</p>
+          <nav id="sections" class="sections"></nav>
+        </section>
+      </aside>
+
+      <main class="main">
+        <header class="hero">
+          <div class="hero-main">
+            <p id="hero-kicker" class="eyebrow">Public Conference Wiki</p>
+            <h2 id="hero-title">Loading…</h2>
+          </div>
+          <div id="hero-meta" class="hero-meta"></div>
+          <p id="hero-description" class="hero-description muted"></p>
+        </header>
+
+        <section id="article-view" class="panel"></section>
+        <section id="graph-view" class="panel hidden">
+          <div class="graph-header">
+            <div>
+              <p class="eyebrow">Relationship Graph</p>
+              <h3>Conference Knowledge Map</h3>
+            </div>
+            <p class="muted">A browser view of linked public conference wiki pages.</p>
+          </div>
+          <div id="graph-controls" class="graph-controls" aria-label="Graph controls"></div>
+          <div id="graph-legend" class="graph-legend" aria-label="Graph category legend"></div>
+          <div id="graph-canvas" class="graph-canvas"></div>
+        </section>
+      </main>
+    </div>
+
+    <button id="activity-launcher" class="activity-launcher hidden" type="button" aria-label="Open activity center"></button>
+    <div id="activity-modal" class="activity-modal hidden" aria-hidden="true">
+      <div id="activity-modal-backdrop" class="activity-modal-backdrop"></div>
+      <section class="activity-dialog" role="dialog" aria-modal="true" aria-labelledby="activity-modal-title">
+        <header class="activity-dialog-header">
+          <div>
+            <p class="eyebrow">Activity</p>
+            <h3 id="activity-modal-title">AI jobs</h3>
+          </div>
+          <button id="activity-modal-close" class="ghost-button inline-action" type="button">Close</button>
+        </header>
+        <div class="activity-dialog-body">
+          <aside id="activity-thread-list" class="activity-thread-list"></aside>
+          <section id="activity-thread-detail" class="activity-thread-detail"></section>
+        </div>
+      </section>
+    </div>
+
+    <div id="relationship-modal" class="relationship-modal hidden" aria-hidden="true">
+      <div id="relationship-modal-backdrop" class="relationship-modal-backdrop"></div>
+      <section class="relationship-dialog" role="dialog" aria-modal="true" aria-labelledby="relationship-modal-title">
+        <header class="relationship-dialog-header">
+          <div>
+            <p class="eyebrow">Add Connection</p>
+            <h3 id="relationship-modal-title">Link this page to another note</h3>
+          </div>
+          <button id="relationship-modal-close" class="ghost-button inline-action" type="button">Close</button>
+        </header>
+        <div id="relationship-modal-body" class="relationship-dialog-body"></div>
+      </section>
+    </div>
+
+    <div id="project-ai-fill-modal" class="project-ai-fill-modal hidden" aria-hidden="true">
+      <div id="project-ai-fill-modal-backdrop" class="project-ai-fill-modal-backdrop"></div>
+      <section class="project-ai-fill-dialog" role="dialog" aria-modal="true" aria-labelledby="project-ai-fill-modal-title">
+        <header class="project-ai-fill-dialog-header">
+          <div>
+            <p class="eyebrow">AI Fill Review</p>
+            <h3 id="project-ai-fill-modal-title">Review suggested override</h3>
+          </div>
+          <button id="project-ai-fill-modal-close" class="ghost-button inline-action" type="button">Decline</button>
+        </header>
+        <div id="project-ai-fill-modal-body" class="project-ai-fill-dialog-body"></div>
+      </section>
+    </div>
+
+    <div id="toast" class="toast hidden" aria-live="polite"></div>
+
+    <script src="/vendor/d3/d3.min.js"></script>
+    <script type="module" src="/static/app.js"></script>
+  </body>
+  </html>

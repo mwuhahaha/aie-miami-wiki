@@ -1,0 +1,192 @@
+[
+  {
+    "id": "agent-memory",
+    "title": "Agent Memory",
+    "path": "wiki/tools/agent-memory.md"
+  },
+  {
+    "id": "agentuity",
+    "title": "Agentuity",
+    "path": "wiki/tools/agentuity.md"
+  },
+  {
+    "id": "arize-ai",
+    "title": "Arize AI",
+    "path": "wiki/tools/arize-ai.md"
+  },
+  {
+    "id": "baml",
+    "title": "BAML",
+    "path": "wiki/tools/baml.md"
+  },
+  {
+    "id": "baseten",
+    "title": "Baseten",
+    "path": "wiki/tools/baseten.md"
+  },
+  {
+    "id": "cerebras",
+    "title": "Cerebras",
+    "path": "wiki/tools/cerebras.md"
+  },
+  {
+    "id": "chatgpt-apps",
+    "title": "ChatGPT Apps",
+    "path": "wiki/tools/chatgpt-apps.md"
+  },
+  {
+    "id": "claude-code",
+    "title": "Claude Code",
+    "path": "wiki/tools/claude-code.md"
+  },
+  {
+    "id": "claude-skills",
+    "title": "Claude Skills",
+    "path": "wiki/tools/claude-skills.md"
+  },
+  {
+    "id": "cloudflare-workers",
+    "title": "Cloudflare Workers",
+    "path": "wiki/tools/cloudflare-workers.md"
+  },
+  {
+    "id": "coderabbit",
+    "title": "CodeRabbit",
+    "path": "wiki/tools/coderabbit.md"
+  },
+  {
+    "id": "coding-agents",
+    "title": "Coding Agents",
+    "path": "wiki/tools/coding-agents.md"
+  },
+  {
+    "id": "cursor",
+    "title": "Cursor",
+    "path": "wiki/tools/cursor.md"
+  },
+  {
+    "id": "elevenlabs",
+    "title": "ElevenLabs",
+    "path": "wiki/tools/elevenlabs.md"
+  },
+  {
+    "id": "github",
+    "title": "GitHub",
+    "path": "wiki/tools/github.md"
+  },
+  {
+    "id": "google-ai-studio",
+    "title": "Google AI Studio",
+    "path": "wiki/tools/google-ai-studio.md"
+  },
+  {
+    "id": "humanlayer",
+    "title": "HumanLayer",
+    "path": "wiki/tools/humanlayer.md"
+  },
+  {
+    "id": "kody",
+    "title": "kody",
+    "path": "wiki/tools/kody.md"
+  },
+  {
+    "id": "langgraph",
+    "title": "LangGraph",
+    "path": "wiki/tools/langgraph.md"
+  },
+  {
+    "id": "lyria",
+    "title": "Lyria",
+    "path": "wiki/tools/lyria.md"
+  },
+  {
+    "id": "mcp",
+    "title": "Model Context Protocol",
+    "path": "wiki/tools/mcp.md"
+  },
+  {
+    "id": "mobile-npu",
+    "title": "Mobile NPU",
+    "path": "wiki/tools/mobile-npu.md"
+  },
+  {
+    "id": "modem",
+    "title": "Modem",
+    "path": "wiki/tools/modem.md"
+  },
+  {
+    "id": "morph-llm",
+    "title": "Morph LLM",
+    "path": "wiki/tools/morph-llm.md"
+  },
+  {
+    "id": "mux",
+    "title": "Mux",
+    "path": "wiki/tools/mux.md"
+  },
+  {
+    "id": "neo4j",
+    "title": "Neo4j",
+    "path": "wiki/tools/neo4j.md"
+  },
+  {
+    "id": "openai-realtime",
+    "title": "OpenAI Realtime API",
+    "path": "wiki/tools/openai-realtime.md"
+  },
+  {
+    "id": "opencode-sdk",
+    "title": "OpenCode SDK",
+    "path": "wiki/tools/opencode-sdk.md"
+  },
+  {
+    "id": "opencode",
+    "title": "OpenCode",
+    "path": "wiki/tools/opencode.md"
+  },
+  {
+    "id": "openrouter",
+    "title": "OpenRouter",
+    "path": "wiki/tools/openrouter.md"
+  },
+  {
+    "id": "pi-agent-sdk",
+    "title": "Pi Agent SDK",
+    "path": "wiki/tools/pi-agent-sdk.md"
+  },
+  {
+    "id": "qodo",
+    "title": "Qodo",
+    "path": "wiki/tools/qodo.md"
+  },
+  {
+    "id": "reachy-mini",
+    "title": "Reachy Mini",
+    "path": "wiki/tools/reachy-mini.md"
+  },
+  {
+    "id": "snowflake",
+    "title": "Snowflake",
+    "path": "wiki/tools/snowflake.md"
+  },
+  {
+    "id": "ssh",
+    "title": "SSH",
+    "path": "wiki/tools/ssh.md"
+  },
+  {
+    "id": "tmux",
+    "title": "tmux",
+    "path": "wiki/tools/tmux.md"
+  },
+  {
+    "id": "veo",
+    "title": "Veo",
+    "path": "wiki/tools/veo.md"
+  },
+  {
+    "id": "vercel-ai-sdk",
+    "title": "Vercel AI SDK",
+    "path": "wiki/tools/vercel-ai-sdk.md"
+  }
+]

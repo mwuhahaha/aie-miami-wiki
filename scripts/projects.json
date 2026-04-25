@@ -1,0 +1,28 @@
+[
+  {
+    "name": "aie-miami-wiki",
+    "path": "/garage/projects/aie-miami.wiki.local",
+    "description": "AIE Wiki - read-only public AI Engineer Miami 2026 transcript wiki generated from the allowed Day 1/Day 2 transcripts, the official conference site, and clearly labeled public-web supporting context.",
+    "displayName": "AIE Wiki",
+    "brandSubtitle": "Public AI Engineer Miami 2026 transcript and research wiki.",
+    "genre": "event",
+    "categories": [
+      "companies",
+      "events",
+      "people",
+      "resources",
+      "talks",
+      "tools",
+      "topics",
+      "quotes"
+    ],
+    "primaryUrl": "https://www.ai.engineer/miami",
+    "primaryLabel": "Official conference site",
+    "primarySummary": "Official AI Engineer Miami conference page used for schedule, roster, and event framing.",
+    "readOnly": true,
+    "publicShare": true,
+    "hideCalendar": true,
+    "instructionsFile": "AGENT.md",
+    "sourceBoundary": "transcripts + official site + clearly labeled public-web supporting context"
+  }
+]

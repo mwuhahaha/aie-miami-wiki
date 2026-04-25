@@ -1,0 +1,15 @@
+{
+  "name": "aie-miami-wiki",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone read-only public wiki for AI Engineer Miami 2026.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "d3": "^7.9.0",
+    "express": "^5.2.1",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.1.0"
+  }
+}
