@@ -239,7 +239,13 @@ function getProject(name) {
   return loadProjects().find((project) => project.name === name);
 }
 
+function getProjectPath(project) {
+  const configuredPath = project?.path || ROOT;
+  return fs.existsSync(configuredPath) ? configuredPath : ROOT;
+}
+
 function publicProject(project, categories) {
+  const projectPath = getProjectPath(project);
   return {
     name: project.name,
     displayName: project.displayName || project.name,
@@ -250,9 +256,9 @@ function publicProject(project, categories) {
     categories,
     configuredCategories: project.categories || [],
     categoryMeta: getCategoryMeta(categories),
-    wikiPath: path.join(project.path, "wiki"),
+    wikiPath: path.join(projectPath, "wiki"),
     obsidianVaultUrl: "",
-    claudePath: path.join(project.path, project.instructionsFile || "AGENT.md"),
+    claudePath: path.join(projectPath, project.instructionsFile || "AGENT.md"),
     instructionsFilename: project.instructionsFile || "AGENT.md",
     primaryUrl: project.primaryUrl || "",
     primaryLabel: project.primaryLabel || "",
@@ -269,7 +275,7 @@ function publicProject(project, categories) {
       configuredOnly: (project.categories || []).filter((category) => !categories.includes(category)),
       syncableCategories: categories,
     },
-    path: project.path,
+    path: projectPath,
     readOnly: true,
     publicShare: true,
     hideCalendar: true,
@@ -277,7 +283,7 @@ function publicProject(project, categories) {
 }
 
 function buildProjectIndex(project) {
-  const files = walkMarkdownFiles(path.join(project.path, "wiki"));
+  const files = walkMarkdownFiles(path.join(getProjectPath(project), "wiki"));
   const pages = files.map((filePath) => parsePage(project, filePath)).filter(Boolean);
   const byId = new Map(pages.map((page) => [page.id, page]));
   const slugToIds = new Map();
@@ -327,7 +333,7 @@ function parsePage(project, filePath) {
   const raw = fs.readFileSync(filePath, "utf8");
   const stats = fs.statSync(filePath);
   const parsed = matter(raw);
-  const wikiRoot = path.join(project.path, "wiki");
+  const wikiRoot = path.join(getProjectPath(project), "wiki");
   const wikiPath = slashify(path.relative(wikiRoot, filePath));
   const id = wikiPath.replace(/\.md$/i, "");
   const segments = id.split("/");
@@ -357,7 +363,7 @@ function parsePage(project, filePath) {
 }
 
 function discoverCategories(project) {
-  const wikiRoot = path.join(project.path, "wiki");
+  const wikiRoot = path.join(getProjectPath(project), "wiki");
   return fs.readdirSync(wikiRoot, { withFileTypes: true })
     .filter((entry) => entry.isDirectory() && !entry.name.startsWith(".") && entry.name !== "assets")
     .map((entry) => entry.name)
@@ -520,7 +526,7 @@ function detectTranscriptPaths(page) {
 }
 
 function collectProjectQuotes(project) {
-  const quotesPath = path.join(project.path, "wiki", "quotes.md");
+  const quotesPath = path.join(getProjectPath(project), "wiki", "quotes.md");
   if (!fs.existsSync(quotesPath)) {
     return [];
   }
