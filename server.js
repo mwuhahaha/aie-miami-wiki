@@ -400,11 +400,30 @@ function renderPage(page, project, index) {
     return `[${escapeMarkdownLabel(alias)}](${href})`;
   });
   let html = markdown.render(content);
+  html = linkTranscriptDownloads(html);
   for (const link of unresolvedLinks) {
     const pattern = new RegExp(link.token, "g");
     html = html.replace(pattern, `<span class="wikilink unresolved" title="Unavailable reference in this public read-only wiki" data-wikilink-target="${escapeHtml(link.target)}">${escapeHtml(link.alias)}</span>`);
   }
   return html;
+}
+
+function linkTranscriptDownloads(html) {
+  const transcriptDownloads = new Map([
+    ["/tmp/aie-miami-transcript.txt", "/downloads/transcripts/day-1-transcript.txt"],
+    ["/tmp/aie-miami-part2-transcript.txt", "/downloads/transcripts/day-2-transcript.txt"],
+  ]);
+  let linkedHtml = html;
+  for (const [transcriptPath, downloadPath] of transcriptDownloads) {
+    const escapedPath = escapeHtml(transcriptPath);
+    const escapedDownloadPath = escapeHtml(downloadPath);
+    const codePattern = new RegExp(`<code>${escapeRegExp(escapedPath)}</code>`, "g");
+    linkedHtml = linkedHtml.replace(codePattern, `<a href="${escapedDownloadPath}" download><code>${escapedPath}</code></a>`);
+
+    const textPattern = new RegExp(`(?<!["'=]>|/code&gt;|>)${escapeRegExp(escapedPath)}`, "g");
+    linkedHtml = linkedHtml.replace(textPattern, `<a href="${escapedDownloadPath}" download>${escapedPath}</a>`);
+  }
+  return linkedHtml;
 }
 
 function buildSections(pages) {
@@ -695,6 +714,10 @@ function escapeHtml(value) {
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
+}
+
+function escapeRegExp(value) {
+  return String(value || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 function escapeMarkdownLabel(value) {
