@@ -6808,7 +6808,13 @@ function defaultProjectPath(name) {
 
 function highlightActivePage() {
   sectionsEl.querySelectorAll("[data-page-id]").forEach((button) => {
-    button.classList.toggle("active", button.dataset.pageId === state.currentPageId && state.currentView === "page");
+    const active = button.dataset.pageId === state.currentPageId && state.currentView === "page";
+    button.classList.toggle("active", active);
+    if (active) {
+      button.setAttribute("aria-current", "page");
+    } else {
+      button.removeAttribute("aria-current");
+    }
   });
   updateNavigationActiveState();
 }
