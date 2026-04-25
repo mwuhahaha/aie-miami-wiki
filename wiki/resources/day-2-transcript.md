@@ -29,3 +29,7 @@ Transcript-derived
 ## Link
 
 `/tmp/aie-miami-part2-transcript.txt`
+
+## Download
+
+- [Download the full Day 2 transcript](/downloads/transcripts/day-2-transcript.txt)

@@ -25,6 +25,19 @@ app.get("/", (_req, res) => {
   res.sendFile(path.join(ROOT, "public", "index.html"));
 });
 
+app.get("/downloads/transcripts/:filename", (req, res) => {
+  const allowed = new Map([
+    ["day-1-transcript.txt", "AI Engineer Miami 2026 - Day 1 transcript.txt"],
+    ["day-2-transcript.txt", "AI Engineer Miami 2026 - Day 2 transcript.txt"],
+  ]);
+  const downloadName = allowed.get(req.params.filename);
+  if (!downloadName) {
+    res.status(404).send("Transcript not found");
+    return;
+  }
+  res.download(path.join(ROOT, "public", "transcripts", req.params.filename), downloadName);
+});
+
 app.get("/api/projects", (_req, res) => {
   const projects = loadProjects().map((project) => {
     const index = buildProjectIndex(project);
