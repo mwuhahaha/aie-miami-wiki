@@ -3796,6 +3796,18 @@ textarea {
     grid-template-columns: 1fr;
   }
 
+  .conference-home > * {
+    order: 3;
+  }
+
+  .conference-home .home-quick-access-panel {
+    order: 1;
+  }
+
+  .conference-home .conference-source-panel {
+    order: 2;
+  }
+
   .home-actions-split {
     align-items: stretch;
   }
