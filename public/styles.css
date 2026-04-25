@@ -3771,6 +3771,11 @@ textarea {
   box-shadow: var(--shadow);
 }
 
+.mobile-menu-button,
+.mobile-menu-backdrop {
+  display: none;
+}
+
 @media (max-width: 980px) {
   .shell {
     grid-template-columns: 1fr;
@@ -3905,6 +3910,57 @@ textarea {
 @media (max-width: 640px) {
   .sidebar {
     display: none;
+  }
+
+  .mobile-menu-button {
+    position: fixed;
+    top: 0.85rem;
+    right: 0.85rem;
+    z-index: 1005;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    min-height: 2.65rem;
+    padding: 0.65rem 0.85rem;
+    border: 1px solid rgba(15, 23, 42, 0.14);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.94);
+    color: var(--text);
+    box-shadow: 0 12px 30px rgba(15, 23, 42, 0.16);
+    backdrop-filter: blur(12px);
+  }
+
+  .mobile-menu-button svg {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .mobile-menu-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 1003;
+    display: block;
+    background: rgba(15, 23, 42, 0.36);
+    backdrop-filter: blur(3px);
+  }
+
+  .mobile-menu-backdrop.hidden {
+    display: none;
+  }
+
+  body.mobile-menu-open .sidebar {
+    position: fixed;
+    inset: 0 auto 0 0;
+    z-index: 1004;
+    display: block;
+    width: min(22rem, calc(100vw - 3.5rem));
+    height: 100vh;
+    padding: 1rem;
+    overflow-y: auto;
+    border-right: 1px solid var(--border);
+    border-bottom: 0;
+    box-shadow: 20px 0 60px rgba(15, 23, 42, 0.22);
   }
 
   .graph-canvas {

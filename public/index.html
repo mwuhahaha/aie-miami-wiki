@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="shell">
-      <aside class="sidebar">
+      <aside id="site-sidebar" class="sidebar">
         <div class="brand">
           <div class="brand-menu">
             <a id="calendar-button" class="ghost-button inline-action hidden" href="#/calendar">Calendar</a>
@@ -87,6 +87,9 @@
         </section>
       </main>
     </div>
+
+    <button id="mobile-menu-button" class="mobile-menu-button" type="button" aria-controls="site-sidebar" aria-expanded="false">Menu</button>
+    <div id="mobile-menu-backdrop" class="mobile-menu-backdrop hidden" aria-hidden="true"></div>
 
     <button id="activity-launcher" class="activity-launcher hidden" type="button" aria-label="Open activity center"></button>
     <div id="activity-modal" class="activity-modal hidden" aria-hidden="true">

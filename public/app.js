@@ -137,6 +137,9 @@ const toastEl = document.querySelector("#toast");
 const rootQuotesButton = document.querySelector("#root-quotes-button");
 const calendarButton = document.querySelector("#calendar-button");
 const workspaceSidebarGroup = document.querySelector("#workspace-sidebar-group");
+const siteSidebar = document.querySelector("#site-sidebar");
+const mobileMenuButton = document.querySelector("#mobile-menu-button");
+const mobileMenuBackdrop = document.querySelector("#mobile-menu-backdrop");
 const activityLauncher = document.querySelector("#activity-launcher");
 const activityModal = document.querySelector("#activity-modal");
 const activityModalBackdrop = document.querySelector("#activity-modal-backdrop");
@@ -301,6 +304,29 @@ async function init() {
   if (calendarButton) {
     calendarButton.innerHTML = `${icon("calendar")} Calendar`;
   }
+  if (mobileMenuButton) {
+    mobileMenuButton.innerHTML = `${icon("categories")} Menu`;
+    mobileMenuButton.addEventListener("click", () => setMobileMenuOpen(!document.body.classList.contains("mobile-menu-open")));
+  }
+  setMobileMenuOpen(false);
+  mobileMenuBackdrop?.addEventListener("click", () => setMobileMenuOpen(false));
+  siteSidebar?.addEventListener("click", (event) => {
+    const action = event.target.closest("a, button");
+    if (!action || event.target.closest("label, input, select, textarea")) {
+      return;
+    }
+    if (
+      action.matches(".page-link, .category-filter-open") ||
+      ["overview-button", "index-button", "graph-button", "quotes-button", "chapters-button", "compose-button", "claude-button"].includes(action.id)
+    ) {
+      setMobileMenuOpen(false);
+    }
+  });
+  window.addEventListener("resize", () => {
+    if (window.matchMedia("(min-width: 641px)").matches) {
+      setMobileMenuOpen(false);
+    }
+  });
   if (activityLauncher) {
     activityLauncher.innerHTML = `${icon("gear")}<span class="activity-launcher-count">0</span>`;
     activityLauncher.addEventListener("click", openActivityCenter);
@@ -347,6 +373,10 @@ async function init() {
   });
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
+      if (document.body.classList.contains("mobile-menu-open")) {
+        setMobileMenuOpen(false);
+        return;
+      }
       const openAutoReorganizePanel = articleView?.querySelector?.("[data-auto-reorganize-modal]:not(.hidden)")?.closest?.("[data-auto-reorganize-panel]");
       if (openAutoReorganizePanel) {
         setAutoReorganizeModalOpen(openAutoReorganizePanel, false);
@@ -6817,6 +6847,24 @@ function highlightActivePage() {
     }
   });
   updateNavigationActiveState();
+}
+
+function setMobileMenuOpen(open) {
+  const isMobile = window.matchMedia("(max-width: 640px)").matches;
+  const isOpen = Boolean(open);
+  document.body.classList.toggle("mobile-menu-open", isOpen);
+  mobileMenuButton?.setAttribute("aria-expanded", isOpen ? "true" : "false");
+  if (mobileMenuButton) {
+    mobileMenuButton.innerHTML = `${icon(isOpen ? "arrow-in" : "categories")} ${isOpen ? "Close" : "Menu"}`;
+  }
+  mobileMenuBackdrop?.classList.toggle("hidden", !isOpen);
+  if (siteSidebar) {
+    if (isMobile) {
+      siteSidebar.setAttribute("aria-hidden", isOpen ? "false" : "true");
+    } else {
+      siteSidebar.removeAttribute("aria-hidden");
+    }
+  }
 }
 
 function setNavCurrent(element, active) {
