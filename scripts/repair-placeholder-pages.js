@@ -151,7 +151,7 @@ function renderTalk({ slug, title }) {
     "",
     `- Treat this page as a repaired landing point for the talk, not a verbatim transcript.`,
     `- Use the linked topic pages to follow the main engineering themes: ${inlineLinkList(themes.topics, "topics")}.`,
-    speaker ? `- Speaker page: ${wikilink(`people/${speaker.id}`, speaker.title)}.` : "- Speaker metadata should be checked against the official conference site before adding biographical details.",
+    speaker ? `- Speaker page: ${wikilink(`people/${speaker.id}`, speaker.title)}.` : "- Speaker metadata should be checked against the public conference website before adding biographical details.",
     "",
     "## Related Pages",
     "",
@@ -179,7 +179,7 @@ function renderPerson({ slug, title }) {
     "",
     talks.length
       ? `${title}'s linked session was ${talks.map((talk) => wikilink(`talks/${talk.id}`, talk.title)).join(", ")}. Read that talk page for the session-level orientation and source labels.`
-      : `This page should be used as a lightweight person landing page until fuller public evidence is added from the official conference site or transcripts.`,
+      : `This page should be used as a lightweight person landing page until fuller public evidence is added from the public conference website or transcripts.`,
     "",
     "## Talks",
     "",
@@ -250,7 +250,7 @@ function renderTopic({ slug, title }) {
     "",
     "## Summary",
     "",
-    `${title} is a conference theme page for the public AI Engineer Miami 2026 wiki. This repaired version restores readable content for the page and keeps the claims bounded to the local conference corpus: the two transcripts, the official conference site, and clearly labeled public-web context where available.`,
+    `${title} is a conference theme page for the public AI Engineer Miami 2026 wiki. This repaired version restores readable content for the page and keeps the claims bounded to the local conference corpus: the two transcripts, the public conference website, and clearly labeled public-web context where available.`,
     "",
     "## Why It Matters",
     "",
@@ -310,7 +310,7 @@ function sources(date) {
     "## Sources",
     "",
     `- **Transcript-derived:** \`${transcript}\`.`,
-    "- **Official conference site:** https://www.ai.engineer/miami",
+    "- **Conference website reference:** https://www.ai.engineer/miami",
     "- **Public-web supporting context:** no additional public-web claims were added in this repair pass.",
   ].join("\n");
 }

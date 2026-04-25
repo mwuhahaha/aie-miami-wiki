@@ -402,11 +402,30 @@ function renderPage(page, project, index) {
   });
   let html = markdown.render(content);
   html = linkTranscriptDownloads(html);
+  html = normalizeConferenceWebsiteLabels(html);
   for (const link of unresolvedLinks) {
     const pattern = new RegExp(link.token, "g");
     html = html.replace(pattern, `<span class="wikilink unresolved" title="Unavailable reference in this public read-only wiki" data-wikilink-target="${escapeHtml(link.target)}">${escapeHtml(link.alias)}</span>`);
   }
   return html;
+}
+
+function normalizeConferenceWebsiteLabels(html) {
+  return String(html || "")
+    .split(/(<[^>]*>)/g)
+    .map((part) => {
+      if (part.startsWith("<")) {
+        return part;
+      }
+      return normalizeConferenceWebsiteText(part);
+    })
+    .join("");
+}
+
+function normalizeConferenceWebsiteText(value) {
+  return String(value || "")
+    .replace(/Official conference site/g, "Conference website reference")
+    .replace(/official conference site/g, "public conference website");
 }
 
 function linkTranscriptDownloads(html) {
@@ -454,12 +473,12 @@ function pageListItem(page) {
   return {
     id: page.id,
     slug: page.slug,
-    title: page.title,
+    title: normalizeConferenceWebsiteText(page.title),
     aliases: page.aliases || [],
     category: page.category,
     entityType: humanizeCategory(page.category),
     byline: page.frontmatter?.date || "",
-    excerpt: page.excerpt,
+    excerpt: normalizeConferenceWebsiteText(page.excerpt),
     wikiPath: page.wikiPath,
     createdAt: page.createdAt || "",
   };

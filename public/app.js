@@ -1119,7 +1119,7 @@ async function showHome(updateHash = true) {
             metaPill("categories", `${getManagedProjectCategories().length} categories`),
           ]),
       ...(state.currentProject.primaryUrl
-        ? [metaLink(state.currentProject.primaryLabel || "Primary source", state.currentProject.primaryUrl, icon("links"))]
+        ? [metaLink(state.currentProject.primaryLabel || "Conference website reference", state.currentProject.primaryUrl, icon("links"))]
         : []),
       ...(!isReadOnlyProject() ? [metaLink("Open vault", state.currentProject.obsidianVaultUrl, icon("obsidian"))] : []),
     ],
@@ -2695,11 +2695,12 @@ async function loadTodoTaskHomePages(requestId) {
 
 function renderConferenceSourcePanel(sourceContext) {
   const summary = sourceContext.summary || state.currentProject.primarySummary || "";
+  const conferenceLinkLabel = state.currentProject.primaryLabel || "Conference website reference";
   return `
     <section class="home-panel conference-source-panel">
       <div class="card-header">
-        <p class="eyebrow">Canonical Source</p>
-        <h3>${escapeHtml(state.currentProject.primaryLabel || "Official conference site")}</h3>
+        <p class="eyebrow">Wiki Description</p>
+        <h3>About this public wiki</h3>
       </div>
       <p class="conference-source-title">${escapeHtml(sourceContext.title || "AI Engineer Miami")}</p>
       <p class="muted">${escapeHtml(summary)}</p>
@@ -2711,7 +2712,7 @@ function renderConferenceSourcePanel(sourceContext) {
         ${state.currentProject.sourceBoundary ? `<div class="conference-fact"><span>Source boundary</span><strong>${escapeHtml(state.currentProject.sourceBoundary)}</strong></div>` : ""}
       </div>
       <div class="rename-actions conference-source-actions">
-        <a class="ghost-button inline-action" href="${escapeHtml(sourceContext.url)}" target="_blank" rel="noreferrer">${icon("links")} ${escapeHtml(state.currentProject.primaryLabel || "Official conference site")}</a>
+        <a class="ghost-button inline-action" href="${escapeHtml(sourceContext.url)}" target="_blank" rel="noreferrer">${icon("links")} ${escapeHtml(conferenceLinkLabel)}</a>
         ${sourceContext.venueUrl ? `<a class="ghost-button inline-action" href="${escapeHtml(sourceContext.venueUrl)}" target="_blank" rel="noreferrer">${icon("links")} Venue</a>` : ""}
         ${sourceContext.mapUrl ? `<a class="ghost-button inline-action" href="${escapeHtml(sourceContext.mapUrl)}" target="_blank" rel="noreferrer">${icon("links")} Map</a>` : ""}
       </div>
