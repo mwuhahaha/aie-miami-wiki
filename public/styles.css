@@ -3904,13 +3904,7 @@ textarea {
 
 @media (max-width: 640px) {
   .sidebar {
-    padding: 1rem;
-  }
-
-  .sidebar-actions,
-  .workspace-actions,
-  .nav-actions {
-    grid-template-columns: 1fr;
+    display: none;
   }
 
   .graph-canvas {
