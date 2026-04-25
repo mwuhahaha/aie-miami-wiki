@@ -10,9 +10,9 @@ last_auto_summarized: '2026-04-25T19:20:35.653Z'
 ---
 # ChatGPT Apps
 ## Summary
-ChatGPT Apps is represented in this wiki as a tool, product, or technical concept relevant to AI Engineer Miami 2026. This page maps where it fits in the conference material, using the talk titles, transcripts, and public event context.
+ChatGPT Apps is represented in this wiki as a tool, product, or technical concept relevant to AI Engineer Miami 2026. Its conference role is described through talk titles, transcripts, and public event context.
 ## Conference Reading
-Read ChatGPT Apps as a supporting tool page that should be expanded only with transcript-derived or public-web evidence.
+ChatGPT Apps remains a supporting tool entry that should be expanded only with transcript-derived or public-web evidence.
 ## Related Pages
 - Talks: no high-confidence talk link is listed
 ## Sources

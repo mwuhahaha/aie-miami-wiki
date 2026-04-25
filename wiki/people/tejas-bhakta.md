@@ -13,7 +13,7 @@ sourceLabels:
 
 ## Summary
 
-Tejas Bhakta is an AI Engineer Miami 2026 speaker connected to their AI Engineer Miami session. Their conference affiliation is [[morph-llm|Morph LLM]]. The page is a useful entry point for [[coding-agents]]. Read this page as a quick orientation to who they were in the conference program, what they spoke about, and which AI engineering themes their session helps explain.
+Tejas Bhakta is an AI Engineer Miami 2026 speaker connected to their AI Engineer Miami session. Their conference affiliation is [[morph-llm|Morph LLM]]. Their session connects to [[coding-agents]] and shows which AI engineering themes their conference work helps explain.
 
 ## Public Links
 
@@ -21,7 +21,7 @@ The public supporting context used here is the public conference website plus th
 
 ## Why They Matter Here
 
-Within this wiki, Tejas Bhakta's ecosystem role is best understood through the problem their talk contributed: [[coding-agents]], [[specialized-models]], [[sub-agents]]. That is more useful to a public reader than a generic "speaker at the conference" description because it shows what technical or organizational question their session helped answer.
+Within this wiki, Tejas Bhakta's ecosystem role is best understood through the problem their talk contributed: [[coding-agents]], [[specialized-models]], [[sub-agents]]. That framing shows the technical or organizational question their session helped answer, rather than reducing their role to a generic conference-speaker label.
 
 ## Contribution at AI Engineer Miami
 

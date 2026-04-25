@@ -13,7 +13,7 @@ sourceLabels:
 
 ## Summary
 
-Gabe Greenberg is an AI Engineer Miami 2026 speaker connected to [[2026-04-20-gabe-greenberg-opening-remarks|Opening Remarks]]. Their conference affiliation is [[g2i|G2i]]. The page is a useful entry point for [[ai-engineering-community]], [[conference-framing]]. Read this page as a quick orientation to who they were in the conference program, what they spoke about, and which AI engineering themes their session helps explain.
+Gabe Greenberg is an AI Engineer Miami 2026 speaker connected to [[2026-04-20-gabe-greenberg-opening-remarks|Opening Remarks]]. Their conference affiliation is [[g2i|G2i]]. Their session connects to [[ai-engineering-community]], [[conference-framing]] and shows which AI engineering themes their conference work helps explain.
 
 ## Public Links
 
@@ -21,7 +21,7 @@ The public supporting context used here is the public conference website plus th
 
 ## Why They Matter Here
 
-Within this wiki, Gabe Greenberg's ecosystem role is best understood through the problem their talk contributed: [[ai-engineering-community]], [[conference-framing]]. That is more useful to a public reader than a generic "speaker at the conference" description because it shows what technical or organizational question their session helped answer.
+Within this wiki, Gabe Greenberg's ecosystem role is best understood through the problem their talk contributed: [[ai-engineering-community]], [[conference-framing]]. That framing shows the technical or organizational question their session helped answer, rather than reducing their role to a generic conference-speaker label.
 
 ## Contribution at AI Engineer Miami
 

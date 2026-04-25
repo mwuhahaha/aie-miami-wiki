@@ -13,7 +13,7 @@ last_auto_summarized: '2026-04-25T17:34:45.716Z'
 
 ## Summary
 
-Dave Kiss is an AI Engineer Miami 2026 speaker whose session, [[2026-04-21-dave-kiss-agent-ready-interfaces|Agent-ready Interfaces]], framed interface design as part of production agent infrastructure. In this wiki, his page connects [[mux|Mux]] to the conference themes of [[agent-ready-interfaces]] and [[developer-experience]]: if agents are expected to act inside software, products need explicit surfaces, flows, and affordances that agents can use reliably, not just screens optimized for humans. Read this page as a concise orientation to Kiss's role in the program and to the design problem his talk helped name.
+Dave Kiss is an AI Engineer Miami 2026 speaker whose session, [[2026-04-21-dave-kiss-agent-ready-interfaces|Agent-ready Interfaces]], framed interface design as part of production agent infrastructure. In this wiki, his page connects [[mux|Mux]] to the conference themes of [[agent-ready-interfaces]] and [[developer-experience]]: if agents are expected to act inside software, products need explicit surfaces, flows, and affordances that agents can use reliably, not just screens optimized for humans. Kiss's conference role centers on the design problem his talk helped name.
 
 ## Public Links
 

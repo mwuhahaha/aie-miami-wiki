@@ -9,9 +9,9 @@ last_auto_summarized: '2026-04-25T08:05:11.775Z'
 ---
 # kody
 ## Summary
-kody is represented in this wiki as a tool, product, or technical concept relevant to AI Engineer Miami 2026. This page maps where it fits in the conference material, using the talk titles, transcripts, and public event context.
+kody is represented in this wiki as a tool, product, or technical concept relevant to AI Engineer Miami 2026. Its conference role is described through talk titles, transcripts, and public event context.
 ## Conference Reading
-Read kody through [[talks/2026-04-20-nnenna-ndukwe-how-to-embed-ai-code-quality-gates-in-your-sdlc|How to Embed AI Code Quality Gates in Your SDLC]]. Those sessions provide the source-bound context for why this page belongs in the public wiki.
+Read kody through [[talks/2026-04-20-nnenna-ndukwe-how-to-embed-ai-code-quality-gates-in-your-sdlc|How to Embed AI Code Quality Gates in Your SDLC]]. Those sessions provide the source-bound conference context.
 ## Related Pages
 - Talks: [[talks/2026-04-20-nnenna-ndukwe-how-to-embed-ai-code-quality-gates-in-your-sdlc|How to Embed AI Code Quality Gates in Your SDLC]]
 - Companies: [[companies/qodo|Qodo]]

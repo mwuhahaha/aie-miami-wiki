@@ -13,7 +13,7 @@ last_auto_summarized: '2026-04-25T12:19:47.584Z'
 
 ## Summary
 
-A transcript-derived problem category for low-quality AI-generated pull requests that increase review load instead of increasing confidence in the software. In Dexter Horthy's RPI talk, PR slop is the visible failure mode of coding agents that start editing before they have gathered enough context, lose the research trail that explains the change, or produce a plausible diff without the evidence a reviewer needs to trust it. The page connects that failure to [[mcp]] as the tool-facing context layer and [[humanlayer]] as the approval layer: without reliable context access and human checkpoints, a coding agent can turn speed into an opaque review burden.
+A transcript-derived problem category for low-quality AI-generated pull requests that increase review load instead of increasing confidence in the software. In Dexter Horthy's RPI talk, PR slop is the visible failure mode of coding agents that start editing before they have gathered enough context, lose the research trail that explains the change, or produce a plausible diff without the evidence a reviewer needs to trust it. That failure connects to [[mcp]] as the tool-facing context layer and [[humanlayer]] as the approval layer: without reliable context access and human checkpoints, a coding agent can turn speed into an opaque review burden.
 
 ## Why It Matters
 

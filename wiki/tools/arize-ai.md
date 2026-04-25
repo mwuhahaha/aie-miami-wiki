@@ -28,7 +28,7 @@ In that context, Arize AI represented the reliability and interface-design press
 
 ## Conference Reading
 
-Read Arize AI here as part of Laurie's concrete implementation story for evaluating tool interfaces for agents. The page's public-web context only identifies the company; the conference evidence is the comparison between MCP, skills, and agent-ready interfaces as engineering choices. The important takeaway is not that one mechanism wins universally, but that teams need to choose interface boundaries based on portability, observability, reliability, and how the agent will actually perform work.
+Arize AI appears here as part of Laurie's concrete implementation story for evaluating tool interfaces for agents. Public-web context only identifies the company; the conference evidence is the comparison between MCP, skills, and agent-ready interfaces as engineering choices. The important takeaway is not that one mechanism wins universally, but that teams need to choose interface boundaries based on portability, observability, reliability, and how the agent will actually perform work.
 
 ## Talks That Mention or Center It
 

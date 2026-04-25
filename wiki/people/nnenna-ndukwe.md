@@ -13,11 +13,11 @@ last_auto_summarized: '2026-04-25T10:01:12.236Z'
 
 ## Summary
 
-Nnenna Ndukwe is represented in this public AI Engineer Miami 2026 wiki as a conference participant with source-bound links to the public event context and the transcript corpus. This page keeps the biographical framing conservative: it records the linked session information and the themes visible in the local conference map without adding private biographical material.
+Nnenna Ndukwe is represented in this public AI Engineer Miami 2026 wiki as a conference participant with source-bound links to the public event context and the transcript corpus. The biographical framing stays conservative: it records the linked session information and the themes visible in the local conference map without adding private biographical material.
 
 ## Contribution at AI Engineer Miami
 
-Nnenna Ndukwe's linked session was [[talks/2026-04-20-nnenna-ndukwe-how-to-embed-ai-code-quality-gates-in-your-sdlc|How to Embed AI Code Quality Gates in Your SDLC]]. Read that talk page for the session-level orientation and source labels.
+Nnenna Ndukwe's linked session was [[talks/2026-04-20-nnenna-ndukwe-how-to-embed-ai-code-quality-gates-in-your-sdlc|How to Embed AI Code Quality Gates in Your SDLC]]. The talk page carries the session-level context and source labels.
 
 ## Talks
 

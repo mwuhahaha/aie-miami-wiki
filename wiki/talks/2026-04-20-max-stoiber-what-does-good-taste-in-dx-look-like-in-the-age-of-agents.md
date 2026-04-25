@@ -15,9 +15,9 @@ last_auto_summarized: '2026-04-25T19:20:10.807Z'
 
 What Does Good Taste in DX Look Like in the Age of Agents? was an AI Engineer Miami 2026 Day 1 session by Max Stoiber about developer experience judgment in an age of increasingly capable agents.
 
-For a new reader, the main value of the page is orientation: what problem the session was addressing, why it mattered to AI engineers, and where to continue reading next. In this wiki it connects most directly to Ai Adoption and Developer Experience, giving readers a path from the talk into the broader conference themes.
+The session connects most directly to Ai Adoption and Developer Experience, placing the talk inside the broader conference themes.
 
-The summary is grounded in the public transcript and conference context, with related pages showing how the session fits into the larger event.
+The public transcript, conference context, and related pages place the session within the larger event.
 
 ## Conference Context
 The session belongs to the conference's practical AI engineering thread: how builders move from model capability to systems that can be shipped, inspected, operated, and improved. In this wiki, read it alongside [[topics/ai-adoption|Ai Adoption]], [[topics/developer-experience|Developer Experience]] because those pages describe the implementation pressures that the title and transcript evidence point toward.

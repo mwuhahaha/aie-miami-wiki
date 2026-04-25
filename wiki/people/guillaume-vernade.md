@@ -13,11 +13,11 @@ last_auto_summarized: '2026-04-25T04:02:42.500Z'
 
 ## Summary
 
-Guillaume Vernade is represented in this public AI Engineer Miami 2026 wiki as a conference participant with source-bound links to the public event context and the transcript corpus. This page keeps the biographical framing conservative: it records the linked session information and the themes visible in the local conference map without adding private biographical material.
+Guillaume Vernade is represented in this public AI Engineer Miami 2026 wiki as a conference participant with source-bound links to the public event context and the transcript corpus. The biographical framing stays conservative: it records the linked session information and the themes visible in the local conference map without adding private biographical material.
 
 ## Contribution at AI Engineer Miami
 
-This page should be used as a lightweight person landing page until fuller public evidence is added from the public conference website or transcripts.
+This remains a lightweight person landing page until fuller public evidence is added from the public conference website or transcripts.
 
 ## Talks
 

@@ -23,7 +23,7 @@ The practical value is especially clear for long-running or environment-heavy wo
 
 ## Notes
 
-Read this topic through the specific remote-agent workflow described by Ben Vinegar rather than as a generic claim that "agents run in the cloud." The important details are persistence, re-entry, and reviewability. The agent can operate away from the laptop, but the developer should still be able to reconnect to the session, see what is happening, inspect the filesystem, run validation, and steer the work through tools they already trust.
+This topic is grounded in the specific remote-agent workflow described by Ben Vinegar rather than as a generic claim that "agents run in the cloud." The important details are persistence, re-entry, and reviewability. The agent can operate away from the laptop, but the developer should still be able to reconnect to the session, see what is happening, inspect the filesystem, run validation, and steer the work through tools they already trust.
 
 [[tools/modem|Modem]] is useful here because it marks the layer between model capability and engineering adoption. It points to the infrastructure and product surface needed to make remote agent execution manageable: durable sessions, terminal access, visibility into intermediate work, and handoff between human and model. In the broader [[overview|AIE Wiki]] synthesis, remote coding agents belong with agent runtime and infrastructure topics because they expose the operational requirements that appear once coding agents become real collaborators instead of isolated prompts.
 

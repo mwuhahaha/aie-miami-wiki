@@ -17,7 +17,7 @@ Stefan Avram appears in the public AI Engineer Miami 2026 wiki through his linke
 
 ## Contribution at AI Engineer Miami
 
-Stefan Avram's linked session was [[talks/2026-04-21-stefan-avram-the-multimodal-future-is-open-source|The Multimodal Future Is Open Source]]. Read that talk page for the session-level orientation and source labels.
+Stefan Avram's linked session was [[talks/2026-04-21-stefan-avram-the-multimodal-future-is-open-source|The Multimodal Future Is Open Source]]. The talk page carries the session-level context and source labels.
 
 ## Talks
 

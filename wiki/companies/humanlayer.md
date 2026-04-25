@@ -11,7 +11,7 @@ last_auto_summarized: '2026-04-25T06:00:09.974Z'
 ---
 # HumanLayer
 ## Summary
-HumanLayer appears in the AI Engineer Miami 2026 wiki as a company or organization connected to the conference's public knowledge graph. This page avoids unsupported company claims and orients readers to the talks, tools, and themes where the organization is relevant in the allowed conference corpus.
+HumanLayer appears in the AI Engineer Miami 2026 wiki as a company or organization connected to the conference's public knowledge graph. The company note stays with the talks, tools, and themes where the organization is relevant in the allowed conference corpus.
 ## Why It Matters Here
 HumanLayer is connected here through [[talks/2026-04-21-laurie-voss-mcp-vs-skills-evaluating-tool-interfaces-for-agents|MCP vs Skills: Evaluating Tool Interfaces for Agents]]. Use those talk pages and the transcript sources to evaluate the specific conference context.
 ## Related Pages

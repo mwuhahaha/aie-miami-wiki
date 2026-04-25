@@ -16,7 +16,7 @@ Mobile NPU refers to the neural processing hardware inside phones and other edge
 
 ## Why It Matters Here
 
-For ambient generative AI on mobile, the NPU is the practical execution layer that determines what can happen close to the user. It affects latency, privacy, battery drain, model size, and whether an application can continuously interpret context without feeling slow or invasive. Read with [[topics/ambient-generative-ai]], mobile NPU is less a generic chip feature and more a product constraint: engineers have to decide which intelligence runs on-device, which tasks need cloud models, and how the app remains useful while respecting the limits of mobile hardware.
+For ambient generative AI on mobile, the NPU is the practical execution layer that determines what can happen close to the user. It affects latency, privacy, battery drain, model size, and whether an application can continuously interpret context without feeling slow or invasive. Together with [[topics/ambient-generative-ai]], mobile NPU is less a generic chip feature and more a product constraint: engineers have to decide which intelligence runs on-device, which tasks need cloud models, and how the app remains useful while respecting the limits of mobile hardware.
 
 ## Related Pages
 

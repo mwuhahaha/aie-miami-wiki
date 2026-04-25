@@ -15,9 +15,9 @@ last_auto_summarized: '2026-04-25T15:25:34.662Z'
 
 Transforming Programming Mindsets: Case Studies in Agentic Coding Adoption was an AI Engineer Miami 2026 Day 2 session by David House about the organizational habits needed for agentic coding adoption.
 
-For a new reader, the main value of the page is orientation: what problem the session was addressing, why it mattered to AI engineers, and where to continue reading next. In this wiki it connects most directly to Ai Adoption and Agentic Coding Adoption, giving readers a path from the talk into the broader conference themes. The related tools and concepts (Coding Agents) show where the session touches concrete products, platforms, or engineering practices.
+The session connects most directly to Ai Adoption and Agentic Coding Adoption. Related tools and concepts (Coding Agents) tie the talk to concrete products, platforms, and engineering practices in the conference material.
 
-The summary is grounded in the public transcript and conference context, with related pages showing how the session fits into the larger event.
+The public transcript, conference context, and related pages place the session within the larger event.
 
 ## Conference Context
 The session belongs to the conference's practical AI engineering thread: how builders move from model capability to systems that can be shipped, inspected, operated, and improved. In this wiki, read it alongside [[topics/ai-adoption|Ai Adoption]], [[topics/agentic-coding-adoption|Agentic Coding Adoption]] because those pages describe the implementation pressures that the title and transcript evidence point toward.

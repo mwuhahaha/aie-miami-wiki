@@ -10,9 +10,9 @@ last_auto_summarized: '2026-04-24T22:48:49.971Z'
 ---
 # OpenCode
 ## Summary
-OpenCode is represented in this wiki as a tool, product, or technical concept relevant to AI Engineer Miami 2026. This page maps where it fits in the conference material, using the talk titles, transcripts, and public event context.
+OpenCode is represented in this wiki as a tool, product, or technical concept relevant to AI Engineer Miami 2026. Its conference role is described through talk titles, transcripts, and public event context.
 ## Conference Reading
-Read OpenCode through [[talks/2026-04-21-tejas-bhakta-sub-agents-and-specialized-models|Sub-agents and Specialized Models]]. Those sessions provide the source-bound context for why this page belongs in the public wiki.
+OpenCode is tied to [[talks/2026-04-21-tejas-bhakta-sub-agents-and-specialized-models|Sub-agents and Specialized Models]], which provides the source-bound conference context.
 ## Related Pages
 - Talks: [[talks/2026-04-21-tejas-bhakta-sub-agents-and-specialized-models|Sub-agents and Specialized Models]]
 - Companies: [[companies/opencode|OpenCode]]

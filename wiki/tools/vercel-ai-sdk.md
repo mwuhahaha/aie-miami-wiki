@@ -18,7 +18,7 @@ The Vercel AI SDK is a toolkit for building AI-powered applications with framewo
 
 Vercel AI SDK matters in AI engineering because it occupies one of the concrete layers that agents depend on: model access, runtime execution, memory/context, code review, SDK abstraction, developer workflow, or production infrastructure.
 
-The broader engineering lesson is that tools become important when they change the shape of the workflow. A protocol can make capabilities portable, an SDK can make model calls testable, an inference service can change latency economics, and a review tool can turn AI output into something teams can trust. This page reads Vercel AI SDK through that practical lens.
+The broader engineering lesson is that tools become important when they change the shape of the workflow. A protocol can make capabilities portable, an SDK can make model calls testable, an inference service can change latency economics, and a review tool can turn AI output into something teams can trust. Vercel AI SDK is framed through that practical lens.
 
 ## Why It Mattered at AI Engineer Miami
 

@@ -13,7 +13,7 @@ sourceLabels:
 
 ## Summary
 
-Ben Davis is an AI Engineer Miami 2026 speaker connected to [[2026-04-20-ben-davis-you-re-using-the-wrong-ai-sdk|You're using the wrong AI SDK]]. Their conference affiliation is [[t3|T3]]. The page is a useful entry point for [[ai-sdk-selection]], [[typed-ai-interfaces]]. Read this page as a quick orientation to who they were in the conference program, what they spoke about, and which AI engineering themes their session helps explain.
+Ben Davis is an AI Engineer Miami 2026 speaker connected to [[2026-04-20-ben-davis-you-re-using-the-wrong-ai-sdk|You're using the wrong AI SDK]]. Their conference affiliation is [[t3|T3]]. Their session connects to [[ai-sdk-selection]], [[typed-ai-interfaces]] and shows which AI engineering themes their conference work helps explain.
 
 ## Public Links
 
@@ -21,7 +21,7 @@ The public supporting context used here is the public conference website plus th
 
 ## Why They Matter Here
 
-Within this wiki, Ben Davis's ecosystem role is best understood through the problem their talk contributed: [[ai-sdk-selection]], [[typed-ai-interfaces]]. That is more useful to a public reader than a generic "speaker at the conference" description because it shows what technical or organizational question their session helped answer.
+Within this wiki, Ben Davis's ecosystem role is best understood through the problem their talk contributed: [[ai-sdk-selection]], [[typed-ai-interfaces]]. That framing shows the technical or organizational question their session helped answer, rather than reducing their role to a generic conference-speaker label.
 
 ## Contribution at AI Engineer Miami
 

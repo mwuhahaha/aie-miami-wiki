@@ -21,7 +21,7 @@ The theme matters here because voice agents expose agent design in a demanding i
 
 ## Conference Pattern
 
-Across the linked pages, Voice Agents should be read as a practical implementation pattern rather than a standalone claim about the conference. It groups concerns that show up when AI engineers move from demos to usable systems: real-time interaction, conversational state, speech input and output, tool orchestration, model choice, and reliability under user-facing conditions. In this wiki, the topic is currently grounded by Dax Raad's talk, Dax Raad's participant page, and the OpenAI Realtime API tool page.
+Across the linked pages, Voice Agents works as a practical implementation pattern rather than a standalone claim about the conference. It groups concerns that show up when AI engineers move from demos to usable systems: real-time interaction, conversational state, speech input and output, tool orchestration, model choice, and reliability under user-facing conditions. In this wiki, the topic is currently grounded by Dax Raad's talk, Dax Raad's participant page, and the OpenAI Realtime API tool page.
 
 ## Talks That Mention or Center It
 

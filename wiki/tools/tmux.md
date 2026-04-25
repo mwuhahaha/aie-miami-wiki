@@ -10,9 +10,9 @@ last_auto_summarized: '2026-04-25T16:22:26.159Z'
 ---
 # tmux
 ## Summary
-tmux is represented in this wiki as a tool, product, or technical concept relevant to AI Engineer Miami 2026. This page maps where it fits in the conference material, using the talk titles, transcripts, and public event context.
+tmux is represented in this wiki as a tool, product, or technical concept relevant to AI Engineer Miami 2026. Its conference role is described through talk titles, transcripts, and public event context.
 ## Conference Reading
-Read tmux through [[talks/2026-04-20-ben-vinegar-from-local-to-remote-working-with-coding-agents-over-ssh|From Local to Remote: Working with Coding Agents over SSH]]. Those sessions provide the source-bound context for why this page belongs in the public wiki.
+Read tmux through [[talks/2026-04-20-ben-vinegar-from-local-to-remote-working-with-coding-agents-over-ssh|From Local to Remote: Working with Coding Agents over SSH]]. Those sessions provide the source-bound conference context.
 ## Related Pages
 - Talks: [[talks/2026-04-20-ben-vinegar-from-local-to-remote-working-with-coding-agents-over-ssh|From Local to Remote: Working with Coding Agents over SSH]]
 - Topics: [[topics/terminal-workflows|Terminal Workflows]], [[topics/coding-agents|Coding Agents]]

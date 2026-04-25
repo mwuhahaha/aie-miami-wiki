@@ -25,7 +25,7 @@ At AI Engineer Miami, [[ambient-generative-ai]] connected 1 talk(s), centered on
 
 ## Synthesis Pattern
 
-The pattern on this page is a shift from chat-shaped AI toward context-shaped AI. Kalinowski's talk frames ambient generation as something enabled by mobile inputs and local execution: the device can sense context, run some intelligence near the user, and surface generative output only when it fits the moment. Read with [[mobile-npu]], the topic points to a concrete implementation layer for ambient AI: not a vague product category, but a stack involving sensors, on-device models, edge constraints, and selective cloud fallback.
+The pattern on this page is a shift from chat-shaped AI toward context-shaped AI. Kalinowski's talk frames ambient generation as something enabled by mobile inputs and local execution: the device can sense context, run some intelligence near the user, and surface generative output only when it fits the moment. Together with [[mobile-npu]], the topic points to a concrete implementation layer for ambient AI: not a vague product category, but a stack involving sensors, on-device models, edge constraints, and selective cloud fallback.
 
 ## Talks That Mention or Center It
 

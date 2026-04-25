@@ -13,7 +13,7 @@ sourceLabels:
 
 ## Summary
 
-Philip Kiely is an AI Engineer Miami 2026 speaker connected to their AI Engineer Miami session. Their conference affiliation is [[baseten|Baseten]]. Read this page as a quick orientation to who they were in the conference program, what they spoke about, and which AI engineering themes their session helps explain.
+Philip Kiely is an AI Engineer Miami 2026 speaker connected to their AI Engineer Miami session. Their conference affiliation is [[baseten|Baseten]]. Their linked material summarizes their role in the conference program, their session, and the AI engineering themes their talk helps explain.
 
 ## Public Links
 
@@ -21,7 +21,7 @@ The public supporting context used here is the public conference website plus th
 
 ## Why They Matter Here
 
-Within this wiki, Philip Kiely's ecosystem role is best understood through the problem their talk contributed: [[inference-optimization]], [[model-quantization]]. That is more useful to a public reader than a generic "speaker at the conference" description because it shows what technical or organizational question their session helped answer.
+Within this wiki, Philip Kiely's ecosystem role is best understood through the problem their talk contributed: [[inference-optimization]], [[model-quantization]]. That framing shows the technical or organizational question their session helped answer, rather than reducing their role to a generic conference-speaker label.
 
 ## Contribution at AI Engineer Miami
 

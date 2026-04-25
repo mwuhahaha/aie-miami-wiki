@@ -17,7 +17,7 @@ David House appears in the public AI Engineer Miami 2026 wiki through a linked D
 
 ## Contribution at AI Engineer Miami
 
-David House's linked session was [[talks/2026-04-21-david-house-transforming-programming-mindsets-case-studies-in-agentic-coding-adoption|Transforming Programming Mindsets: Case Studies in Agentic Coding Adoption]]. Read that talk page for the session-level orientation and source labels.
+David House's linked session was [[talks/2026-04-21-david-house-transforming-programming-mindsets-case-studies-in-agentic-coding-adoption|Transforming Programming Mindsets: Case Studies in Agentic Coding Adoption]]. The talk page carries the session-level context and source labels.
 
 ## Talks
 

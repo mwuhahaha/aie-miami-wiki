@@ -89,9 +89,9 @@ const pagesNeedingPublicCopy = walk(WIKI_ROOT)
   .filter((file) => {
     const raw = fs.readFileSync(file, "utf8");
     return raw.includes(PLACEHOLDER)
-      || raw.includes("This page gives readers a public orientation")
-      || raw.includes("This page keeps its claims bounded")
-      || raw.includes("This page keeps the biographical framing conservative")
+      || raw.includes("The session summary uses")
+      || raw.includes("Claims here stay bounded")
+      || raw.includes("The biographical framing stays conservative")
       || raw.includes("appears in the AI Engineer Miami 2026 wiki as a company or organization")
       || raw.includes("is represented in this wiki as a tool, product, or technical concept");
   });
@@ -141,11 +141,11 @@ function renderTalk({ slug, title }) {
     "",
     "## Summary",
     "",
-    `${title} was an AI Engineer Miami 2026 ${day} session${speaker ? ` by ${wikilink(`people/${speaker.id}`, speaker.title)}` : ""}. This page gives readers a public orientation to the session using the transcript corpus, conference website context, and related wiki pages.`,
+    `${title} was an AI Engineer Miami 2026 ${day} session${speaker ? ` by ${wikilink(`people/${speaker.id}`, speaker.title)}` : ""}. The session summary uses the transcript corpus, conference website context, and related wiki pages.`,
     "",
     "## Conference Context",
     "",
-    `The session belongs to the conference's practical AI engineering thread: how builders move from model capability to systems that can be shipped, inspected, operated, and improved. In this wiki, read it alongside ${linkList(themes.topics, "topics")} because those pages describe the implementation pressures that the title and transcript evidence point toward.`,
+    `The session belongs to the conference's practical AI engineering thread: how builders move from model capability to systems that can be shipped, inspected, operated, and improved. Related themes include ${linkList(themes.topics, "topics")}, which describe the implementation pressures that the title and transcript evidence point toward.`,
     "",
     "## Related Pages",
     "",
@@ -167,13 +167,13 @@ function renderPerson({ slug, title }) {
     "",
     "## Summary",
     "",
-    `${title} is represented in this public AI Engineer Miami 2026 wiki as a conference participant with links to the public event context and the transcript corpus. The page stays conservative: it records linked session information and themes visible in the local conference map without adding private biographical material.`,
+    `${title} is represented in this public AI Engineer Miami 2026 wiki as a conference participant with links to the public event context and the transcript corpus. The profile stays conservative: it records linked session information and themes visible in the local conference map without adding private biographical material.`,
     "",
     "## Contribution at AI Engineer Miami",
     "",
     talks.length
-      ? `${title}'s linked session was ${talks.map((talk) => wikilink(`talks/${talk.id}`, talk.title)).join(", ")}. Read that talk page for the session-level orientation and source labels.`
-      : `This is a lightweight person landing page until fuller public evidence is added from the public conference website or transcripts.`,
+      ? `${title}'s linked session was ${talks.map((talk) => wikilink(`talks/${talk.id}`, talk.title)).join(", ")}. The talk page carries the session-level context and source labels.`
+      : `This remains a lightweight person landing page until fuller public evidence is added from the public conference website or transcripts.`,
     "",
     "## Talks",
     "",
@@ -194,13 +194,13 @@ function renderCompany({ slug, title }) {
     "",
     "## Summary",
     "",
-    `${title} appears in the AI Engineer Miami 2026 wiki as a company or organization connected to the conference's public knowledge graph. This page avoids unsupported company claims and orients readers to the talks, tools, and themes where the organization is relevant in the allowed conference corpus.`,
+    `${title} appears in the AI Engineer Miami 2026 wiki as a company or organization connected to the conference's public knowledge graph. The company note stays with the talks, tools, and themes where the organization is relevant in the allowed conference corpus.`,
     "",
     "## Why It Matters Here",
     "",
     info.talks.length
       ? `${title} is connected here through ${inlineTalkList(info.talks)}. Use those talk pages and the transcript sources to evaluate the specific conference context.`
-      : `${title} should be read as a navigation node in the conference map until a fuller public-source summary is added.`,
+      : `${title} functions as a navigation node in the conference map until a fuller public-source summary is added.`,
     "",
     "## Related Pages",
     "",
@@ -219,13 +219,13 @@ function renderTool({ slug, title }) {
     "",
     "## Summary",
     "",
-    `${title} is represented in this wiki as a tool, product, or technical concept relevant to AI Engineer Miami 2026. This page maps where it fits in the conference material, using talk titles, transcripts, and public event context rather than private source material.`,
+    `${title} is represented in this wiki as a tool, product, or technical concept relevant to AI Engineer Miami 2026. Its conference role is described through talk titles, transcripts, and public event context rather than private source material.`,
     "",
     "## Conference Reading",
     "",
     info.talks.length
-      ? `Read ${title} through ${inlineTalkList(info.talks)}. Those sessions provide the source-bound context for why this page belongs in the public wiki.`
-      : `Read ${title} as a supporting tool page that should be expanded only with transcript-derived or public-web evidence.`,
+      ? `${title} is tied to ${inlineTalkList(info.talks)}, which provides the source-bound conference context.`
+      : `${title} remains a supporting tool entry that should be expanded only with transcript-derived or public-web evidence.`,
     "",
     "## Related Pages",
     "",
@@ -244,17 +244,17 @@ function renderTopic({ slug, title }) {
     "",
     "## Summary",
     "",
-    `${title} is a conference theme page for the public AI Engineer Miami 2026 wiki. This page keeps its claims bounded to the local conference corpus: the two transcripts, the public conference website, and clearly labeled public-web context where available.`,
+    `${title} is a conference theme page for the public AI Engineer Miami 2026 wiki. Claims here stay bounded to the local conference corpus: the two transcripts, the public conference website, and clearly labeled public-web context where available.`,
     "",
     "## Why It Matters",
     "",
     talkIds.length
       ? `The theme is most directly connected here to ${inlineTalkList(talkIds)}. Those linked sessions show how the topic surfaced as an implementation concern for AI engineers.`
-      : `The theme is useful as a navigation point for readers exploring how the conference connected model capability to engineering practice.`,
+      : `The theme tracks how the conference connected model capability to engineering practice.`,
     "",
     "## Conference Pattern",
     "",
-    `${title} should be read as a lens rather than a standalone claim. It helps group pages that discuss agent design, developer workflows, production constraints, model/tool choices, and the practical work of turning AI systems into reliable software.`,
+    `${title} works as a lens rather than a standalone claim. It helps group pages that discuss agent design, developer workflows, production constraints, model/tool choices, and the practical work of turning AI systems into reliable software.`,
     "",
     "## Talks That Mention or Center It",
     "",
@@ -272,7 +272,7 @@ function renderEvent({ id, title }) {
     "",
     "## Summary",
     "",
-    `${title} is a day-level landing page for AI Engineer Miami 2026. It groups the public wiki's talk pages for ${date} and points readers back to the allowed source corpus rather than private event notes.`,
+    `${title} is a day-level landing page for AI Engineer Miami 2026. It groups the public wiki's talk pages for ${date} and links back to the allowed source corpus rather than private event notes.`,
     "",
     "## Talks",
     "",
@@ -280,7 +280,7 @@ function renderEvent({ id, title }) {
     "",
     "## Source Boundary",
     "",
-    "This event page is derived from the allowed conference transcripts and official conference-site schedule context. It should not be expanded with private recordings, notes, queue state, or mixed-vault material.",
+    "The event context comes from the allowed conference transcripts and public conference-site schedule context, without private recordings, notes, queue state, or mixed-vault material.",
     "",
     sources(date),
   ].join("\n");

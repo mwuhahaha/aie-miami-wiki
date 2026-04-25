@@ -11,7 +11,7 @@ last_auto_summarized: '2026-04-25T10:00:05.429Z'
 ---
 # Qodo
 ## Summary
-Qodo appears in the AI Engineer Miami 2026 wiki as a company or organization connected to the conference's public knowledge graph. This page avoids unsupported company claims and orients readers to the talks, tools, and themes where the organization is relevant in the allowed conference corpus.
+Qodo appears in the AI Engineer Miami 2026 wiki as a company or organization connected to the conference's public knowledge graph. The company note stays with the talks, tools, and themes where the organization is relevant in the allowed conference corpus.
 ## Why It Matters Here
 Qodo is connected here through [[talks/2026-04-20-nnenna-ndukwe-how-to-embed-ai-code-quality-gates-in-your-sdlc|How to Embed AI Code Quality Gates in Your SDLC]]. Use those talk pages and the transcript sources to evaluate the specific conference context.
 ## Related Pages

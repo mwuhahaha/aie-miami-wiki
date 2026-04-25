@@ -23,7 +23,7 @@ This is also why the topic belongs near [[topics/agent-workflows|agent workflows
 
 ## Notes
 
-Read this topic through the concrete remote-agent setup described by Ben Vinegar rather than as a generic preference for command-line tools. The key details are SSH, tmux, persistent remote environments, CLI-native control, and repeatable human review. [[tools/modem|Modem]] appears as a marker for that workflow layer: agent execution can leave the local laptop, but the developer should still be able to observe state, recover context, run checks, and steer the work from a terminal.
+This topic is grounded in the concrete remote-agent setup described by Ben Vinegar rather than as a generic preference for command-line tools. The key details are SSH, tmux, persistent remote environments, CLI-native control, and repeatable human review. [[tools/modem|Modem]] appears as a marker for that workflow layer: agent execution can leave the local laptop, but the developer should still be able to observe state, recover context, run checks, and steer the work from a terminal.
 
 The broader pattern is that coding agents need operational surfaces, not just model capability. A terminal workflow keeps generated code attached to commands, tests, logs, and filesystem state, which makes it easier to evaluate what happened and decide what should happen next.
 

@@ -13,7 +13,7 @@ sourceLabels:
 
 ## Summary
 
-Sarah Chieng is an AI Engineer Miami 2026 speaker connected to [[2026-04-21-sarah-chieng-latency-debt-and-fast-coding-models|Latency Debt and Fast Coding Models]]. Their conference affiliation is [[cerebras|Cerebras]]. The page is a useful entry point for [[developer-experience]], [[fast-inference]], [[latency-debt]]. Read this page as a quick orientation to who they were in the conference program, what they spoke about, and which AI engineering themes their session helps explain.
+Sarah Chieng is an AI Engineer Miami 2026 speaker connected to [[2026-04-21-sarah-chieng-latency-debt-and-fast-coding-models|Latency Debt and Fast Coding Models]]. Their conference affiliation is [[cerebras|Cerebras]]. Their session connects to [[developer-experience]], [[fast-inference]], [[latency-debt]] and shows which AI engineering themes their conference work helps explain.
 
 ## Public Links
 
@@ -21,7 +21,7 @@ The public supporting context used here is the public conference website plus th
 
 ## Why They Matter Here
 
-Within this wiki, Sarah Chieng's ecosystem role is best understood through the problem their talk contributed: [[developer-experience]], [[fast-inference]], [[latency-debt]]. That is more useful to a public reader than a generic "speaker at the conference" description because it shows what technical or organizational question their session helped answer.
+Within this wiki, Sarah Chieng's ecosystem role is best understood through the problem their talk contributed: [[developer-experience]], [[fast-inference]], [[latency-debt]]. That framing shows the technical or organizational question their session helped answer, rather than reducing their role to a generic conference-speaker label.
 
 ## Contribution at AI Engineer Miami
 

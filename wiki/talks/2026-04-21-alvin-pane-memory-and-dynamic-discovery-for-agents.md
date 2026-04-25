@@ -15,9 +15,9 @@ last_auto_summarized: '2026-04-25T12:02:49.359Z'
 
 Memory and Dynamic Discovery for Agents was an AI Engineer Miami 2026 Day 2 session about the conference themes around agent memory, dynamic context, and context engineering.
 
-For a new reader, the main value of the page is orientation: what problem the session was addressing, why it mattered to AI engineers, and where to continue reading next. In this wiki it connects most directly to agent memory, dynamic context, context engineering, and enterprise agents, giving readers a path from the talk into the broader conference themes. The related company context and company links (OutRival) show where the session touches concrete products, platforms, or engineering practices.
+The session connects most directly to agent memory, dynamic context, context engineering, and enterprise agents. Company context (OutRival) ties the talk to concrete products, platforms, and engineering practices in the conference material.
 
-The summary is grounded in the public transcript and conference context, with related pages showing how the session fits into the larger event.
+The public transcript, conference context, and related pages place the session within the larger event.
 
 Memory and Dynamic Discovery for Agents was Alvin Pane's AI Engineer Miami 2026 talk on agentic memory. Pane started from the familiar failure mode where a productive agent session suddenly becomes less useful because the agent has lost the right context. He argued that the usual response, adding more retrieval infrastructure around the agent, should be questioned rather than assumed.
 

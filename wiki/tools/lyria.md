@@ -10,9 +10,9 @@ last_auto_summarized: '2026-04-24T21:49:10.677Z'
 ---
 # Lyria
 ## Summary
-Lyria is represented in this wiki as a tool, product, or technical concept relevant to AI Engineer Miami 2026. This page maps where it fits in the conference material, using the talk titles, transcripts, and public event context.
+Lyria is represented in this wiki as a tool, product, or technical concept relevant to AI Engineer Miami 2026. Its conference role is described through talk titles, transcripts, and public event context.
 ## Conference Reading
-Read Lyria through [[talks/2026-04-20-alisa-fortin-from-prompt-to-production-maximizing-value-with-google-s-genmedia-models|From Prompt to Production: Maximizing Value with Google's GenMedia Models]]. Those sessions provide the source-bound context for why this page belongs in the public wiki.
+Lyria is tied to [[talks/2026-04-20-alisa-fortin-from-prompt-to-production-maximizing-value-with-google-s-genmedia-models|From Prompt to Production: Maximizing Value with Google's GenMedia Models]], which provides the source-bound conference context.
 ## Related Pages
 - Talks: [[talks/2026-04-20-alisa-fortin-from-prompt-to-production-maximizing-value-with-google-s-genmedia-models|From Prompt to Production: Maximizing Value with Google's GenMedia Models]]
 - Companies: [[companies/google-deepmind|Google DeepMind]]

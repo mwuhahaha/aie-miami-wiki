@@ -13,7 +13,7 @@ last_auto_summarized: '2026-04-24T17:59:20.927Z'
 
 ## Summary
 
-Laurie Voss is an AI Engineer Miami 2026 speaker connected to [[2026-04-21-laurie-voss-mcp-vs-skills-evaluating-tool-interfaces-for-agents|MCP vs Skills: Evaluating Tool Interfaces for Agents]]. Read this page as a quick orientation to who they were in the conference program, what they spoke about, and which AI engineering themes their session helps explain.
+Laurie Voss is an AI Engineer Miami 2026 speaker connected to [[2026-04-21-laurie-voss-mcp-vs-skills-evaluating-tool-interfaces-for-agents|MCP vs Skills: Evaluating Tool Interfaces for Agents]]. Their linked material summarizes their role in the conference program, their session, and the AI engineering themes their talk helps explain.
 
 ## Public Links
 

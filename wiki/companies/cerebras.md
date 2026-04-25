@@ -13,7 +13,7 @@ last_auto_summarized: '2026-04-25T22:33:50.035Z'
 
 ## Summary
 
-Cerebras is represented in the AI Engineer Miami wiki as both a company node and a practical infrastructure reference for fast AI systems. Its clearest conference connection is Sarah Chieng's [[2026-04-21-sarah-chieng-latency-debt-and-fast-coding-models|Latency Debt and Fast Coding Models]], where Cerebras anchors the discussion of [[fast-inference]], [[latency-debt]], and [[developer-experience]]. In the broader wiki map, the page helps connect the root [[index]] resource list with the cross-vault synthesis in [[overview]], giving readers a company-level entry point into the conference's recurring concern with speed, model-serving economics, and production AI workflows.
+Cerebras is represented in the AI Engineer Miami wiki as both a company node and a practical infrastructure reference for fast AI systems. Its clearest conference connection is Sarah Chieng's [[2026-04-21-sarah-chieng-latency-debt-and-fast-coding-models|Latency Debt and Fast Coding Models]], where Cerebras anchors the discussion of [[fast-inference]], [[latency-debt]], and [[developer-experience]]. In the broader wiki map, the page helps connect the root [[index]] resource list with the cross-vault synthesis in [[overview]], creating a company-level route into the conference's recurring concern with speed, model-serving economics, and production AI workflows.
 
 ## Why It Matters Here
 

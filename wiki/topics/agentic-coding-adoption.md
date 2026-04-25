@@ -25,7 +25,7 @@ At AI Engineer Miami, [[agentic-coding-adoption]] was centered by David House's 
 
 ## Synthesis Pattern
 
-The pattern is a case-study view of adoption. Rather than defining [[coding-agents]] abstractly, the connected talk uses engineering behavior as the evidence: what changes when developers rely on agents for meaningful coding work, what support structures make that sustainable, and what review loops keep quality visible. Read with [[g2i]], the topic points toward adoption programs that combine tools, coaching, and process changes so teams learn when to trust agents, when to constrain them, and how to keep human engineering judgment in the loop.
+The pattern is a case-study view of adoption. Rather than defining [[coding-agents]] abstractly, the connected talk uses engineering behavior as the evidence: what changes when developers rely on agents for meaningful coding work, what support structures make that sustainable, and what review loops keep quality visible. Together with [[g2i]], the topic points toward adoption programs that combine tools, coaching, and process changes so teams learn when to trust agents, when to constrain them, and how to keep human engineering judgment in the loop.
 
 ## Talks That Mention or Center It
 

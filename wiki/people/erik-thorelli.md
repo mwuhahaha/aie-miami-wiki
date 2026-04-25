@@ -13,7 +13,7 @@ sourceLabels:
 
 ## Summary
 
-Erik Thorelli is an AI Engineer Miami 2026 speaker connected to [[2026-04-21-erik-thorelli-agent-skills|Agent Skills]]. Their conference affiliation is [[coderabbit|CodeRabbit]]. The page is a useful entry point for [[agent-skills]], [[agent-workflows]]. Read this page as a quick orientation to who they were in the conference program, what they spoke about, and which AI engineering themes their session helps explain.
+Erik Thorelli is an AI Engineer Miami 2026 speaker connected to [[2026-04-21-erik-thorelli-agent-skills|Agent Skills]]. Their conference affiliation is [[coderabbit|CodeRabbit]]. Their session connects to [[agent-skills]], [[agent-workflows]] and shows which AI engineering themes their conference work helps explain.
 
 ## Public Links
 
@@ -21,7 +21,7 @@ The public supporting context used here is the public conference website plus th
 
 ## Why They Matter Here
 
-Within this wiki, Erik Thorelli's ecosystem role is best understood through the problem their talk contributed: [[agent-skills]], [[agent-workflows]]. That is more useful to a public reader than a generic "speaker at the conference" description because it shows what technical or organizational question their session helped answer.
+Within this wiki, Erik Thorelli's ecosystem role is best understood through the problem their talk contributed: [[agent-skills]], [[agent-workflows]]. That framing shows the technical or organizational question their session helped answer, rather than reducing their role to a generic conference-speaker label.
 
 ## Contribution at AI Engineer Miami
 

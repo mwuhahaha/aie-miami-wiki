@@ -13,7 +13,7 @@ sourceLabels:
 
 ## Summary
 
-Shashank Goyal is an AI Engineer Miami 2026 speaker connected to [[2026-04-20-shashank-goyal-the-rise-of-ai-agents-in-the-wild|The Rise of AI Agents in the Wild]]. Their conference affiliation is [[openrouter|OpenRouter]]. The page is a useful entry point for [[agent-evaluations]], [[llm-routing]], [[production-agents]]. Read this page as a quick orientation to who they were in the conference program, what they spoke about, and which AI engineering themes their session helps explain.
+Shashank Goyal is an AI Engineer Miami 2026 speaker connected to [[2026-04-20-shashank-goyal-the-rise-of-ai-agents-in-the-wild|The Rise of AI Agents in the Wild]]. Their conference affiliation is [[openrouter|OpenRouter]]. Their session connects to [[agent-evaluations]], [[llm-routing]], [[production-agents]] and shows which AI engineering themes their conference work helps explain.
 
 ## Public Links
 
@@ -21,7 +21,7 @@ The public supporting context used here is the public conference website plus th
 
 ## Why They Matter Here
 
-Within this wiki, Shashank Goyal's ecosystem role is best understood through the problem their talk contributed: [[agent-evaluations]], [[llm-routing]], [[production-agents]]. That is more useful to a public reader than a generic "speaker at the conference" description because it shows what technical or organizational question their session helped answer.
+Within this wiki, Shashank Goyal's ecosystem role is best understood through the problem their talk contributed: [[agent-evaluations]], [[llm-routing]], [[production-agents]]. That framing shows the technical or organizational question their session helped answer, rather than reducing their role to a generic conference-speaker label.
 
 ## Contribution at AI Engineer Miami
 

@@ -21,7 +21,7 @@ This matters beyond the conference because many teams measure AI adoption by how
 
 ## Why It Mattered at AI Engineer Miami
 
-At AI Engineer Miami, [[ai-productivity]] connected 1 talk(s). Dax Raad's "You Don't Have Any Good Ideas" made the topic concrete by separating agent-amplified building from the harder work of having a clear, defensible idea. The page exists because that distinction is a recurring pressure point for AI engineers: tools can accelerate implementation, but the conference evidence highlighted the need to keep product taste and prioritization in the loop.
+At AI Engineer Miami, [[ai-productivity]] connected 1 talk(s). Dax Raad's "You Don't Have Any Good Ideas" made the topic concrete by separating agent-amplified building from the harder work of having a clear, defensible idea. The topic exists because that distinction is a recurring pressure point for AI engineers: tools can accelerate implementation, but the conference evidence highlighted the need to keep product taste and prioritization in the loop.
 
 ## Synthesis Pattern
 

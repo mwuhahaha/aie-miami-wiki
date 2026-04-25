@@ -14,7 +14,7 @@ sourceLabels:
 
 The Rise of AI Agents in the Wild was an AI Engineer Miami 2026 Day 1 session by Shashank Goyal about the conference themes around Agent Evaluations, Llm Routing, and Production Agents.
 
-For a new reader, the main value of the page is orientation: what problem the session was addressing, why it mattered to AI engineers, and where to continue reading next. In this wiki it connects most directly to Agent Evaluations, Llm Routing, and Production Agents, giving readers a path from the talk into the broader conference themes. The related tools and concepts (Openrouter) and company links (OpenRouter) show where the session touches concrete products, platforms, or engineering practices.
+The session connects most directly to Agent Evaluations, Llm Routing, and Production Agents. Related tools and concepts (Openrouter) and company links (OpenRouter) tie the talk to concrete products, platforms, and engineering practices in the conference material.
 Transcript evidence emphasizes "And combining all of this, the growth in tokens, the growth in models, the growth in ability, is I would say why agents are now a primary workload on the platform." and "So today we'll be talking about the rise of AI agents, and I'm sure you guys are gonna hear this word so many times that I apologize.", which anchors the summary in the public transcript.
 
 ## Talk Thesis
@@ -23,9 +23,9 @@ Shashank Goyal used OpenRouter's production traffic lens to shift evaluation fro
 
 ## Detailed Transcript-Derived Summary
 
-The transcript segment for this talk runs across lines 2327-2839 of `/tmp/aie-miami-transcript.txt`. Read as part of the full conference, the talk contributes to [[agent-evaluations]], [[llm-routing]], [[production-agents]].
+The transcript segment for this talk runs across lines 2327-2839 of `/tmp/aie-miami-transcript.txt`. In the full conference context, the talk contributes to [[agent-evaluations]], [[llm-routing]], [[production-agents]].
 
-The strongest transcript pattern is that this session turns a broad AI-engineering claim into operational detail. It discusses concrete constraints, tradeoffs, or product surfaces rather than leaving the topic at trend level. In the local conference arc, it sits near talks about agent-evaluations, llm-routing, production-agents, so the page should be read as part of a larger argument about how agents move from demos into engineering practice.
+The strongest transcript pattern is that this session turns a broad AI-engineering claim into operational detail. It discusses concrete constraints, tradeoffs, or product surfaces rather than leaving the topic at trend level. In the local conference arc, it sits near talks about agent-evaluations, llm-routing, production-agents, so the session belongs within a larger argument about how agents move from demos into engineering practice.
 
 ## Transcript Evidence
 
@@ -42,7 +42,7 @@ Outside the conference, this topic matters because AI engineering is becoming a 
 
 ## Why It Mattered at AI Engineer Miami
 
-At AI Engineer Miami, the session gave readers a concrete anchor for [[agent-evaluations]], [[llm-routing]], [[production-agents]]. It also connected conference-level ideas to [[openrouter|OpenRouter]], where the public context is: OpenRouter provides a unified interface for accessing many models, which makes it relevant to model routing and real-world usage comparisons.
+At AI Engineer Miami, the session anchored [[agent-evaluations]], [[llm-routing]], [[production-agents]]. It also connected conference-level ideas to [[openrouter|OpenRouter]], where the public context is: OpenRouter provides a unified interface for accessing many models, which makes it relevant to model routing and real-world usage comparisons.
 
 ## Important Concepts and Tools
 

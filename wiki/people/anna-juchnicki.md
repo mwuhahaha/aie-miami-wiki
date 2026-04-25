@@ -13,11 +13,11 @@ last_auto_summarized: '2026-04-25T09:00:08.177Z'
 
 ## Summary
 
-Anna Juchnicki is represented in this public AI Engineer Miami 2026 wiki as a conference participant with source-bound links to the public event context and the transcript corpus. This page keeps the biographical framing conservative: it records the linked session information and the themes visible in the local conference map without adding private biographical material.
+Anna Juchnicki is represented in this public AI Engineer Miami 2026 wiki as a conference participant with source-bound links to the public event context and the transcript corpus. The biographical framing stays conservative: it records the linked session information and the themes visible in the local conference map without adding private biographical material.
 
 ## Contribution at AI Engineer Miami
 
-Anna Juchnicki's linked session was [[talks/2026-04-20-anna-juchnicki-from-tickets-to-prs-shipping-a-governed-snowflake-ops-agent-with-langgraph-and-mcp|From Tickets to PRs: Shipping a Governed Snowflake Ops Agent with LangGraph and MCP]]. Read that talk page for the session-level orientation and source labels.
+Anna Juchnicki's linked session was [[talks/2026-04-20-anna-juchnicki-from-tickets-to-prs-shipping-a-governed-snowflake-ops-agent-with-langgraph-and-mcp|From Tickets to PRs: Shipping a Governed Snowflake Ops Agent with LangGraph and MCP]]. The talk page carries the session-level context and source labels.
 
 ## Talks
 

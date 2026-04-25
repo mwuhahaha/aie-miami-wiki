@@ -14,7 +14,7 @@ sourceLabels:
 
 Opening Remarks was an AI Engineer Miami 2026 Day 1 session by Gabe Greenberg about the conference themes around AI Engineering Community and Conference Framing.
 
-For a new reader, the main value of the page is orientation: what problem the session was addressing, why it mattered to AI engineers, and where to continue reading next. In this wiki it connects most directly to AI Engineering Community and Conference Framing, giving readers a path from the talk into the broader conference themes. The related company context and company links (G2i) show where the session touches concrete products, platforms, or engineering practices.
+The session connects most directly to AI Engineering Community and Conference Framing. Company context (G2i) ties the talk to concrete products, platforms, and engineering practices in the conference material.
 Transcript evidence emphasizes "I'm also the co-organizer of this conference, at least AIE Miami." and "And I would sleep on the floor underneath my desk for hours, because I had migraines, I couldn't think straight, I couldn't do simple math at times.", which anchors the summary in the public transcript.
 
 ## Talk Thesis
@@ -23,9 +23,9 @@ AI Engineer Miami framed the event as a practitioner conference: engineers, CTOs
 
 ## Detailed Transcript-Derived Summary
 
-The transcript segment for this talk runs across lines 49-161 of `/tmp/aie-miami-transcript.txt`. Read as part of the full conference, the talk contributes to [[ai-engineering-community]], [[conference-framing]].
+The transcript segment for this talk runs across lines 49-161 of `/tmp/aie-miami-transcript.txt`. In the full conference context, the talk contributes to [[ai-engineering-community]], [[conference-framing]].
 
-The strongest transcript pattern is that this session turns a broad AI-engineering claim into operational detail. It discusses concrete constraints, tradeoffs, or product surfaces rather than leaving the topic at trend level. In the local conference arc, it sits near talks about ai-engineering-community, conference-framing, so the page should be read as part of a larger argument about how agents move from demos into engineering practice.
+The strongest transcript pattern is that this session turns a broad AI-engineering claim into operational detail. It discusses concrete constraints, tradeoffs, or product surfaces rather than leaving the topic at trend level. In the local conference arc, it sits near talks about ai-engineering-community, conference-framing, so the session belongs within a larger argument about how agents move from demos into engineering practice.
 
 ## Transcript Evidence
 
@@ -42,7 +42,7 @@ Outside the conference, this topic matters because AI engineering is becoming a 
 
 ## Why It Mattered at AI Engineer Miami
 
-At AI Engineer Miami, the session gave readers a concrete anchor for [[ai-engineering-community]], [[conference-framing]]. It also connected conference-level ideas to [[g2i|G2i]], where the public context is: G2i organizes AIE Miami and appears throughout the transcript as the conference host and as a source of agentic-coding adoption case studies.
+At AI Engineer Miami, the session anchored [[ai-engineering-community]], [[conference-framing]]. It also connected conference-level ideas to [[g2i|G2i]], where the public context is: G2i organizes AIE Miami and appears throughout the transcript as the conference host and as a source of agentic-coding adoption case studies.
 
 ## Important Concepts and Tools
 

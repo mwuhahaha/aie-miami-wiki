@@ -14,7 +14,7 @@ sourceLabels:
 
 Latency Debt and Fast Coding Models was an AI Engineer Miami 2026 Day 2 session by Sarah Chieng about how fast coding models change the developer feedback loop.
 
-For a new reader, the main value of the page is orientation: what problem the session was addressing, why it mattered to AI engineers, and where to continue reading next. In this wiki it connects most directly to Latency Debt, Fast Inference, and Developer Experience, giving readers a path from the talk into the broader conference themes. The related tools and concepts (Cerebras) and company links (Cerebras) show where the session touches concrete products, platforms, or engineering practices.
+The session connects most directly to Latency Debt, Fast Inference, and Developer Experience. Related tools and concepts (Cerebras) and company links (Cerebras) tie the talk to concrete products, platforms, and engineering practices in the conference material.
 Transcript evidence emphasizes "And so not only are we unlocking new capabilities and workflows and use cases, but this also fundamentally changes how we as developers can interact with the coding model." and "And the thing that I wanna emphasize is that it's not just about faster models, but it's about the fact that the developer experience is gonna change.", which anchors the summary in the public transcript.
 
 ## Talk Thesis
@@ -23,9 +23,9 @@ Sarah Chieng named model latency as product debt: slow responses alter developer
 
 ## Detailed Transcript-Derived Summary
 
-The transcript segment for this talk runs across lines 284-615 of `/tmp/aie-miami-part2-transcript.txt`. Read as part of the full conference, the talk contributes to [[latency-debt]], [[fast-inference]], [[developer-experience]].
+The transcript segment for this talk runs across lines 284-615 of `/tmp/aie-miami-part2-transcript.txt`. In the full conference context, the talk contributes to [[latency-debt]], [[fast-inference]], [[developer-experience]].
 
-The strongest transcript pattern is that this session turns a broad AI-engineering claim into operational detail. It discusses concrete constraints, tradeoffs, or product surfaces rather than leaving the topic at trend level. In the local conference arc, it sits near talks about latency-debt, fast-inference, developer-experience, so the page should be read as part of a larger argument about how agents move from demos into engineering practice.
+The strongest transcript pattern is that this session turns a broad AI-engineering claim into operational detail. It discusses concrete constraints, tradeoffs, or product surfaces rather than leaving the topic at trend level. In the local conference arc, it sits near talks about latency-debt, fast-inference, developer-experience, so the session belongs within a larger argument about how agents move from demos into engineering practice.
 
 ## Transcript Evidence
 
@@ -42,7 +42,7 @@ Outside the conference, this topic matters because AI engineering is becoming a 
 
 ## Why It Mattered at AI Engineer Miami
 
-At AI Engineer Miami, the session gave readers a concrete anchor for [[latency-debt]], [[fast-inference]], [[developer-experience]]. It also connected conference-level ideas to [[cerebras|Cerebras]], where the public context is: Cerebras builds AI compute systems and inference services that are relevant to the conference's latency and fast-model discussion.
+At AI Engineer Miami, the session anchored [[latency-debt]], [[fast-inference]], [[developer-experience]]. It also connected conference-level ideas to [[cerebras|Cerebras]], where the public context is: Cerebras builds AI compute systems and inference services that are relevant to the conference's latency and fast-model discussion.
 
 ## Important Concepts and Tools
 

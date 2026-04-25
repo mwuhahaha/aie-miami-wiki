@@ -13,11 +13,11 @@ last_auto_summarized: '2026-04-25T19:34:17.623Z'
 
 ## Summary
 
-Dexter Horthy appears in the public AI Engineer Miami 2026 wiki through the Day 1 talk [[talks/2026-04-20-dexter-horthy-everything-we-got-wrong-about-rpi|Everything We got Wrong About RPI]]. The linked materials place his contribution in the conference's practical AI engineering track: how AI coding workflows that look promising in demos can break down when they meet operational constraints, runtime behavior, and sandboxed execution environments. This page stays source-bound to the conference map and transcript corpus, recording his role in that session without adding unsupported personal biography.
+Dexter Horthy appears in the public AI Engineer Miami 2026 wiki through the Day 1 talk [[talks/2026-04-20-dexter-horthy-everything-we-got-wrong-about-rpi|Everything We got Wrong About RPI]]. The linked materials place his contribution in the conference's practical AI engineering track: how AI coding workflows that look promising in demos can break down when they meet operational constraints, runtime behavior, and sandboxed execution environments. The profile stays source-bound to the conference map and transcript corpus, recording his role in that session without adding unsupported personal biography.
 
 ## Contribution at AI Engineer Miami
 
-Dexter Horthy's linked session was [[talks/2026-04-20-dexter-horthy-everything-we-got-wrong-about-rpi|Everything We got Wrong About RPI]], a Day 1 talk connected to the [[topics/agent-runtime|Agent Runtime]] and [[topics/sandboxed-compute|Sandboxed Compute]] themes. Read that talk page for the session-level orientation and source labels.
+Dexter Horthy's linked session was [[talks/2026-04-20-dexter-horthy-everything-we-got-wrong-about-rpi|Everything We got Wrong About RPI]], a Day 1 talk connected to the [[topics/agent-runtime|Agent Runtime]] and [[topics/sandboxed-compute|Sandboxed Compute]] themes. The talk page carries the session-level context and source labels.
 
 ## Talks
 

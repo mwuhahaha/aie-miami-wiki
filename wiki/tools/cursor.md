@@ -40,7 +40,7 @@ David Gomes's talk made Cursor especially central. [[2026-04-21-david-gomes-ides
 
 ## Conference Reading
 
-Read Cursor as one of the conference's clearest examples of tool pressure becoming workflow pressure. The important question is not only what Cursor can generate, but what kind of development loop it creates around generation: who supplies context, where commands run, how diffs are inspected, how mistakes are caught, and how the developer keeps enough situational awareness to trust, revise, or reject the result.
+Cursor is one of the conference's clearest examples of tool pressure becoming workflow pressure. The important question is not only what Cursor can generate, but what kind of development loop it creates around generation: who supplies context, where commands run, how diffs are inspected, how mistakes are caught, and how the developer keeps enough situational awareness to trust, revise, or reject the result.
 
 When this page links to a single talk, treat Cursor as part of that talk's implementation story. When it links to several talks, treat it as a cross-cutting primitive in the AI engineering stack: an adoption surface, an IDE redesign signal, and a practical test of whether coding agents can improve software economics while preserving the review habits that make software work reliable.
 

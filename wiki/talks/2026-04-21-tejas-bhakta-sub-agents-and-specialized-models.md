@@ -14,7 +14,7 @@ sourceLabels:
 
 Sub-agents and Specialized Models was an AI Engineer Miami 2026 Day 2 session by Tejas Bhakta about splitting agent work across specialized contexts and models.
 
-For a new reader, the main value of the page is orientation: what problem the session was addressing, why it mattered to AI engineers, and where to continue reading next. In this wiki it connects most directly to Sub Agents, Specialized Models, and Coding Agents, giving readers a path from the talk into the broader conference themes. The related tools and concepts (Morph Llm) and company links (Morph LLM) show where the session touches concrete products, platforms, or engineering practices.
+The session connects most directly to Sub Agents, Specialized Models, and Coding Agents. Related tools and concepts (Morph Llm) and company links (Morph LLM) tie the talk to concrete products, platforms, and engineering practices in the conference material.
 Transcript evidence emphasizes "So basically when your main model like Opus, for example, wants to spit out like three task agents, those should all share the same prefix, so you get the caching, it'll still be fast." and "So for task agents, which I think you should still be using a frontier model, not a specialized model, you should be sharing the prefix cache.", which anchors the summary in the public transcript.
 
 ## Talk Thesis
@@ -23,9 +23,9 @@ Tejas Bhakta argued for decomposing agent work: specialized models and sub-agent
 
 ## Detailed Transcript-Derived Summary
 
-The transcript segment for this talk runs across lines 1075-1274 of `/tmp/aie-miami-part2-transcript.txt`. Read as part of the full conference, the talk contributes to [[sub-agents]], [[specialized-models]], [[coding-agents]].
+The transcript segment for this talk runs across lines 1075-1274 of `/tmp/aie-miami-part2-transcript.txt`. In the full conference context, the talk contributes to [[sub-agents]], [[specialized-models]], [[coding-agents]].
 
-The strongest transcript pattern is that this session turns a broad AI-engineering claim into operational detail. It discusses concrete constraints, tradeoffs, or product surfaces rather than leaving the topic at trend level. In the local conference arc, it sits near talks about sub-agents, specialized-models, coding-agents, so the page should be read as part of a larger argument about how agents move from demos into engineering practice.
+The strongest transcript pattern is that this session turns a broad AI-engineering claim into operational detail. It discusses concrete constraints, tradeoffs, or product surfaces rather than leaving the topic at trend level. In the local conference arc, it sits near talks about sub-agents, specialized-models, coding-agents, so the session belongs within a larger argument about how agents move from demos into engineering practice.
 
 ## Transcript Evidence
 
@@ -42,7 +42,7 @@ Outside the conference, this topic matters because AI engineering is becoming a 
 
 ## Why It Mattered at AI Engineer Miami
 
-At AI Engineer Miami, the session gave readers a concrete anchor for [[sub-agents]], [[specialized-models]], [[coding-agents]]. It also connected conference-level ideas to [[morph-llm|Morph LLM]], where the public context is: Specialized model company represented by Tejas Bhakta.
+At AI Engineer Miami, the session anchored [[sub-agents]], [[specialized-models]], [[coding-agents]]. It also connected conference-level ideas to [[morph-llm|Morph LLM]], where the public context is: Specialized model company represented by Tejas Bhakta.
 
 ## Important Concepts and Tools
 

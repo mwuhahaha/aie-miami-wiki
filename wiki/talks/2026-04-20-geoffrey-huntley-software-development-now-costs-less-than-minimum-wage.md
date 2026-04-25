@@ -15,6 +15,6 @@ last_auto_summarized: '2026-04-25T20:20:55.117Z'
 
 Geoffrey Huntley Software Development Now Costs Less Than Minimum Wage was an AI Engineer Miami 2026 Day 1 session about a practical AI engineering problem from the conference program.
 
-For a new reader, the main value of the page is orientation: what problem the session was addressing, why it mattered to AI engineers, and where to continue reading next. In this wiki it functions as one of the session-level entry points into the conference's practical AI engineering map.
+The session functions as one of the entry points into the conference's practical AI engineering map.
 
-The summary is grounded in the public transcript and conference context, with related pages showing how the session fits into the larger event.
+The public transcript, conference context, and related pages place the session within the larger event.
