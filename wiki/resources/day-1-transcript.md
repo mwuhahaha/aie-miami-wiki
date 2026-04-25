@@ -5,7 +5,7 @@ aliases:
   - "Day 1 Transcript"
 sourceLabels:
   - "Transcript-derived"
-  - "Official conference site"
+  - "Conference website reference"
 ---
 
 # Day 1 Transcript

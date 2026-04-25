@@ -5,7 +5,7 @@ aliases:
   - Agent Ready Interfaces
 sourceLabels:
   - Transcript-derived
-  - Official conference site
+  - Conference website reference
   - Public-web supporting context
 last_auto_summarized: '2026-04-24T18:47:01.997Z'
 ---
@@ -22,4 +22,4 @@ The topic helps readers follow a repeated conference pattern rather than a singl
 ## Sources
 
 - **Transcript-derived:** /tmp/aie-miami-transcript.txt and /tmp/aie-miami-part2-transcript.txt.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).

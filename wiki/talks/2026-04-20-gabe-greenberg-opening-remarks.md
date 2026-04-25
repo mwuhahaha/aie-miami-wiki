@@ -8,12 +8,14 @@ sourceLabels:
   - "Official conference site"
   - "Public-web supporting context"
 ---
-
 # Opening Remarks
 
 ## Summary
 
-Opening Remarks was a 2026-04-20 AI Engineer Miami 2026 session by [[gabe-greenberg|Gabe Greenberg]], affiliated in the conference materials with [[g2i|G2i]]. The official schedule placed it at **9:10 AM**.
+Opening Remarks was an AI Engineer Miami 2026 Day 1 session by Gabe Greenberg about the conference themes around AI Engineering Community and Conference Framing.
+
+For a new reader, the main value of the page is orientation: what problem the session was addressing, why it mattered to AI engineers, and where to continue reading next. In this wiki it connects most directly to AI Engineering Community and Conference Framing, giving readers a path from the talk into the broader conference themes. The related company context and company links (G2i) show where the session touches concrete products, platforms, or engineering practices.
+Transcript evidence emphasizes "I'm also the co-organizer of this conference, at least AIE Miami." and "And I would sleep on the floor underneath my desk for hours, because I had migraines, I couldn't think straight, I couldn't do simple math at times.", which anchors the summary in the public transcript.
 
 ## Talk Thesis
 
@@ -66,5 +68,5 @@ Quote label: **Transcript-derived**.
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://www.g2i.co/](https://www.g2i.co/).

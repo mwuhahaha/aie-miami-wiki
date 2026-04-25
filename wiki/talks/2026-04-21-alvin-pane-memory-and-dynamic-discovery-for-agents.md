@@ -13,6 +13,12 @@ last_auto_summarized: '2026-04-25T12:02:49.359Z'
 
 ## Summary
 
+Memory and Dynamic Discovery for Agents was an AI Engineer Miami 2026 Day 2 session about the conference themes around agent memory, dynamic context, and context engineering.
+
+For a new reader, the main value of the page is orientation: what problem the session was addressing, why it mattered to AI engineers, and where to continue reading next. In this wiki it connects most directly to agent memory, dynamic context, context engineering, and enterprise agents, giving readers a path from the talk into the broader conference themes. The related company context and company links (OutRival) show where the session touches concrete products, platforms, or engineering practices.
+
+The summary is grounded in the public transcript and conference context, with related pages showing how the session fits into the larger event.
+
 Memory and Dynamic Discovery for Agents was Alvin Pane's AI Engineer Miami 2026 talk on agentic memory. Pane started from the familiar failure mode where a productive agent session suddenly becomes less useful because the agent has lost the right context. He argued that the usual response, adding more retrieval infrastructure around the agent, should be questioned rather than assumed.
 
 The core thesis was that memory is not a single retrieval trick. For real agents, memory includes state, curation, and lifecycle: where context lives, how the right context enters the model window, and how systems decide what to persist, update, or forget as the world changes.
@@ -40,5 +46,5 @@ This talk is one of the wiki's clearest links between [[topics/agent-memory|agen
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-part2-transcript.txt`, Day 2 segment beginning around the introduction of Alvin Pane and covering agentic memory, dynamic memory discovery, long-mem eval, production constraints, temporal reasoning, entity disambiguation, and forgetting.
-- **Official conference site:** https://www.ai.engineer/miami
+- **Conference website reference:** https://www.ai.engineer/miami
 - **Public-web supporting context:** https://www.linkedin.com/in/alvin-pane for public identity and OutRival context.

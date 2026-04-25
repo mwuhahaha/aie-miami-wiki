@@ -21,4 +21,4 @@ The topic helps readers follow a repeated conference pattern rather than a singl
 ## Sources
 
 - **Transcript-derived:** /tmp/aie-miami-transcript.txt and /tmp/aie-miami-part2-transcript.txt.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).

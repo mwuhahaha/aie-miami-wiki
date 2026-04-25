@@ -5,7 +5,7 @@ aliases:
   - Mux
 sourceLabels:
   - Transcript-derived
-  - Official conference site
+  - Conference website reference
   - Public-web supporting context
 last_auto_summarized: '2026-04-25T17:34:03.028Z'
 ---
@@ -39,5 +39,5 @@ Mux functions in the conference map as an example of a developer platform rethin
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://www.mux.com/](https://www.mux.com/).

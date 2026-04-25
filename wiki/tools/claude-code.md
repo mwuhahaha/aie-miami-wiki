@@ -40,5 +40,5 @@ When this page links to a single talk, treat Claude Code as part of that talk's 
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://docs.anthropic.com/en/docs/claude-code/overview](https://docs.anthropic.com/en/docs/claude-code/overview).

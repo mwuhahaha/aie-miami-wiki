@@ -5,7 +5,7 @@ aliases:
   - "Conference Framing"
 sourceLabels:
   - "Transcript-derived"
-  - "Official conference site"
+  - "Conference website reference"
   - "Public-web supporting context"
 ---
 
@@ -39,10 +39,10 @@ The conference pattern is strongest when this topic is read alongside the linked
 ## Source Labels
 
 - **Transcript-derived:** cross-talk pattern and talk connections.
-- **Official conference site:** official schedule, speaker, affiliation, and abstract context.
+- **Conference website reference:** official schedule, speaker, affiliation, and abstract context.
 - **Public-web supporting context:** official URLs for linked tools/products where present.
 
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).

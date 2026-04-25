@@ -8,12 +8,14 @@ sourceLabels:
   - "Official conference site"
   - "Public-web supporting context"
 ---
-
 # How to quantize models without killing quality
 
 ## Summary
 
-How to quantize models without killing quality was a 2026-04-20 AI Engineer Miami 2026 session by [[philip-kiely|Philip Kiely]], affiliated in the conference materials with [[baseten|Baseten]]. The official schedule placed it at **2:05 PM**.
+How to quantize models without killing quality was an AI Engineer Miami 2026 Day 1 session by Philip Kiely about the conference themes around Model Quantization and Inference Optimization.
+
+For a new reader, the main value of the page is orientation: what problem the session was addressing, why it mattered to AI engineers, and where to continue reading next. In this wiki it connects most directly to Model Quantization and Inference Optimization, giving readers a path from the talk into the broader conference themes. The related tools and concepts (Baseten) and company links (Baseten) show where the session touches concrete products, platforms, or engineering practices.
+Transcript evidence emphasizes "Today on trial, we have Philip Kiley trying to redeem himself with a talk, how to quantize models without killing quality." and "You know, all of those greedy influence providers are out there trying to rip you off, selling you poor-quality tokens at frontier prices by just squishing their models into these little tiny 4-bit number formats.", which anchors the summary in the public transcript.
 
 ## Talk Thesis
 
@@ -66,5 +68,5 @@ Quote label: **Transcript-derived**.
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://www.baseten.co/](https://www.baseten.co/).

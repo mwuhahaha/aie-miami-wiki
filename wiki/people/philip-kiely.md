@@ -5,7 +5,7 @@ aliases:
   - "Philip Kiely"
 sourceLabels:
   - "Transcript-derived"
-  - "Official conference site"
+  - "Conference website reference"
   - "Public-web supporting context"
 ---
 
@@ -17,7 +17,7 @@ Philip Kiely is an AI Engineer Miami 2026 speaker connected to their AI Engineer
 
 ## Public Links
 
-The public supporting context used here is the official conference site plus the public company/product URL for [[baseten|Baseten]]: [https://www.baseten.co/](https://www.baseten.co/).
+The public supporting context used here is the public conference website plus the public company/product URL for [[baseten|Baseten]]: [https://www.baseten.co/](https://www.baseten.co/).
 
 ## Why They Matter Here
 
@@ -39,5 +39,5 @@ Philip Kiely's talk added a specific perspective to the conference's larger prod
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://www.baseten.co/](https://www.baseten.co/).

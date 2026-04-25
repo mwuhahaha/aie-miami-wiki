@@ -5,7 +5,7 @@ aliases:
   - Laurie Voss
 sourceLabels:
   - Transcript-derived
-  - Official conference site
+  - Conference website reference
   - Public-web supporting context
 last_auto_summarized: '2026-04-24T17:59:20.927Z'
 ---
@@ -17,7 +17,7 @@ Laurie Voss is an AI Engineer Miami 2026 speaker connected to [[2026-04-21-lauri
 
 ## Public Links
 
-The public supporting context used here is the official conference site plus the public company/product URL for [[arize-ai|Arize AI]]: [https://arize.com/](https://arize.com/). In the wiki graph, that context matters less as a broad biography source and more as a grounding point for Laurie's contribution to the conference's agent-infrastructure discussion.
+The public supporting context used here is the public conference website plus the public company/product URL for [[arize-ai|Arize AI]]: [https://arize.com/](https://arize.com/). In the wiki graph, that context matters less as a broad biography source and more as a grounding point for Laurie's contribution to the conference's agent-infrastructure discussion.
 
 ## Why They Matter Here
 
@@ -39,5 +39,5 @@ Laurie Voss's talk added a concrete taxonomy to the conference's production-agen
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://arize.com/](https://arize.com/).

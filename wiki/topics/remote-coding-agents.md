@@ -5,7 +5,7 @@ aliases:
   - Remote Coding Agents
 sourceLabels:
   - Transcript-derived
-  - Official conference site
+  - Conference website reference
   - Public-web supporting context
 last_auto_summarized: '2026-04-25T16:35:08.461Z'
 ---

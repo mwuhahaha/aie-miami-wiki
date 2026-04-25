@@ -5,7 +5,7 @@ aliases:
   - "Ben Davis"
 sourceLabels:
   - "Transcript-derived"
-  - "Official conference site"
+  - "Conference website reference"
   - "Public-web supporting context"
 ---
 
@@ -17,7 +17,7 @@ Ben Davis is an AI Engineer Miami 2026 speaker connected to [[2026-04-20-ben-dav
 
 ## Public Links
 
-The public supporting context used here is the official conference site plus the public company/product URL for [[t3|T3]]: [https://create.t3.gg/](https://create.t3.gg/).
+The public supporting context used here is the public conference website plus the public company/product URL for [[t3|T3]]: [https://create.t3.gg/](https://create.t3.gg/).
 
 ## Why They Matter Here
 
@@ -39,5 +39,5 @@ Ben Davis's talk added a specific perspective to the conference's larger product
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://create.t3.gg/](https://create.t3.gg/).

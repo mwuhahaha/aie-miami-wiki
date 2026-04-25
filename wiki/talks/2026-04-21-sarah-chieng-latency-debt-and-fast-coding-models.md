@@ -8,12 +8,14 @@ sourceLabels:
   - "Official conference site"
   - "Public-web supporting context"
 ---
-
 # Latency Debt and Fast Coding Models
 
 ## Summary
 
-Latency Debt and Fast Coding Models was a 2026-04-21 AI Engineer Miami 2026 session by [[sarah-chieng|Sarah Chieng]], affiliated in the conference materials with [[cerebras|Cerebras]]. The official schedule placed it at **Day 2 morning**.
+Latency Debt and Fast Coding Models was an AI Engineer Miami 2026 Day 2 session by Sarah Chieng about how fast coding models change the developer feedback loop.
+
+For a new reader, the main value of the page is orientation: what problem the session was addressing, why it mattered to AI engineers, and where to continue reading next. In this wiki it connects most directly to Latency Debt, Fast Inference, and Developer Experience, giving readers a path from the talk into the broader conference themes. The related tools and concepts (Cerebras) and company links (Cerebras) show where the session touches concrete products, platforms, or engineering practices.
+Transcript evidence emphasizes "And so not only are we unlocking new capabilities and workflows and use cases, but this also fundamentally changes how we as developers can interact with the coding model." and "And the thing that I wanna emphasize is that it's not just about faster models, but it's about the fact that the developer experience is gonna change.", which anchors the summary in the public transcript.
 
 ## Talk Thesis
 
@@ -69,7 +71,7 @@ Quote label: **Transcript-derived**.
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://www.cerebras.ai/](https://www.cerebras.ai/).
 
 > Low-confidence boundary note: The official site lists Sarah Chieng at Cerebras; the title is inferred from transcript themes.

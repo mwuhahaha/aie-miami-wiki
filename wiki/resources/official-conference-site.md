@@ -5,7 +5,7 @@ aliases:
   - "Official Conference Site"
 sourceLabels:
   - "Transcript-derived"
-  - "Official conference site"
+  - "Conference website reference"
 ---
 
 # Official Conference Site
@@ -24,7 +24,7 @@ Pages use this resource only as evidence for source labeling and provenance. Tra
 
 ## Source Label
 
-Official conference site
+Conference website reference
 
 ## Link
 

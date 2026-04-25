@@ -5,7 +5,7 @@ aliases:
   - Pr Slop
 sourceLabels:
   - Transcript-derived
-  - Official conference site
+  - Conference website reference
   - Public-web supporting context
 last_auto_summarized: '2026-04-25T12:19:47.584Z'
 ---
@@ -39,12 +39,12 @@ The pattern is clearest when [[pr-slop]] is read alongside the RPI talk, [[human
 ## Source Labels
 
 - **Transcript-derived:** cross-talk pattern and talk connections.
-- **Official conference site:** official schedule, speaker, affiliation, and abstract context.
+- **Conference website reference:** official schedule, speaker, affiliation, and abstract context.
 - **Public-web supporting context:** official URLs for linked tools/products where present.
 
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://modelcontextprotocol.io/](https://modelcontextprotocol.io/).
 - **Public-web supporting context:** [https://www.humanlayer.dev/](https://www.humanlayer.dev/).

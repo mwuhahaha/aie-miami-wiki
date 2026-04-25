@@ -5,15 +5,15 @@ aliases:
   - Stefan Avram
 sourceLabels:
   - Transcript-derived
-  - Official conference site
+  - Conference website reference
   - Public-web supporting context
-last_auto_summarized: '2026-04-25T19:21:42.275Z'
+last_auto_summarized: '2026-04-25T20:37:14.322Z'
 ---
 # Stefan Avram
 
 ## Summary
 
-Stefan Avram is represented in this public AI Engineer Miami 2026 wiki as a conference participant with source-bound links to the official event context and the transcript corpus. This page was repaired from placeholder content, so it stays conservative: it records the linked session information and the themes visible in the local conference map without adding private biographical material.
+Stefan Avram appears in the public AI Engineer Miami 2026 wiki through his linked April 21 session, [[talks/2026-04-21-stefan-avram-the-multimodal-future-is-open-source|The Multimodal Future Is Open Source]]. The connected talk page identifies him as the speaker and associates the session with OpenCode in the conference materials. Within the local wiki map, his page is tied to themes of AI adoption and developer experience, reflecting a session framed around open source multimodal systems rather than private biography or unsupported external claims.
 
 ## Contribution at AI Engineer Miami
 
@@ -30,5 +30,5 @@ Stefan Avram's linked session was [[talks/2026-04-21-stefan-avram-the-multimodal
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt and /tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** https://www.ai.engineer/miami
-- **Public-web supporting context:** no additional public-web claims were added in this repair pass.
+- **Conference website reference:** https://www.ai.engineer/miami
+- **Public-web supporting context:** no additional public-web supporting context is cited on this page.

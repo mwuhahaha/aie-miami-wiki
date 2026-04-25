@@ -5,7 +5,7 @@ aliases:
   - "Sarah Chieng"
 sourceLabels:
   - "Transcript-derived"
-  - "Official conference site"
+  - "Conference website reference"
   - "Public-web supporting context"
 ---
 
@@ -17,7 +17,7 @@ Sarah Chieng is an AI Engineer Miami 2026 speaker connected to [[2026-04-21-sara
 
 ## Public Links
 
-The public supporting context used here is the official conference site plus the public company/product URL for [[cerebras|Cerebras]]: [https://www.cerebras.ai/](https://www.cerebras.ai/).
+The public supporting context used here is the public conference website plus the public company/product URL for [[cerebras|Cerebras]]: [https://www.cerebras.ai/](https://www.cerebras.ai/).
 
 ## Why They Matter Here
 
@@ -39,5 +39,5 @@ Sarah Chieng's talk added a specific perspective to the conference's larger prod
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://www.cerebras.ai/](https://www.cerebras.ai/).

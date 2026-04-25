@@ -6,11 +6,11 @@ aliases:
 sourceLabels:
   - Transcript-derived
   - Public-web supporting context
-last_auto_summarized: '2026-04-25T18:19:08.425Z'
+last_auto_summarized: '2026-04-25T19:33:18.442Z'
 ---
 # OpenAI Realtime API
 ## Summary
-OpenAI Realtime API is represented in this wiki as a tool, product, or technical concept relevant to AI Engineer Miami 2026. This repaired page gives a conservative map of where it fits in the conference material, using the talk titles, transcripts, and official event context rather than private source material.
+OpenAI Realtime API belongs in this wiki as the tool layer behind the voice-agent and agent-runtime threads connected to Dax Raad's AI Engineer Miami 2026 session, [[talks/2026-04-20-dax-raad-you-don-t-have-any-good-ideas|You Don't Have Any Good Ideas]]. In this context, it is not treated as a standalone product note; it is a reference point for building interactive AI systems that respond in the moment, coordinate speech or audio interaction, and depend on runtime behavior rather than static prompt-and-response demos. The linked topic pages place it near [[topics/voice-agents|Voice Agents]] and [[topics/agent-runtime|Agent Runtime]], where the practical concern is how an AI application listens, decides, acts, and recovers during a live session.
 ## Conference Reading
 Read OpenAI Realtime API through [[talks/2026-04-20-dax-raad-you-don-t-have-any-good-ideas|You Don't Have Any Good Ideas]]. Those sessions provide the source-bound context for why this page belongs in the public wiki.
 ## Related Pages
@@ -19,5 +19,5 @@ Read OpenAI Realtime API through [[talks/2026-04-20-dax-raad-you-don-t-have-any-
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt and /tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** https://www.ai.engineer/miami
-- **Public-web supporting context:** no additional public-web claims were added in this repair pass.
+- **Conference website reference:** https://www.ai.engineer/miami
+- **Public-web supporting context:** no additional public-web supporting context is cited on this page.

@@ -10,7 +10,7 @@ last_auto_summarized: '2026-04-25T09:02:53.195Z'
 ---
 # Snowflake
 ## Summary
-Snowflake is represented in this wiki as a tool, product, or technical concept relevant to AI Engineer Miami 2026. This repaired page gives a conservative map of where it fits in the conference material, using the talk titles, transcripts, and official event context rather than private source material.
+Snowflake is represented in this wiki as a tool, product, or technical concept relevant to AI Engineer Miami 2026. This page maps where it fits in the conference material, using the talk titles, transcripts, and public event context.
 ## Conference Reading
 Read Snowflake through [[talks/2026-04-20-anna-juchnicki-from-tickets-to-prs-shipping-a-governed-snowflake-ops-agent-with-langgraph-and-mcp|From Tickets to PRs: Shipping a Governed Snowflake Ops Agent with LangGraph and MCP]]. Those sessions provide the source-bound context for why this page belongs in the public wiki.
 ## Related Pages
@@ -19,5 +19,5 @@ Read Snowflake through [[talks/2026-04-20-anna-juchnicki-from-tickets-to-prs-shi
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt and /tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** https://www.ai.engineer/miami
-- **Public-web supporting context:** no additional public-web claims were added in this repair pass.
+- **Conference website reference:** https://www.ai.engineer/miami
+- **Public-web supporting context:** no additional public-web supporting context is cited on this page.

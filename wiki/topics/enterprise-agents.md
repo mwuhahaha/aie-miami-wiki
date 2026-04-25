@@ -5,7 +5,7 @@ aliases:
   - Enterprise Agents
 sourceLabels:
   - Transcript-derived
-  - Official conference site
+  - Conference website reference
   - Public-web supporting context
 last_auto_summarized: '2026-04-24T20:47:28.660Z'
 ---
@@ -13,7 +13,7 @@ last_auto_summarized: '2026-04-24T20:47:28.660Z'
 
 ## Summary
 
-Enterprise Agents is a conference theme page for the public AI Engineer Miami 2026 wiki. This repaired version restores readable content for the page and keeps the claims bounded to the local conference corpus: the two transcripts, the official conference site, and clearly labeled public-web context where available.
+Enterprise Agents is a conference theme page for the public AI Engineer Miami 2026 wiki. This page keeps its claims bounded to the local conference corpus: the two transcripts, the public conference website, and clearly labeled public-web context where available.
 
 ## Why It Matters
 
@@ -31,5 +31,5 @@ Enterprise Agents should be read as a lens rather than a standalone claim. It he
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt and /tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** https://www.ai.engineer/miami
-- **Public-web supporting context:** no additional public-web claims were added in this repair pass.
+- **Conference website reference:** https://www.ai.engineer/miami
+- **Public-web supporting context:** no additional public-web supporting context is cited on this page.

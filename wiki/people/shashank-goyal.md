@@ -5,7 +5,7 @@ aliases:
   - "Shashank Goyal"
 sourceLabels:
   - "Transcript-derived"
-  - "Official conference site"
+  - "Conference website reference"
   - "Public-web supporting context"
 ---
 
@@ -17,7 +17,7 @@ Shashank Goyal is an AI Engineer Miami 2026 speaker connected to [[2026-04-20-sh
 
 ## Public Links
 
-The public supporting context used here is the official conference site plus the public company/product URL for [[openrouter|OpenRouter]]: [https://openrouter.ai/](https://openrouter.ai/).
+The public supporting context used here is the public conference website plus the public company/product URL for [[openrouter|OpenRouter]]: [https://openrouter.ai/](https://openrouter.ai/).
 
 ## Why They Matter Here
 
@@ -39,5 +39,5 @@ Shashank Goyal's talk added a specific perspective to the conference's larger pr
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://openrouter.ai/](https://openrouter.ai/).

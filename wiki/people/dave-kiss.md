@@ -5,7 +5,7 @@ aliases:
   - Dave Kiss
 sourceLabels:
   - Transcript-derived
-  - Official conference site
+  - Conference website reference
   - Public-web supporting context
 last_auto_summarized: '2026-04-25T17:34:45.716Z'
 ---
@@ -17,7 +17,7 @@ Dave Kiss is an AI Engineer Miami 2026 speaker whose session, [[2026-04-21-dave-
 
 ## Public Links
 
-The public supporting context used here is the official conference site plus the public company/product URL for [[mux|Mux]]: [https://www.mux.com/](https://www.mux.com/).
+The public supporting context used here is the public conference website plus the public company/product URL for [[mux|Mux]]: [https://www.mux.com/](https://www.mux.com/).
 
 ## Why They Matter Here
 
@@ -39,5 +39,5 @@ Dave Kiss's contribution to the conference was a product and interface-design pe
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://www.mux.com/](https://www.mux.com/).

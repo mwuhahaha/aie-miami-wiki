@@ -5,39 +5,30 @@ aliases:
   - Cerebras
 sourceLabels:
   - Transcript-derived
-  - Official conference site
+  - Conference website reference
   - Public-web supporting context
-last_auto_summarized: '2026-04-25T17:33:42.611Z'
+last_auto_summarized: '2026-04-25T22:33:50.035Z'
 ---
 # Cerebras
 
 ## Summary
 
-Cerebras appears in this wiki as the company context behind Sarah Chieng's session, [[2026-04-21-sarah-chieng-latency-debt-and-fast-coding-models|Latency Debt and Fast Coding Models]]. In the conference map, the company is tied to a specific argument about fast inference: latency is not just an infrastructure metric, because slow model responses directly change how developers write code, how many turns agents can afford to take, and whether an AI coding tool feels interactive enough to stay in the user's workflow.
+Cerebras is represented in the AI Engineer Miami wiki as both a company node and a practical infrastructure reference for fast AI systems. Its clearest conference connection is Sarah Chieng's [[2026-04-21-sarah-chieng-latency-debt-and-fast-coding-models|Latency Debt and Fast Coding Models]], where Cerebras anchors the discussion of [[fast-inference]], [[latency-debt]], and [[developer-experience]]. In the broader wiki map, the page helps connect the root [[index]] resource list with the cross-vault synthesis in [[overview]], giving readers a company-level entry point into the conference's recurring concern with speed, model-serving economics, and production AI workflows.
 
-## Why It Matters
+## Why It Matters Here
 
-Cerebras matters here because it gives the [[fast-inference]] discussion an actual vendor and systems anchor. The linked talk frames speed as part of [[developer-experience]] rather than as a backend benchmark alone. When model calls are slow, developers stop iterating fluidly, agent loops become shorter or more expensive, and product teams are pushed toward different interaction patterns. Cerebras is therefore part of the wiki's evidence base for treating response time as a design constraint in AI engineering, not as a secondary optimization after model quality.
+Cerebras matters here because the wiki treats latency as an engineering constraint, not just a benchmark number. The company is tied to the parts of the conference that ask how faster inference changes developer behavior: shorter feedback loops, more interactive coding agents, lower waiting time inside product flows, and different tradeoffs when routing work across models or providers. As a company page, Cerebras gives the [[overview]] synthesis a concrete organization behind those themes, while the [[index]] makes it discoverable from the larger set of talks, topics, tools, and source notes.
 
-## Why It Mattered at AI Engineer Miami
+## Related Pages
 
-At AI Engineer Miami, [[cerebras|Cerebras]] was attached to 1 session(s). In [[2026-04-21-sarah-chieng-latency-debt-and-fast-coding-models|Latency Debt and Fast Coding Models]], Sarah Chieng connected the company's fast-inference context to [[latency-debt]], [[developer-experience]], and coding-agent design. The practical claim was that slower responses reshape coding workflows: developers lose flow, agents make fewer attempts before the experience feels too slow or costly, and interactive AI products have to be architected around the time it takes to get a useful model response.
-
-## Conference Interpretation
-
-Cerebras functions in the conference map as a signal that AI engineering conversations are moving from raw capability toward the felt performance of production systems. The related talk treated latency as debt because teams can accumulate it quietly: a model may be capable, but every slow call taxes iteration, shortens agent loops, and changes the economics of product design. In that framing, fast inference becomes a user-facing capability. It determines whether a coding assistant can stay in the developer's loop, whether an agent can explore enough steps to be useful, and whether a tool feels responsive enough to become part of daily work.
-
-## Talks That Mention or Center It
-
-- [[2026-04-21-sarah-chieng-latency-debt-and-fast-coding-models|Latency Debt and Fast Coding Models]] by Sarah Chieng - Sarah Chieng named model latency as product debt: slow responses alter developer flow, agent loop design, and the economics of interactive coding.
-
-## Related Topics and Tools
-
+- Talks: [[2026-04-21-sarah-chieng-latency-debt-and-fast-coding-models|Latency Debt and Fast Coding Models]]
+- People: [[sarah-chieng|Sarah Chieng]]
 - Topics: [[developer-experience]], [[fast-inference]], [[latency-debt]]
 - Tools/products: [[cerebras]]
+- Root pages: [[index]], [[overview]]
 
 ## Sources
 
-- **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Transcript-derived:** `/tmp/aie-miami-transcript.txt and /tmp/aie-miami-part2-transcript.txt`.
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://www.cerebras.ai/](https://www.cerebras.ai/).

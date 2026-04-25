@@ -5,7 +5,7 @@ aliases:
   - Code Quality Gates
 sourceLabels:
   - Transcript-derived
-  - Official conference site
+  - Conference website reference
   - Public-web supporting context
 last_auto_summarized: '2026-04-25T10:19:03.521Z'
 ---
@@ -39,11 +39,11 @@ The strongest pattern is the shift from ad hoc prompt guidance to enforceable wo
 ## Source Labels
 
 - **Transcript-derived:** cross-talk pattern and talk connections.
-- **Official conference site:** official schedule, speaker, affiliation, and abstract context.
+- **Conference website reference:** official schedule, speaker, affiliation, and abstract context.
 - **Public-web supporting context:** official URLs for linked tools/products where present.
 
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://www.qodo.ai/](https://www.qodo.ai/).

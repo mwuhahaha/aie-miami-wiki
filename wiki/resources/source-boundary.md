@@ -11,7 +11,7 @@ sourceLabels:
 
 ## What It Is
 
-The public wiki is intentionally restricted to the two transcripts, the official conference site, and clearly labeled public-web supporting sources.
+The public wiki is intentionally restricted to the two transcripts, the public conference website, and clearly labeled public-web supporting sources.
 
 ## Why It Matters
 

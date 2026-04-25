@@ -5,7 +5,7 @@ aliases:
   - Morph LLM
 sourceLabels:
   - Transcript-derived
-  - Official conference site
+  - Conference website reference
   - Public-web supporting context
 last_auto_summarized: '2026-04-24T19:00:07.718Z'
 ---
@@ -39,5 +39,5 @@ Within the conference map, Morph LLM represents the company-side version of a re
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://www.morphllm.com/](https://www.morphllm.com/).

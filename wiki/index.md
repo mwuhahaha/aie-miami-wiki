@@ -5,7 +5,7 @@ aliases:
   - "AIE Wiki"
 sourceLabels:
   - "Transcript-derived"
-  - "Official conference site"
+  - "Conference website reference"
   - "Public-web supporting context"
 ---
 
@@ -23,12 +23,12 @@ The source videos did not have directly available transcripts, so their YouTube 
 
 From there, an LLM-assisted pipeline turned the transcripts into a public markdown knowledge base: talk pages, speaker pages, company/tool/topic pages, event day indexes, quotes, source labels, and cross-links. The static Express app reads those markdown files, renders wikilinks into navigable public pages, builds backlinks and graph data at request time, and exposes only read-only API routes. Mutating authoring endpoints are intentionally blocked for this public deployment.
 
-The implementation follows the spirit of Karpathy's LLM Wiki idea while adapting it for a public event wiki: raw sources remain bounded, the generated wiki is the readable synthesis layer, `AGENT.md` documents the source and read-only rules, and run receipts under `.ops/state/runs/` record rebuild and repair passes.
+The implementation follows the spirit of Karpathy's LLM Wiki idea while adapting it for a public event wiki: raw sources remain bounded, the generated wiki is the readable synthesis layer, `AGENT.md` documents the source and read-only rules, and run receipts under `.ops/state/runs/` record rebuild and generation passes.
 
 ## Source Labels
 
 - **Transcript-derived:** claims grounded in `/tmp/aie-miami-transcript.txt` or `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** dates, location, speaker roster, schedule, venue, and official talk framing from [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** dates, location, speaker roster, schedule, venue, and official talk framing from [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** official company, product, documentation, or GitHub-style public URLs in article source sections.
 
 ## Start Here

@@ -8,12 +8,14 @@ sourceLabels:
   - "Official conference site"
   - "Public-web supporting context"
 ---
-
 # The Rise of AI Agents in the Wild
 
 ## Summary
 
-The Rise of AI Agents in the Wild was a 2026-04-20 AI Engineer Miami 2026 session by [[shashank-goyal|Shashank Goyal]], affiliated in the conference materials with [[openrouter|OpenRouter]]. The official schedule placed it at **11:25 AM**.
+The Rise of AI Agents in the Wild was an AI Engineer Miami 2026 Day 1 session by Shashank Goyal about the conference themes around Agent Evaluations, Llm Routing, and Production Agents.
+
+For a new reader, the main value of the page is orientation: what problem the session was addressing, why it mattered to AI engineers, and where to continue reading next. In this wiki it connects most directly to Agent Evaluations, Llm Routing, and Production Agents, giving readers a path from the talk into the broader conference themes. The related tools and concepts (Openrouter) and company links (OpenRouter) show where the session touches concrete products, platforms, or engineering practices.
+Transcript evidence emphasizes "And combining all of this, the growth in tokens, the growth in models, the growth in ability, is I would say why agents are now a primary workload on the platform." and "So today we'll be talking about the rise of AI agents, and I'm sure you guys are gonna hear this word so many times that I apologize.", which anchors the summary in the public transcript.
 
 ## Talk Thesis
 
@@ -66,5 +68,5 @@ Quote label: **Transcript-derived**.
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://openrouter.ai/](https://openrouter.ai/).

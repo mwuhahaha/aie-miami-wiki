@@ -5,7 +5,7 @@ aliases:
   - Cursor
 sourceLabels:
   - Transcript-derived
-  - Official conference site
+  - Conference website reference
   - Public-web supporting context
 last_auto_summarized: '2026-04-25T17:32:17.951Z'
 ---
@@ -39,5 +39,5 @@ Cursor’s role in the conference map is as a product-shaped signal for the next
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://cursor.com/](https://cursor.com/).

@@ -5,7 +5,7 @@ aliases:
   - Diane Macklin
 sourceLabels:
   - Transcript-derived
-  - Official conference site
+  - Conference website reference
 last_auto_summarized: '2026-04-25T17:35:06.162Z'
 ---
 # Diane Macklin
@@ -38,4 +38,4 @@ Diane Macklin's talk added an independent builder's perspective to the conferenc
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).

@@ -5,7 +5,7 @@ aliases:
   - Ben Vinegar
 sourceLabels:
   - Transcript-derived
-  - Official conference site
+  - Conference website reference
   - Public-web supporting context
 last_auto_summarized: '2026-04-25T16:33:03.672Z'
 ---
@@ -17,7 +17,7 @@ Ben Vinegar is an AI Engineer Miami 2026 speaker connected to [[2026-04-20-ben-v
 
 ## Public Links
 
-The public supporting context used here is the official conference site plus the public company/product URL for [[modem|Modem]]: [https://www.modem.com/](https://www.modem.com/).
+The public supporting context used here is the public conference website plus the public company/product URL for [[modem|Modem]]: [https://www.modem.com/](https://www.modem.com/).
 
 ## Why They Matter Here
 
@@ -43,5 +43,5 @@ The contribution was also methodological. By emphasizing SSH, tmux, CLI agents, 
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://www.modem.com/](https://www.modem.com/).

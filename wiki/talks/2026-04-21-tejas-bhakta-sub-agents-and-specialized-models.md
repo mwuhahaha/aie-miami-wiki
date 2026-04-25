@@ -8,12 +8,14 @@ sourceLabels:
   - "Official conference site"
   - "Public-web supporting context"
 ---
-
 # Sub-agents and Specialized Models
 
 ## Summary
 
-Sub-agents and Specialized Models was a 2026-04-21 AI Engineer Miami 2026 session by [[tejas-bhakta|Tejas Bhakta]], affiliated in the conference materials with [[morph-llm|Morph LLM]]. The official schedule placed it at **Day 2**.
+Sub-agents and Specialized Models was an AI Engineer Miami 2026 Day 2 session by Tejas Bhakta about splitting agent work across specialized contexts and models.
+
+For a new reader, the main value of the page is orientation: what problem the session was addressing, why it mattered to AI engineers, and where to continue reading next. In this wiki it connects most directly to Sub Agents, Specialized Models, and Coding Agents, giving readers a path from the talk into the broader conference themes. The related tools and concepts (Morph Llm) and company links (Morph LLM) show where the session touches concrete products, platforms, or engineering practices.
+Transcript evidence emphasizes "So basically when your main model like Opus, for example, wants to spit out like three task agents, those should all share the same prefix, so you get the caching, it'll still be fast." and "So for task agents, which I think you should still be using a frontier model, not a specialized model, you should be sharing the prefix cache.", which anchors the summary in the public transcript.
 
 ## Talk Thesis
 
@@ -67,5 +69,5 @@ Quote label: **Transcript-derived**.
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://www.morphllm.com/](https://www.morphllm.com/).

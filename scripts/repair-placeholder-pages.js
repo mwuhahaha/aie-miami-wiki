@@ -84,19 +84,19 @@ const curated = {
   },
 };
 
-const placeholders = walk(WIKI_ROOT)
+const pagesNeedingPublicCopy = walk(WIKI_ROOT)
   .filter((file) => file.endsWith(".md"))
   .filter((file) => {
     const raw = fs.readFileSync(file, "utf8");
     return raw.includes(PLACEHOLDER)
-      || raw.includes("This repaired page")
-      || raw.includes("This repaired version")
-      || raw.includes("was repaired from placeholder content")
+      || raw.includes("This page gives readers a public orientation")
+      || raw.includes("This page keeps its claims bounded")
+      || raw.includes("This page keeps the biographical framing conservative")
       || raw.includes("appears in the AI Engineer Miami 2026 wiki as a company or organization")
       || raw.includes("is represented in this wiki as a tool, product, or technical concept");
   });
 
-for (const file of placeholders) {
+for (const file of pagesNeedingPublicCopy) {
   const rel = path.relative(WIKI_ROOT, file).replace(/\\/g, "/");
   const id = rel.replace(/\.md$/, "");
   const slug = path.basename(id);
@@ -108,7 +108,7 @@ for (const file of placeholders) {
   fs.writeFileSync(file, next);
 }
 
-console.log(`Repaired ${placeholders.length} placeholder pages.`);
+console.log(`Updated ${pagesNeedingPublicCopy.length} public wiki pages.`);
 
 function readRegistry(category) {
   return JSON.parse(fs.readFileSync(path.join(WIKI_ROOT, category, "registry.json"), "utf8"));
@@ -141,21 +141,15 @@ function renderTalk({ slug, title }) {
     "",
     "## Summary",
     "",
-    `${title} was an AI Engineer Miami 2026 ${day} session${speaker ? ` by ${wikilink(`people/${speaker.id}`, speaker.title)}` : ""}. This repaired page gives readers a source-bound orientation to the session without relying on private notes or unavailable authoring material. The talk is represented here through the conference title, the allowed transcript corpus, and the official conference-site context.`,
+    `${title} was an AI Engineer Miami 2026 ${day} session${speaker ? ` by ${wikilink(`people/${speaker.id}`, speaker.title)}` : ""}. This page gives readers a public orientation to the session using the transcript corpus, conference website context, and related wiki pages.`,
     "",
     "## Conference Context",
     "",
     `The session belongs to the conference's practical AI engineering thread: how builders move from model capability to systems that can be shipped, inspected, operated, and improved. In this wiki, read it alongside ${linkList(themes.topics, "topics")} because those pages describe the implementation pressures that the title and transcript evidence point toward.`,
     "",
-    "## Reading Notes",
-    "",
-    `- Treat this page as a repaired landing point for the talk, not a verbatim transcript.`,
-    `- Use the linked topic pages to follow the main engineering themes: ${inlineLinkList(themes.topics, "topics")}.`,
-    speaker ? `- Speaker page: ${wikilink(`people/${speaker.id}`, speaker.title)}.` : "- Speaker metadata should be checked against the public conference website before adding biographical details.",
-    "",
     "## Related Pages",
     "",
-    speaker ? `- Speaker: ${wikilink(`people/${speaker.id}`, speaker.title)}` : "- Speaker: not confidently linked in this repair pass",
+    speaker ? `- Speaker: ${wikilink(`people/${speaker.id}`, speaker.title)}` : "- Speaker: not confidently linked",
     themes.topics.length ? `- Topics: ${inlineLinkList(themes.topics, "topics")}` : "- Topics: conference implementation patterns",
     themes.tools.length ? `- Tools/products: ${inlineLinkList(themes.tools, "tools")}` : "",
     themes.companies.length ? `- Companies: ${inlineLinkList(themes.companies, "companies")}` : "",
@@ -166,20 +160,20 @@ function renderTalk({ slug, title }) {
 
 function renderPerson({ slug, title }) {
   const talks = registries.talks.filter((talk) => talk.id.includes(slug));
-  const talkList = talks.length ? talks.map((talk) => `- ${wikilink(`talks/${talk.id}`, talk.title)} (${talkDate(talk.id)})`).join("\n") : "- No talk was confidently linked during this repair pass.";
+  const talkList = talks.length ? talks.map((talk) => `- ${wikilink(`talks/${talk.id}`, talk.title)} (${talkDate(talk.id)})`).join("\n") : "- No talk is confidently linked on this page.";
   const topicIds = unique(talks.flatMap((talk) => themesForTalk(talk.id, talk.title).topics));
   return [
     `# ${title}`,
     "",
     "## Summary",
     "",
-    `${title} is represented in this public AI Engineer Miami 2026 wiki as a conference participant with source-bound links to the official event context and the transcript corpus. This page was repaired from placeholder content, so it stays conservative: it records the linked session information and the themes visible in the local conference map without adding private biographical material.`,
+    `${title} is represented in this public AI Engineer Miami 2026 wiki as a conference participant with links to the public event context and the transcript corpus. The page stays conservative: it records linked session information and themes visible in the local conference map without adding private biographical material.`,
     "",
     "## Contribution at AI Engineer Miami",
     "",
     talks.length
       ? `${title}'s linked session was ${talks.map((talk) => wikilink(`talks/${talk.id}`, talk.title)).join(", ")}. Read that talk page for the session-level orientation and source labels.`
-      : `This page should be used as a lightweight person landing page until fuller public evidence is added from the public conference website or transcripts.`,
+      : `This is a lightweight person landing page until fuller public evidence is added from the public conference website or transcripts.`,
     "",
     "## Talks",
     "",
@@ -200,7 +194,7 @@ function renderCompany({ slug, title }) {
     "",
     "## Summary",
     "",
-    `${title} appears in the AI Engineer Miami 2026 wiki as a company or organization connected to the conference's public knowledge graph. This repaired page avoids adding unsupported company claims and instead orients readers to the talks, tools, and themes where the organization is relevant in the allowed conference corpus.`,
+    `${title} appears in the AI Engineer Miami 2026 wiki as a company or organization connected to the conference's public knowledge graph. This page avoids unsupported company claims and orients readers to the talks, tools, and themes where the organization is relevant in the allowed conference corpus.`,
     "",
     "## Why It Matters Here",
     "",
@@ -210,7 +204,7 @@ function renderCompany({ slug, title }) {
     "",
     "## Related Pages",
     "",
-    info.talks.length ? `- Talks: ${inlineTalkList(info.talks)}` : "- Talks: no high-confidence talk link in this repair pass",
+    info.talks.length ? `- Talks: ${inlineTalkList(info.talks)}` : "- Talks: no high-confidence talk link is listed",
     info.tools.length ? `- Tools/products: ${inlineLinkList(info.tools, "tools")}` : "",
     info.topics.length ? `- Topics: ${inlineLinkList(info.topics, "topics")}` : "",
     "",
@@ -225,7 +219,7 @@ function renderTool({ slug, title }) {
     "",
     "## Summary",
     "",
-    `${title} is represented in this wiki as a tool, product, or technical concept relevant to AI Engineer Miami 2026. This repaired page gives a conservative map of where it fits in the conference material, using the talk titles, transcripts, and official event context rather than private source material.`,
+    `${title} is represented in this wiki as a tool, product, or technical concept relevant to AI Engineer Miami 2026. This page maps where it fits in the conference material, using talk titles, transcripts, and public event context rather than private source material.`,
     "",
     "## Conference Reading",
     "",
@@ -235,7 +229,7 @@ function renderTool({ slug, title }) {
     "",
     "## Related Pages",
     "",
-    info.talks.length ? `- Talks: ${inlineTalkList(info.talks)}` : "- Talks: no high-confidence talk link in this repair pass",
+    info.talks.length ? `- Talks: ${inlineTalkList(info.talks)}` : "- Talks: no high-confidence talk link is listed",
     info.companies?.length ? `- Companies: ${inlineLinkList(info.companies, "companies")}` : "",
     info.topics.length ? `- Topics: ${inlineLinkList(info.topics, "topics")}` : "",
     "",
@@ -250,7 +244,7 @@ function renderTopic({ slug, title }) {
     "",
     "## Summary",
     "",
-    `${title} is a conference theme page for the public AI Engineer Miami 2026 wiki. This repaired version restores readable content for the page and keeps the claims bounded to the local conference corpus: the two transcripts, the public conference website, and clearly labeled public-web context where available.`,
+    `${title} is a conference theme page for the public AI Engineer Miami 2026 wiki. This page keeps its claims bounded to the local conference corpus: the two transcripts, the public conference website, and clearly labeled public-web context where available.`,
     "",
     "## Why It Matters",
     "",
@@ -264,7 +258,7 @@ function renderTopic({ slug, title }) {
     "",
     "## Talks That Mention or Center It",
     "",
-    talkIds.length ? talkIds.map((talkId) => `- ${wikilink(`talks/${talkId}`, talkTitle(talkId))}`).join("\n") : "- No high-confidence talk link in this repair pass.",
+    talkIds.length ? talkIds.map((talkId) => `- ${wikilink(`talks/${talkId}`, talkTitle(talkId))}`).join("\n") : "- No high-confidence talk link is listed.",
     "",
     sourcesForGeneral(),
   ].join("\n");
@@ -298,7 +292,7 @@ function renderGeneric({ title }) {
     "",
     "## Summary",
     "",
-    `${title} is a repaired public wiki page for AI Engineer Miami 2026. The placeholder body has been replaced with conservative, source-bound orientation text.`,
+    `${title} is a public wiki page for AI Engineer Miami 2026, written as a concise orientation to the conference material.`,
     "",
     sourcesForGeneral(),
   ].join("\n");
@@ -311,7 +305,7 @@ function sources(date) {
     "",
     `- **Transcript-derived:** \`${transcript}\`.`,
     "- **Conference website reference:** https://www.ai.engineer/miami",
-    "- **Public-web supporting context:** no additional public-web claims were added in this repair pass.",
+    "- **Public-web supporting context:** no additional public-web supporting context is cited on this page.",
   ].join("\n");
 }
 

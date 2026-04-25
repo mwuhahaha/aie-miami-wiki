@@ -6,7 +6,7 @@ aliases:
   - Alvin Payne
 sourceLabels:
   - Transcript-derived
-  - Official conference site
+  - Conference website reference
   - Public-web supporting context
 last_auto_summarized: '2026-04-25T10:00:26.084Z'
 ---
@@ -36,5 +36,5 @@ Pane matters in this wiki because his talk made a clear argument against treatin
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-part2-transcript.txt`, especially the Day 2 segment introducing Alvin Pane and the talk on agentic memory, dynamic memory discovery, long-mem eval, and production memory failure modes.
-- **Official conference site:** https://www.ai.engineer/miami
+- **Conference website reference:** https://www.ai.engineer/miami
 - **Public-web supporting context:** https://www.linkedin.com/in/alvin-pane for name, OutRival, AMD, and Toronto/University of Toronto context.

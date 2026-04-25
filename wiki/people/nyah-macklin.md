@@ -5,7 +5,7 @@ aliases:
   - Nyah Macklin
 sourceLabels:
   - Transcript-derived
-  - Official conference site
+  - Conference website reference
   - Public-web supporting context
 last_auto_summarized: '2026-04-25T05:16:28.503Z'
 ---
@@ -17,7 +17,7 @@ Nyah Macklin is an AI Engineer Miami 2026 speaker affiliated in the conference m
 
 ## Public Links
 
-The public supporting context used here is the official conference site plus the public company/product URL for [[neo4j|Neo4j]]: [https://neo4j.com/](https://neo4j.com/).
+The public supporting context used here is the public conference website plus the public company/product URL for [[neo4j|Neo4j]]: [https://neo4j.com/](https://neo4j.com/).
 
 ## Why They Matter Here
 
@@ -39,5 +39,5 @@ Nyah Macklin's contribution to AI Engineer Miami was to frame context graphs as 
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://neo4j.com/](https://neo4j.com/).

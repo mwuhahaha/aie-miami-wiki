@@ -5,23 +5,23 @@ aliases:
   - Voice Agents
 sourceLabels:
   - Transcript-derived
-  - Official conference site
+  - Conference website reference
   - Public-web supporting context
-last_auto_summarized: '2026-04-25T18:19:32.154Z'
+last_auto_summarized: '2026-04-25T19:33:38.815Z'
 ---
 # Voice Agents
 
 ## Summary
 
-Voice Agents is a conference theme page for the public AI Engineer Miami 2026 wiki. This repaired version restores readable content for the page and keeps the claims bounded to the local conference corpus: the two transcripts, the official conference site, and clearly labeled public-web context where available.
+Voice Agents is a topic page for AI Engineer Miami 2026 that connects the conference's agent discussion to real-time, speech-based AI systems. In the current local corpus, the strongest link is Dax Raad's session, [[talks/2026-04-20-dax-raad-you-don-t-have-any-good-ideas|You Don't Have Any Good Ideas]], which is also connected to [[tools/openai-realtime|OpenAI Realtime API]]. Read together, those pages position voice agents less as a speculative category and more as an engineering surface where model behavior, latency, tool use, and product interaction all have to work at once.
 
 ## Why It Matters
 
-The theme is most directly connected here to [[talks/2026-04-20-dax-raad-you-don-t-have-any-good-ideas|You Don't Have Any Good Ideas]]. Those linked sessions show how the topic surfaced as an implementation concern for AI engineers.
+The theme matters here because voice agents expose agent design in a demanding interface: the system has to listen, respond, decide when to use tools, and recover from ambiguity without the forgiving pace of a text chat. The connection to [[talks/2026-04-20-dax-raad-you-don-t-have-any-good-ideas|You Don't Have Any Good Ideas]] places the topic inside a broader AI engineering conversation about building useful systems rather than relying on vague product instincts. The connection to [[tools/openai-realtime|OpenAI Realtime API]] gives the page a concrete technical anchor for speech-first and low-latency agent experiences.
 
 ## Conference Pattern
 
-Voice Agents should be read as a lens rather than a standalone claim. It helps group pages that discuss agent design, developer workflows, production constraints, model/tool choices, and the practical work of turning AI systems into reliable software.
+Across the linked pages, Voice Agents should be read as a practical implementation pattern rather than a standalone claim about the conference. It groups concerns that show up when AI engineers move from demos to usable systems: real-time interaction, conversational state, speech input and output, tool orchestration, model choice, and reliability under user-facing conditions. In this wiki, the topic is currently grounded by Dax Raad's talk, Dax Raad's participant page, and the OpenAI Realtime API tool page.
 
 ## Talks That Mention or Center It
 
@@ -30,5 +30,5 @@ Voice Agents should be read as a lens rather than a standalone claim. It helps g
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt and /tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** https://www.ai.engineer/miami
-- **Public-web supporting context:** no additional public-web claims were added in this repair pass.
+- **Conference website reference:** https://www.ai.engineer/miami
+- **Public-web supporting context:** no additional public-web supporting context is cited on this page.

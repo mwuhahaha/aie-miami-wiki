@@ -5,7 +5,7 @@ aliases:
   - Taste And Judgment
 sourceLabels:
   - Transcript-derived
-  - Official conference site
+  - Conference website reference
   - Public-web supporting context
 last_auto_summarized: '2026-04-25T18:36:58.386Z'
 ---
@@ -40,13 +40,13 @@ The pattern is not that agents remove judgment, but that they move it earlier, d
 ## Source Labels
 
 - **Transcript-derived:** cross-talk pattern and talk connections.
-- **Official conference site:** official schedule, speaker, affiliation, and abstract context.
+- **Conference website reference:** official schedule, speaker, affiliation, and abstract context.
 - **Public-web supporting context:** official URLs for linked tools/products where present.
 
 ## Sources
 
 - **Transcript-derived:** `/tmp/aie-miami-transcript.txt` and `/tmp/aie-miami-part2-transcript.txt`.
-- **Official conference site:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
+- **Conference website reference:** [https://www.ai.engineer/miami](https://www.ai.engineer/miami).
 - **Public-web supporting context:** [https://developers.openai.com/apps-sdk/](https://developers.openai.com/apps-sdk/).
 - **Public-web supporting context:** [https://opencode.ai/](https://opencode.ai/).
 - **Public-web supporting context:** [https://workers.cloudflare.com/](https://workers.cloudflare.com/).
