@@ -15,6 +15,38 @@ const markdown = new MarkdownIt({
   typographer: true,
 });
 
+const PERSON_FOCUS_TITLES = new Map([
+  ["alisa-fortin", "GenMedia Engineer"],
+  ["alvin-pane", "Agent Memory Builder"],
+  ["anna-juchnicki", "Governed Agent Engineer"],
+  ["ben-davis", "AI SDK Builder"],
+  ["ben-vinegar", "Remote Agent Builder"],
+  ["dave-kiss", "Agent Interface Designer"],
+  ["david-gomes", "AI IDE Builder"],
+  ["david-house", "Agent Adoption Lead"],
+  ["dax-raad", "Product Judgment Speaker"],
+  ["dexter-horthy", "Agent Runtime Engineer"],
+  ["diane-macklin", "Coding Agent Builder"],
+  ["erik-thorelli", "Agent Workflow Engineer"],
+  ["gabe-greenberg", "Conference Host"],
+  ["geoffrey-huntley", "Software Economics Speaker"],
+  ["guillaume-vernade", "Conference Participant"],
+  ["kent-c-dodds", "Personal Agent Builder"],
+  ["laurie-voss", "Agent Interfaces Analyst"],
+  ["lech-kalinowski", "Mobile AI Engineer"],
+  ["lena-hall", "Robotics AI Engineer"],
+  ["max-stoiber", "Developer Experience Designer"],
+  ["nnenna-ndukwe", "Code Quality Engineer"],
+  ["nyah-macklin", "Knowledge Graph Engineer"],
+  ["philip-kiely", "Inference Optimization Engineer"],
+  ["rick-blalock", "Coding Agents Strategist"],
+  ["rita-kozlov", "Agent Infrastructure Engineer"],
+  ["sarah-chieng", "Fast Inference Engineer"],
+  ["shashank-goyal", "Model Routing Builder"],
+  ["stefan-avram", "Open Source AI Builder"],
+  ["tejas-bhakta", "Sub-Agent Architect"],
+]);
+
 const app = express();
 app.use(express.json({ limit: "5mb" }));
 app.use("/static", express.static(path.join(ROOT, "public")));
@@ -524,10 +556,40 @@ function collectOfficialSpeakerMatches(index) {
       return {
         speaker: person.title,
         localPeople: [linkedPageItem(person)],
+        professionalTitle: professionalTitleForPerson(person),
         supportingPages,
         autoCreateReady: false,
       };
     });
+}
+
+function professionalTitleForPerson(person) {
+  return PERSON_FOCUS_TITLES.get(person.slug) || inferProfessionalTitle(person);
+}
+
+function inferProfessionalTitle(person) {
+  const text = `${person.title || ""} ${person.body || ""}`.toLowerCase();
+  const titlePatterns = [
+    ["agent memory", "Agent Memory Builder"],
+    ["remote coding", "Remote Agent Builder"],
+    ["coding agents", "Coding Agent Builder"],
+    ["developer experience", "Developer Experience Designer"],
+    ["genmedia", "GenMedia Engineer"],
+    ["generative media", "GenMedia Engineer"],
+    ["quantization", "Inference Optimization Engineer"],
+    ["latency", "Fast Inference Engineer"],
+    ["model routing", "Model Routing Builder"],
+    ["knowledge graph", "Knowledge Graph Engineer"],
+    ["context graph", "Knowledge Graph Engineer"],
+    ["agent infrastructure", "Agent Infrastructure Engineer"],
+    ["agent runtime", "Agent Runtime Engineer"],
+    ["code quality", "Code Quality Engineer"],
+    ["interface", "Agent Interface Designer"],
+    ["mobile", "Mobile AI Engineer"],
+    ["robot", "Robotics AI Engineer"],
+  ];
+  const match = titlePatterns.find(([pattern]) => text.includes(pattern));
+  return match ? match[1] : "AI Engineering Speaker";
 }
 
 function collectResearchLinks(page) {

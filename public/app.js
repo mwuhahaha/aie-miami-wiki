@@ -2764,7 +2764,7 @@ function renderSpeakerMatchCard(match, isMatched) {
     localPersonTitle.localeCompare(speakerName, undefined, { sensitivity: "accent" }) === 0;
   const supportingText = localPerson
     ? (localPersonLooksEquivalent
-        ? "Matched local person page."
+        ? (match.professionalTitle || "AI Engineering Speaker")
         : localPersonTitle)
     : (representedByEvidence
         ? (readOnly
