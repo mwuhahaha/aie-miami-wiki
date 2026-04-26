@@ -2713,6 +2713,8 @@ function renderConferenceSourcePanel(sourceContext) {
       </div>
       <div class="rename-actions conference-source-actions">
         <a class="ghost-button inline-action" href="${escapeHtml(sourceContext.url)}" target="_blank" rel="noreferrer">${icon("links")} ${escapeHtml(conferenceLinkLabel)}</a>
+        <a class="ghost-button inline-action" href="/downloads/transcripts/day-1-transcript.txt" download>${icon("transcript")} Day 1 transcript</a>
+        <a class="ghost-button inline-action" href="/downloads/transcripts/day-2-transcript.txt" download>${icon("transcript")} Day 2 transcript</a>
         ${sourceContext.venueUrl ? `<a class="ghost-button inline-action" href="${escapeHtml(sourceContext.venueUrl)}" target="_blank" rel="noreferrer">${icon("links")} Venue</a>` : ""}
         ${sourceContext.mapUrl ? `<a class="ghost-button inline-action" href="${escapeHtml(sourceContext.mapUrl)}" target="_blank" rel="noreferrer">${icon("links")} Map</a>` : ""}
       </div>

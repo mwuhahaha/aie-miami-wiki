@@ -18,7 +18,7 @@
     ],
     "primaryUrl": "https://www.ai.engineer/miami",
     "primaryLabel": "Conference website reference",
-    "primarySummary": "Public AI Engineer Miami 2026 wiki inspired by Andrej Karpathy's LLM Wiki pattern. YouTube audio was downloaded and transcribed with Whisper because direct transcripts were not available; the resulting transcript files, public conference website, and labeled public-web sources were compiled into a read-only interlinked markdown wiki.",
+    "primarySummary": "Public AI Engineer Miami 2026 wiki inspired by Andrej Karpathy's LLM Wiki pattern. The full Day 1 and Day 2 conference videos were released on YouTube without directly available transcripts, so their audio was downloaded and transcribed with Whisper. The resulting transcript files, public conference website, and labeled public-web sources were compiled into a read-only interlinked markdown wiki.",
     "readOnly": true,
     "publicShare": true,
     "hideCalendar": true,
